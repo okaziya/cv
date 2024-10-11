@@ -1,6 +1,9 @@
 module.exports = {
-    i18n: {
-      locales: ['en', 'sv'],  // Supported languages (English and Swedish)
-      defaultLocale: 'en',    // Default language
-    },
-  };
+  compiler: {
+    styledComponents: true,
+  },
+  i18n: {
+    locales: ["en", "sv"], 
+    defaultLocale: "en", 
+  },
+};

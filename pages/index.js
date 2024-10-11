@@ -1,8 +1,15 @@
-// pages/index.js
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  color: #0070f3;
+  font-size: 2.5rem;
+`;
+
+
 export default function Home() {
     return (
       <div>
-        <h1>Hello, Next.js!</h1>
+        <Title>Hello, Next.js!</Title>
         <p>Welcome to your new Next.js project.</p>
       </div>
     );
