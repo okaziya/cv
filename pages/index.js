@@ -1,16 +1,17 @@
-import styled from 'styled-components';
-
-const Title = styled.h1`
-  color: #0070f3;
-  font-size: 2.5rem;
-`;
-
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 export default function Home() {
-    return (
-      <div>
-        <Title>Hello, Next.js!</Title>
-        <p>Welcome to your new Next.js project.</p>
-      </div>
-    );
-  }
+  const router = useRouter();
+
+  useEffect(() => {
+    const userLocale = navigator.language.startsWith('sv') ? 'sv' : 'en';
+    router.push(`/${userLocale}`);
+  }, [router]);
+
+  return (
+    <div>
+      <p>Redirecting based on your language preference...</p>
+    </div>
+  );
+}
