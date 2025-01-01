@@ -4,6 +4,8 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   body {
+    background-color: ${({ theme }) => theme.colors.background};
+    color: ${({ theme }) => theme.colors.text};
     margin: 0;
     padding: 0;
     font-family: var(--font-nunito), sans-serif; 

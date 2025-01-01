@@ -1,13 +1,12 @@
-"useClient";
-
 import { getTranslations } from "../../lib/getTranslations";
-import GlobalStyle from "../../styles/GlobalStyles";
 
 export async function generateStaticParams() {
-  return [{ locale: "en" }, { locale: "sv" }];
+  const locales = ["en", "sv"];
+  return locales.map((locale) => ({ locale }));
 }
 
 import { Nunito_Sans } from "next/font/google";
+
 const nunitoSans = Nunito_Sans({
   weight: ["400", "700"],
   style: ["normal", "italic"],
@@ -30,7 +29,6 @@ export default function LocaleLayout({
     <html lang={locale} className={nunitoSans.variable}>
       <body>
         <header>{translations.welcome}</header>
-        <GlobalStyle />
         {children}
         <footer>{translations.description}</footer>
       </body>
