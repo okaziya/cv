@@ -5,15 +5,6 @@ export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-import { Nunito_Sans } from "next/font/google";
-
-const nunitoSans = Nunito_Sans({
-  weight: ["400", "700"],
-  style: ["normal", "italic"],
-  variable: "--font-nunito",
-  subsets: ["latin"],
-});
-
 export default function LocaleLayout({
   children,
   params,
@@ -26,7 +17,7 @@ export default function LocaleLayout({
   const translations = getTranslations(locale);
 
   return (
-    <html lang={locale} className={nunitoSans.variable}>
+    <html lang={locale}>
       <body>
         <header>{translations.welcome}</header>
         {children}
