@@ -3,4 +3,7 @@ module.exports = {
     styledComponents: true,
   },
   output: "export",
+  images: {
+    unoptimized: true,
+  },
 };

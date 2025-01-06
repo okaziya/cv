@@ -1,5 +1,4 @@
 {
-    "welcome": "Välkommen",
-    "description": "Detta är den svenska versionen av webbplatsen.",
-    "switchLanguage": "Switch to English"
-  }
+  "name": "Liza Blomdahl-Olsevskaja",
+  "description": "Detta är den svenska versionen av webbplatsen: A dedicated full-stack developer with 5+ years of experience, proficient in JavaScript, React, Typescript, and MongoDB. I have contributed to over 30 projects, including those in the Fintech sector."
+}

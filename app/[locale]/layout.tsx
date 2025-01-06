@@ -1,4 +1,6 @@
+import Header from "../../components/Header";
 import { getTranslations } from "../../lib/getTranslations";
+import Link from "next/link";
 
 export async function generateStaticParams() {
   const locales = ["en", "sv"];
@@ -19,9 +21,9 @@ export default function LocaleLayout({
   return (
     <html lang={locale}>
       <body>
-        <header>{translations.welcome}</header>
-        {children}
-        <footer>{translations.description}</footer>
+        <Header locale={locale} />
+        <main className="main-content m-auto">{children}</main>
+        <footer></footer>
       </body>
     </html>
   );
