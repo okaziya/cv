@@ -1,15 +1,16 @@
 import React from "react";
-import { montserratExtraBold } from "../styles/fonts";
-import { getTranslations } from "../lib/getTranslations";
+import { montserratExtraBold } from "../../styles/fonts";
+import { getTranslations } from "../../lib/getTranslations";
 
-import { Locale } from "../types";
-import ExperienceItem from "./ExperienceItem/ExperienceItem";
+import { Locale } from "../../types";
+import ExperienceItem from "../ExperienceItem/ExperienceItem";
+import { WorkExperienceSectionWrapper } from "./WorkExperienceSection.styles";
 
 export default function WorkExperienceSection({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
 
   return (
-    <section className="d-flex">
+    <WorkExperienceSectionWrapper className="d-flex">
       <div>
         <h2 className={`${montserratExtraBold.className} section-first-column`}>
           Work experience
@@ -50,6 +51,6 @@ export default function WorkExperienceSection({ locale }: { locale: Locale }) {
           ]}
         />
       </div>
-    </section>
+    </WorkExperienceSectionWrapper>
   );
 }

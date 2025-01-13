@@ -1,16 +1,17 @@
 import React from "react";
-import { montserratExtraBold } from "../styles/fonts";
-import { getTranslations } from "../lib/getTranslations";
+import { montserratExtraBold } from "../../styles/fonts";
+import { getTranslations } from "../../lib/getTranslations";
 
-import { Locale } from "../types";
+import { Locale } from "../../types";
 
-import ExperienceItem from "./ExperienceItem/ExperienceItem";
+import ExperienceItem from "../ExperienceItem/ExperienceItem";
+import { EducationSectionWrapper } from "./EducationSection.styles";
 
 export default function EducationSection({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
 
   return (
-    <section className="education-section d-flex">
+    <EducationSectionWrapper className="d-flex">
       <div>
         <h2 className={`${montserratExtraBold.className} section-first-column`}>
           Education
@@ -32,6 +33,6 @@ export default function EducationSection({ locale }: { locale: Locale }) {
           ]}
         />
       </div>
-    </section>
+    </EducationSectionWrapper>
   );
 }

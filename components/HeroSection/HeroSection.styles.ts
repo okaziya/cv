@@ -41,4 +41,19 @@ export const HeroSectionWrapper = styled.section`
     z-index: -1;
     border-radius: 233px;
   }
+
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 570px;
+    right: -30%;
+    width: 108%;
+    height: 45%;
+    background: linear-gradient(rgba(251, 168, 28, 0.0832), rgba(224, 86, 136, 0.048));
+    filter: blur(300px);
+    transform: rotate(-25deg);
+    z-index: -1;
+    border-radius: 233px;
+  }
 `;
