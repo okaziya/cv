@@ -1,12 +1,13 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Locale } from "../../types";
+import { StyledLanguageSwitcher } from "./LanguageSwitcher.styles";
 
-export default function LanguageSwitcher({ locale }: { locale: string }) {
+export default function LanguageSwitcher({ locale }: { locale: Locale }) {
   const nextLocale = locale === "sv" ? "en" : "sv";
   const flagSrc = nextLocale === "sv" ? "/flags/sv.png" : "/flags/en.png";
 
   return (
-    <Link
+    <StyledLanguageSwitcher
       href={`/${nextLocale}`}
       className="language-switcher mx-1 align-items-center btn btn-light d-flex p-3 border-0"
     >
@@ -16,6 +17,6 @@ export default function LanguageSwitcher({ locale }: { locale: string }) {
         width={24}
         height={24}
       />
-    </Link>
+    </StyledLanguageSwitcher>
   );
 }

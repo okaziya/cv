@@ -1,7 +1,9 @@
 import LanguageSwitcher from "./LanguageSwitcher";
-import { getTranslations } from "../lib/getTranslations";
+import { getTranslations } from "../../lib/getTranslations";
+import { Locale } from "../../types";
+import Button from "../Button";
 
-export default function Header({ locale }: { locale: string }) {
+export default function Header({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
   return (
     <div className="header mx-auto d-flex justify-content-between">
@@ -11,7 +13,7 @@ export default function Header({ locale }: { locale: string }) {
       </div>
       <div className="d-flex">
         <LanguageSwitcher locale={locale} />
-        <button className="btn btn-primary btn-lg ml-1">Download CV</button>
+        <Button>Download CV</Button>
       </div>
     </div>
   );
