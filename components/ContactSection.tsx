@@ -12,7 +12,7 @@ export default function ContactSection({ locale }: { locale: Locale }) {
     <section className="d-flex">
       <div>
         <h2 className={`${montserratExtraBold.className} section-first-column`}>
-          Contact
+          {translations.contact.title}
         </h2>
       </div>
       <div>

@@ -1,9 +1,113 @@
 {
   "name": "Liza Blomdahl-Olsevskaja",
-  "field": "Full-Stack Developer",
+  "field": "Full Stack Developer",
   "skills": "Skills",
   "codeLanguages": "Code Languages",
-  "tools": "Tools",
-  "databases": "Databases",
-  "description": "A dedicated full-stack developer with 5+ years of experience, proficient in JavaScript, React, Typescript, and MongoDB. I have contributed to over 30 projects, including those in the Fintech sector."
+  "downloadCv": "Download CV",
+  "description": "A dedicated Full Stack Developer Frontend-Focused developer with 5+ years of experience, proficient in JavaScript, React, Typescript, and MongoDB. I have contributed to over 30 projects, including those in the Fintech sector.",
+  "contact": {
+    "title": "Contact",
+    "phone": "Call me",
+    "email": "Send an email",
+    "linkedin": "Visit my LinkedIn profile",
+    "github": "Check my GitHub projects"
+  },
+  "images": {
+    "logoAlt": "Personal logo representing professionalism"
+  },
+  "skillsSection": {
+    "title": "Skills",
+    "categories": {
+      "skills": "Skills",
+      "codeLanguages": "Programming Languages",
+      "tools": "Tools & Frameworks",
+      "databases": "Databases"
+    }
+  },
+  "workExperience": {
+    "title": "Work experience",
+    "experiences": [
+      {
+        "jobTitle": "Full Stack Developer",
+        "companyTitle": "Purple Technology – Brno, Czech Republic, Remote",
+        "date": "2022-04–2024-09",
+        "responsibilities": [
+          "Contributed significantly to the development of an internal CRM system as a Full Stack Developer.",
+          "Involved in the entire development lifecycle, from technical analysis and estimation to backend and frontend integration.",
+          "Participated in the design and implementation of new features.",
+          "Followed structured development phases including unit testing and final testing.",
+          "Worked within a CI/CD pipeline to ensure quality and efficiency.",
+          "Contributed to the development of a client portal, similar to internet banking.",
+          "Focused on improving the portal's capabilities through the migration from GraphQL to tRPC."
+        ]
+      },
+      {
+        "jobTitle": "Front-end Developer",
+        "companyTitle": "Accentune – Remote",
+        "date": "2021-10–2022-02",
+        "responsibilities": [
+          "Primarily focused on developing reusable components for integration into Storybook.",
+          "Designed and implemented components to enhance UI consistency."
+        ]
+      },
+      {
+        "jobTitle": "Front-end Developer",
+        "companyTitle": "Accentune – Remote",
+        "date": "2019-06–2021-10",
+        "responsibilities": [
+          "Specialized in front-end development, with experience in back-end development.",
+          "Developed responsive styling for web and mobile projects.",
+          "Worked on diverse projects using various programming languages and libraries."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "degrees": [
+      {
+        "jobTitle": "Software Development, BC",
+        "companyTitle": "Unicorn University – Prague, Czech Republic",
+        "date": "2020–2024",
+        "responsibilities": [
+          "Earned a Bachelor’s in Software Development.",
+          "Mastered cloud technologies and modern programming stacks, including JavaScript, Python, React, and NodeJS.",
+          "Gained practical experience from hackathons and industry internships.",
+          "Prepared for advanced software roles through hands-on projects.",
+          "Thesis focused on optimizing MongoDB queries and enhancing application performance with advanced sorting, searching, and filtering techniques.",
+          "Thesis available here: https://theses.unicornuniversity.net/olsevskaja-jelizaveta"
+        ]
+      },
+      {
+        "jobTitle": "Applied Informatics",
+        "companyTitle": "Prague University of Economics and Business – Prague, Czech Republic",
+        "date": "2014–2016",
+        "responsibilities": [
+          "Studied Applied Informatics with a focus on business applications.",
+          "Gained foundational IT skills and a deep understanding of micro and macroeconomics, business processes, and statistics.",
+          "Completed an intensive 1.5 years of study, equipping me with critical abilities in data processing, Java coding, and economic analysis.",
+          "Prepared for diverse roles in tech and business sectors.",
+          "Acquired practical insights into designing information systems and analyzing databases.",
+          "Drove business development through effective data-supported solutions."
+        ]
+      }
+    ]
+  },
+  "languagesSection": {
+    "title": "Languages",
+    "languages": [
+      {
+        "name": "Swedish",
+        "level": "Intermediate (B1)"
+      },
+      {
+        "name": "English",
+        "level": "Advanced (C1)"
+      },
+      {
+        "name": "Czech",
+        "level": "Proficient (C2)"
+      }
+    ]
+  }
 }

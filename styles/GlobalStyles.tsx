@@ -10,10 +10,8 @@ const GlobalStyle = createGlobalStyle`
   ${typography}
   ${sections}
 
-
-  .header {
-    max-width:  ${({ theme }) => theme.maxWidth.desktop};
-    height: 60px;
+  a {
+    color: ${({ theme }) => theme.colors.text};
   }
 `;
 

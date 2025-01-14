@@ -1,20 +1,29 @@
 import LanguageSwitcher from "./LanguageSwitcher";
 import { getTranslations } from "../../lib/getTranslations";
 import { Locale } from "../../types";
+import Image from "next/image";
 import Button from "../Button";
+import { StyledHeader } from "./Header.styles";
+import { CONTACT_INFO } from "../../config";
 
 export default function Header({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
   return (
-    <div className="header mx-auto d-flex justify-content-between">
+    <StyledHeader className="mx-auto d-flex justify-content-between">
       <div className="d-flex flex-column justify-content-between">
-        <img src="/glasses.png" alt="App Logo" width={80} height={16} />
-        <h3 className="m-0">{translations.name}</h3>
+        <Image
+          src="/glasses.png"
+          alt={translations.images.logoAlt}
+          width={80}
+          height={16}
+          priority
+        />
+        <h3 className="m-0">{CONTACT_INFO.name}</h3>
       </div>
       <div className="d-flex">
         <LanguageSwitcher locale={locale} />
-        <Button>Download CV</Button>
+        <Button>{translations.downloadCv}</Button>
       </div>
-    </div>
+    </StyledHeader>
   );
 }
