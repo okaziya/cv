@@ -1,8 +1,4 @@
-
-import getConfig from "next/config";
-
-const { basePath } = getConfig();
-
 export const getImagePath = (src: string) => {
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
     return `${basePath}${src}`;
-};
+  };

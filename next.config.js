@@ -10,7 +10,7 @@ module.exports = {
   images: {
     unoptimized: true,
   },
-  publicRuntimeConfig: {
-    basePath: isProd ? "/cv" : "",
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? "/cv" : "", // Expose basePath to the client
   },
 };
