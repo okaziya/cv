@@ -3,6 +3,7 @@ import Link from "next/link";
 import { CONTACT_INFO } from "../config";
 import { getTranslations } from "../lib/getTranslations";
 import { Locale } from "../types";
+import { getImagePath } from "../utils/imagePath";
 
 export default function ContactInformation({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
@@ -46,7 +47,7 @@ export default function ContactInformation({ locale }: { locale: Locale }) {
           {contactItems.map(({ href, icon, alt, text, isExternal }, index) => (
             <li key={index}>
               <Image
-                src={icon}
+                src={getImagePath(icon)}
                 alt={alt}
                 width={24}
                 height={24}

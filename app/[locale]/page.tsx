@@ -8,6 +8,7 @@ import SkillsSection from "../../components/SkillsSection";
 import EducationSection from "../../components/EducationSection";
 import LanguagesSection from "../../components/LanguagesSection";
 import Image from "next/image";
+import { getImagePath } from "../../utils/imagePath";
 
 export default function LocaleHomePage({
   params,
@@ -26,7 +27,7 @@ export default function LocaleHomePage({
       <LanguagesSection locale={locale} />
       <section className="glasses-section d-flex justify-content-center">
         <Image
-          src="/glasses-white.png"
+          src={getImagePath("/glasses-white.png")}
           alt="White Glasses"
           width={80}
           height={16}

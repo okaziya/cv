@@ -3,7 +3,7 @@ import { montserratExtraBold } from "../../styles/fonts";
 import { getTranslations } from "../../lib/getTranslations";
 import { Locale } from "../../types";
 import Image from "next/image";
-
+import { getImagePath } from "../../utils/imagePath";
 import { HeroSectionWrapper } from "./HeroSection.styles";
 
 export default function HeroSection({ locale }: { locale: Locale }) {
@@ -19,7 +19,7 @@ export default function HeroSection({ locale }: { locale: Locale }) {
       </div>
       <div className="profile-photo-wrapper">
         <Image
-          src="/profile-photo.png"
+          src={getImagePath("/profile-photo.png")}
           alt={translations.heroSection.photoAlt}
           className="profile-photo"
           width={560}
