@@ -16,6 +16,7 @@ export default function LanguageSwitcher({ locale }: { locale: Locale }) {
         alt={`Switch to ${nextLocale}`}
         width={24}
         height={24}
+        unoptimized
       />
     </StyledLanguageSwitcher>
   );

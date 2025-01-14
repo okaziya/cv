@@ -25,6 +25,7 @@ export default function HeroSection({ locale }: { locale: Locale }) {
           width={560}
           height={560}
           priority
+          unoptimized
         />
       </div>
     </HeroSectionWrapper>

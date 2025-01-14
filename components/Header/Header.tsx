@@ -17,6 +17,7 @@ export default function Header({ locale }: { locale: Locale }) {
           width={80}
           height={16}
           priority
+          unoptimized
         />
         <h3 className="m-0">{CONTACT_INFO.name}</h3>
       </div>
