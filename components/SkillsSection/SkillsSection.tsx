@@ -10,7 +10,6 @@ export default function SkillsSection({ locale }: { locale: Locale }) {
 
   return (
     <section className="skills-section row flex-wrap">
-      <h2>{translations.skillsSection.title}</h2>
       {SKILL_CATEGORIES.map(({ titleKey, skills }, index) => {
         // Ensure TypeScript enforces that titleKey exists in translations
         const translatedTitle =

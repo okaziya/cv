@@ -5,6 +5,7 @@ import Image from "next/image";
 import Button from "../Button";
 import { StyledHeader } from "./Header.styles";
 import { CONTACT_INFO } from "../../config";
+import { getImagePath } from "../../utils/imagePath";
 
 export default function Header({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
@@ -13,7 +14,7 @@ export default function Header({ locale }: { locale: Locale }) {
     <StyledHeader className="mx-auto d-flex justify-content-between">
       <div className="d-flex flex-column justify-content-between">
         <Image
-          src="/cv/glasses.png"
+          src={getImagePath("/glasses.png")}
           alt={translations.images.logoAlt}
           width={80}
           height={16}
