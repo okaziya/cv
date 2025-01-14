@@ -8,11 +8,12 @@ import { CONTACT_INFO } from "../../config";
 
 export default function Header({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
+
   return (
     <StyledHeader className="mx-auto d-flex justify-content-between">
       <div className="d-flex flex-column justify-content-between">
         <Image
-          src="/glasses.png"
+          src="/cv/glasses.png"
           alt={translations.images.logoAlt}
           width={80}
           height={16}
