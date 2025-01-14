@@ -1,10 +1,14 @@
 {
   "name": "Liza Blomdahl-Olsevskaja",
-  "field": "Full Stack Developer",
   "skills": "Skills",
   "codeLanguages": "Code Languages",
   "downloadCv": "Download CV",
-  "description": "A dedicated Full Stack Developer Frontend-Focused developer with 5+ years of experience, proficient in JavaScript, React, Typescript, and MongoDB. I have contributed to over 30 projects, including those in the Fintech sector.",
+  "heroSection": {
+    "title": "Full Stack Developer",
+    "description": "A dedicated Full Stack Developer Frontend-Focused developer with 5+ years of experience, proficient in JavaScript, React, Typescript, and MongoDB. I have contributed to over 30 projects, including those in the Fintech sector.",
+
+    "photoAlt": "Photo of Liza Blomdahl, a Full Stack Developer"
+  },
   "contact": {
     "title": "Contact",
     "phone": "Call me",

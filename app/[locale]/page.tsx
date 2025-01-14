@@ -7,6 +7,7 @@ import { Locale } from "../../types";
 import SkillsSection from "../../components/SkillsSection";
 import EducationSection from "../../components/EducationSection";
 import LanguagesSection from "../../components/LanguagesSection";
+import Image from "next/image";
 
 export default function LocaleHomePage({
   params,
@@ -24,11 +25,13 @@ export default function LocaleHomePage({
       <EducationSection locale={locale} />
       <LanguagesSection locale={locale} />
       <section className="glasses-section d-flex justify-content-center">
-        <img
+        <Image
           src="/glasses-white.png"
           alt="White Glasses"
           width={80}
           height={16}
+          priority
+          unoptimized
         />
       </section>
     </>

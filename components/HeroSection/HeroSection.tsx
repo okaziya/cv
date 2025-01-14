@@ -2,6 +2,7 @@ import React from "react";
 import { montserratExtraBold } from "../../styles/fonts";
 import { getTranslations } from "../../lib/getTranslations";
 import { Locale } from "../../types";
+import Image from "next/image";
 
 import { HeroSectionWrapper } from "./HeroSection.styles";
 
@@ -9,20 +10,21 @@ export default function HeroSection({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
 
   return (
-    <HeroSectionWrapper className="d-flex align-items-center">
+    <HeroSectionWrapper>
       <div>
         <h1 className={`${montserratExtraBold.className} m-0`}>
-          {translations.field}
+          {translations.heroSection.title}
         </h1>
-        <h3>{translations.description}</h3>
+        <h3>{translations.heroSection.description}</h3>
       </div>
-      <div>
-        <img
+      <div className="profile-photo-wrapper">
+        <Image
           src="/profile-photo.png"
-          alt="Liza Blomdahl photo"
+          alt={translations.heroSection.photoAlt}
           className="profile-photo"
           width={560}
           height={560}
+          priority
         />
       </div>
     </HeroSectionWrapper>

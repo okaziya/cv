@@ -1,10 +1,14 @@
 {
   "name": "Liza Blomdahl-Olsevskaja",
-  "field": "Fullstackutvecklare",
   "skills": "Färdigheter",
   "codeLanguages": "Programmeringsspråk",
   "downloadCv": "Ladda ner CV",
-  "description": "En engagerad Fullstackutvecklare med frontend-fokus och över 5 års erfarenhet. Jag är skicklig i JavaScript, React, Typescript och MongoDB. Jag har bidragit till över 30 projekt, inklusive inom fintechsektorn.",
+  "heroSection": {
+    "title": "Fullstackutvecklare",
+    "description": "En engagerad Fullstackutvecklare med frontend-fokus och över 5 års erfarenhet. Jag är skicklig i JavaScript, React, Typescript och MongoDB. Jag har bidragit till över 30 projekt, inklusive inom fintechsektorn.",
+
+    "photoAlt": "Foto av Liza Blomdahl, en fullstackutvecklare"
+  },
   "contact": {
     "title": "Kontakt",
     "phone": "Ring mig",

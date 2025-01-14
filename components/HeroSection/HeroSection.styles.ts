@@ -3,6 +3,15 @@ import styled from "styled-components";
 
 export const HeroSectionWrapper = styled.section`
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .profile-photo-wrapper {
+    width: 560px;
+    height: 560px;
+    position: relative; 
+  }
 
   h1 {
     font-weight: 800;
