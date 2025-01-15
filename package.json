@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://okaziya.github.io/cv/",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev & sleep 1 && open http://localhost:3000/cv",
     "build": "next build",
     "start": "next start"
   },
@@ -19,6 +20,7 @@
     "next": "^14.2.14",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.3",
     "styled-components": "^6.1.13",
     "typescript": "^5.6.2"
   },

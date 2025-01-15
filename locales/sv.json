@@ -1,5 +1,87 @@
 {
-    "welcome": "Välkommen",
-    "description": "Detta är den svenska versionen av webbplatsen.",
-    "switchLanguage": "Switch to English"
+  "name": "Liza Blomdahl-Olsevskaja",
+  "skills": "Färdigheter",
+  "codeLanguages": "Programmeringsspråk",
+  "downloadCv": "Ladda ner CV",
+  "heroSection": {
+    "title": "Fullstackutvecklare",
+    "description": "En engagerad Fullstackutvecklare med frontend-fokus och över 5 års erfarenhet. Jag är skicklig i JavaScript, React, Typescript och MongoDB. Jag har bidragit till över 30 projekt, inklusive inom fintechsektorn.",
+    "photoAlt": "Foto av Liza Blomdahl, en fullstackutvecklare"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "phone": "Ring mig",
+    "email": "Skicka ett e-postmeddelande",
+    "linkedin": "Besök min LinkedIn-profil",
+    "github": "Se mina GitHub-projekt"
+  },
+  "images": {
+    "logoAlt": "Personlig logotyp som representerar professionalism"
+  },
+  "skillsSection": {
+    "title": "Färdigheter",
+    "categories": {
+      "skills": "Färdigheter",
+      "codeLanguages": "Programmeringsspråk",
+      "tools": "Verktyg och ramverk",
+      "databases": "Databaser"
+    }
+  },
+  "workExperience": {
+    "title": "Arbetslivserfarenhet",
+    "experiences": [
+      {
+        "jobTitle": "Fullstackutvecklare",
+        "companyTitle": "Purple Technology – Brno, Tjeckien, Distans",
+        "date": "2022-04–2024-09",
+        "responsibilities": "- Bidrog avsevärt till utvecklingen av ett internt CRM-system som Fullstackutvecklare.\n- Var involverad i hela utvecklingscykeln, från teknisk analys och estimering till backend- och frontend-integration.\n- Deltog i design och implementering av nya funktioner.\n- Följde strukturerade utvecklingsfaser inklusive enhetstestning och sluttestning.\n- Arbetade inom en CI/CD-pipeline för att säkerställa kvalitet och effektivitet.\n- Bidrog till utvecklingen av en klientportal, liknande internetbank.\n- Fokuserade på att förbättra portalens funktioner genom migrering från GraphQL till tRPC."
+      },
+      {
+        "jobTitle": "Frontendutvecklare",
+        "companyTitle": "Accentune – Distans",
+        "date": "2021-10–2022-02",
+        "responsibilities": "- Fokuserade främst på att utveckla återanvändbara komponenter för integration i Storybook.\n- Designade och implementerade komponenter för att förbättra UI-konsistens."
+      },
+      {
+        "jobTitle": "Frontendutvecklare",
+        "companyTitle": "Accentune – Distans",
+        "date": "2019-06–2021-10",
+        "responsibilities": "- Specialiserad på frontendutveckling med erfarenhet av backendutveckling.\n- Utvecklade responsiv styling för webb- och mobilprojekt.\n- Arbetade med olika projekt och olika programmeringsspråk och bibliotek."
+      }
+    ]
+  },
+  "education": {
+    "title": "Utbildning",
+    "degrees": [
+      {
+        "jobTitle": "Software Development, BC",
+        "companyTitle": "Unicorn University – Prag, Tjeckien",
+        "date": "2020–2024",
+        "responsibilities": "- Tog en kandidatexamen i mjukvaruutveckling.\n- Lärde mig molnteknologier och moderna programmeringsstackar, inklusive JavaScript, Python, React och NodeJS.\n- Fick praktisk erfarenhet genom hackathons och branschpraktik.\n- Förberedde mig för avancerade utvecklarroller genom praktiska projekt.\n- Examensarbete fokuserade på att optimera MongoDB-frågor och förbättra applikationsprestanda genom avancerad sortering, sökning och filtrering.\n- **[Examensarbete tillgängligt här](https://theses.unicornuniversity.net/olsevskaja-jelizaveta)**"
+      },
+      {
+        "jobTitle": "Tillämpad informatik",
+        "companyTitle": "Prague University of Economics and Business – Prag, Tjeckien",
+        "date": "2014–2016",
+        "responsibilities": "- Studerade tillämpad informatik med fokus på affärsapplikationer.\n- Fick grundläggande IT-kunskaper och en djup förståelse för mikro- och makroekonomi, affärsprocesser och statistik.\n- Genomförde intensiva 1,5 års studier, vilket gav mig viktiga färdigheter inom databehandling, Java-kodning och ekonomisk analys.\n- Förberedde mig för olika roller inom teknik- och affärssektorerna.\n- Fick praktisk insikt i design av informationssystem och databasanalyser.\n- Bidrog till affärsutveckling genom effektiva dataunderstödda lösningar."
+      }
+    ]
+  },
+  "languagesSection": {
+    "title": "Språk",
+    "languages": [
+      {
+        "name": "Svenska",
+        "level": "Mellannivå (B1)"
+      },
+      {
+        "name": "Engelska",
+        "level": "Avancerad (C1)"
+      },
+      {
+        "name": "Tjeckiska",
+        "level": "Flytande (C2)"
+      }
+    ]
   }
+}

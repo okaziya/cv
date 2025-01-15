@@ -1,18 +1,40 @@
 import React from "react";
-import Link from "next/link";
-import { getTranslations } from "../../lib/getTranslations";
+
+import HeroSection from "../../components/HeroSection";
+import ContactSection from "../../components/ContactSection";
+import WorkExperienceSection from "../../components/WorkExperienceSection";
+import { Locale } from "../../types";
+import SkillsSection from "../../components/SkillsSection";
+import EducationSection from "../../components/EducationSection";
+import LanguagesSection from "../../components/LanguagesSection";
+import Image from "next/image";
+import { getImagePath } from "../../utils/imagePath";
 
 export default function LocaleHomePage({
   params,
 }: {
-  params: { locale: string };
+  params: { locale: Locale };
 }) {
-  const translations = getTranslations(params.locale);
+  const { locale } = params;
+
   return (
-    <div>
-      <Link href={`/${params.locale === "sv" ? "en" : "sv"}`}>
-        {translations.switchLanguage}
-      </Link>
-    </div>
+    <>
+      <HeroSection locale={locale} />
+      <ContactSection locale={locale} />
+      <WorkExperienceSection locale={locale} />
+      <SkillsSection locale={locale} />
+      <EducationSection locale={locale} />
+      <LanguagesSection locale={locale} />
+      <section className="glasses-section d-flex justify-content-center">
+        <Image
+          src={getImagePath("/glasses-white.png")}
+          alt="White Glasses"
+          width={80}
+          height={16}
+          priority
+          unoptimized
+        />
+      </section>
+    </>
   );
 }

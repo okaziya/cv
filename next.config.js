@@ -3,4 +3,8 @@ module.exports = {
     styledComponents: true,
   },
   output: "export",
+  basePath: "/cv",
+  images: {
+    unoptimized: true,
+  },
 };

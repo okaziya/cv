@@ -1,7 +1,10 @@
 export const theme = {
   colors: {
-    primary: "#5454D4",
-    background: "#000000",
-    text: "#ffffff",
+    darkGrey: "#19191B",
+    brand: "#5454D4",
+    text: "#FFFFFF",
+  },
+  maxWidth: {
+    desktop: "1200px",
   },
 };
