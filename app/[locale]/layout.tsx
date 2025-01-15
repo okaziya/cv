@@ -17,12 +17,10 @@ export default function LocaleLayout({
   const { locale } = params;
 
   return (
-    <html lang={locale}>
-      <body>
-        <Header locale={locale} />
-        <main className="main-content m-auto">{children}</main>
-        <Footer locale={locale} />
-      </body>
-    </html>
+    <>
+      <Header locale={locale} />
+      <main className="main-content m-auto">{children}</main>
+      <Footer locale={locale} />
+    </>
   );
 }
