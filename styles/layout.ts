@@ -8,7 +8,7 @@ export const layout = css`
     background-color: ${({ theme }) => theme.colors.darkGrey};
     color: ${({ theme }) => theme.colors.text};
     box-sizing: border-box;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    overflow: hidden;
   }
 
   .main-content {
@@ -22,5 +22,5 @@ export const layout = css`
 
   section {
     margin-top: 80px;
-  } 
+  }
 `;
