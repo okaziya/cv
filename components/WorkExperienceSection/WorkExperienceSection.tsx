@@ -9,9 +9,9 @@ export default function WorkExperienceSection({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
 
   return (
-    <WorkExperienceSectionWrapper className="d-flex">
-      <div>
-        <h2 className={`${montserratExtraBold.className} section-first-column`}>
+    <WorkExperienceSectionWrapper>
+      <div className="section-first-column">
+        <h2 className={montserratExtraBold.className}>
           {translations.workExperience.title}
         </h2>
       </div>

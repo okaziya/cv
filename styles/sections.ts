@@ -23,11 +23,4 @@ export const sections = css`
       padding-top: 20px;
     }
   }
-
-  .skills-section {
-    margin-bottom: 80px;
-    .col {
-      margin-top: 80px;
-    }
-  }
 `;

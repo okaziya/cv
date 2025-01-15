@@ -1,15 +1,16 @@
 import React from "react";
-import { montserratExtraBold } from "../styles/fonts";
-import { getTranslations } from "../lib/getTranslations";
-import { Locale } from "../types";
+import { montserratExtraBold } from "../../styles/fonts";
+import { getTranslations } from "../../lib/getTranslations";
+import { Locale } from "../../types";
+import { LanguageSectionWrapper } from "./LanguagesSection.styles";
 
 export default function LanguagesSection({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
 
   return (
-    <section className="languages-section d-flex">
-      <div>
-        <h2 className={`${montserratExtraBold.className} section-first-column`}>
+    <LanguageSectionWrapper>
+      <div className="section-first-column">
+        <h2 className={montserratExtraBold.className}>
           {translations.languagesSection.title}
         </h2>
       </div>
@@ -22,6 +23,6 @@ export default function LanguagesSection({ locale }: { locale: Locale }) {
           )
         )}
       </div>
-    </section>
+    </LanguageSectionWrapper>
   );
 }

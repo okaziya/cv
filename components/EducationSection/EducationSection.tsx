@@ -9,9 +9,9 @@ export default function EducationSection({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
 
   return (
-    <EducationSectionWrapper className="d-flex">
-      <div>
-        <h2 className={`${montserratExtraBold.className} section-first-column`}>
+    <EducationSectionWrapper>
+      <div className="section-first-column">
+        <h2 className={montserratExtraBold.className}>
           {translations.education.title}
         </h2>
       </div>

@@ -4,12 +4,13 @@ import { Locale } from "../../types";
 import SkillCategory from "./SkillCategory";
 import { SKILL_CATEGORIES } from "../../config";
 import { SkillCategoryKey } from "../../types";
+import { SkillSectionWrapper } from "./SkillSection.styles";
 
 export default function SkillsSection({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
 
   return (
-    <section className="skills-section row flex-wrap">
+    <SkillSectionWrapper className="row flex-wrap">
       {SKILL_CATEGORIES.map(({ titleKey, skills }, index) => {
         // Ensure TypeScript enforces that titleKey exists in translations
         const translatedTitle =
@@ -27,6 +28,6 @@ export default function SkillsSection({ locale }: { locale: Locale }) {
           </>
         );
       })}
-    </section>
+    </SkillSectionWrapper>
   );
 }

@@ -4,7 +4,7 @@
   "codeLanguages": "Programmeringsspråk",
   "downloadCv": "Ladda ner CV",
   "heroSection": {
-    "title": "Fullstackutvecklare",
+    "title": "Fullstack\u00ADutvecklare",
     "description": "En engagerad Fullstackutvecklare med frontend-fokus och över 5 års erfarenhet. Jag är skicklig i JavaScript, React, Typescript och MongoDB. Jag har bidragit till över 30 projekt, inklusive inom fintechsektorn.",
     "photoAlt": "Foto av Liza Blomdahl, en fullstackutvecklare"
   },
@@ -28,7 +28,7 @@
     }
   },
   "workExperience": {
-    "title": "Arbetslivserfarenhet",
+    "title": "Arbetslivs\u00ADerfarenhet",
     "experiences": [
       {
         "jobTitle": "Fullstackutvecklare",
@@ -44,7 +44,7 @@
       },
       {
         "jobTitle": "Frontendutvecklare",
-        "companyTitle": "Accentune – Distans",
+        "companyTitle": "iQuest – Prag, Tjeckien",
         "date": "2019-06–2021-10",
         "responsibilities": "- Specialiserad på frontendutveckling med erfarenhet av backendutveckling.\n- Utvecklade responsiv styling för webb- och mobilprojekt.\n- Arbetade med olika projekt och olika programmeringsspråk och bibliotek."
       }
