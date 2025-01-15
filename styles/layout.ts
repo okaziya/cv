@@ -8,7 +8,7 @@ export const layout = css`
     background-color: ${({ theme }) => theme.colors.darkGrey};
     color: ${({ theme }) => theme.colors.text};
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   .main-content {
