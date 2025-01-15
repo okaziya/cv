@@ -1,11 +1,12 @@
 import React from "react";
 import { ExperienceItemArticle } from "./ExperienceItem.styles";
+import ReactMarkdown from "react-markdown";
 
 interface ExperienceItemProps {
   date: string;
   jobTitle: string;
   companyTitle: string;
-  responsibilities: string[];
+  responsibilities: string;
 }
 
 export default function ExperienceItem({
@@ -19,11 +20,9 @@ export default function ExperienceItem({
       <h3 className="m-0">{jobTitle}</h3>
       <h5 className="mb-0 mt-3">{date}</h5>
       <h5 className="mb-0 mt-3 company-title">{companyTitle}</h5>
-      <ul className="mt-3">
-        {responsibilities.map((responsibility, index) => (
-          <li key={index}>{responsibility}</li>
-        ))}
-      </ul>
+      <div className="mt-3">
+        <ReactMarkdown>{responsibilities}</ReactMarkdown>
+      </div>
     </ExperienceItemArticle>
   );
 }
