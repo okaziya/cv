@@ -11,7 +11,7 @@ export const metadata = {
   title: SITE_INFO.title,
   description: SITE_INFO.description,
   icons: {
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.ico`,
+    icon: `/cv/favicon.ico`,
   },
 };
 
