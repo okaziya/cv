@@ -27,14 +27,14 @@ export default function ContactInformation({ locale }: { locale: Locale }) {
       href: CONTACT_INFO.linkedin,
       icon: "/linkedin.png",
       alt: translations.contact.linkedin,
-      text: "LinkedIn",
+      text: "/in/liza-blomdahl",
       isExternal: true,
     },
     {
       href: CONTACT_INFO.github,
       icon: "/github.png",
       alt: translations.contact.github,
-      text: "GitHub",
+      text: "@okaziya",
       isExternal: true,
     },
   ];
