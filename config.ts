@@ -9,7 +9,7 @@ export const CONTACT_INFO = {
   };
 
   export const SITE_INFO = {
-    title: "Liza Blomdahl-Olsevskaja - Full Stack Developer",
+    title: "CV | Liza Blomdahl-Olsevskaja - Full Stack Developer",
     description: "Professional CV of Liza Blomdahl-Olsevskaja, a skilled full stack developer.",
   };
 

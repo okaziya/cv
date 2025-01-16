@@ -21,7 +21,7 @@ export default function Header({ locale }: { locale: Locale }) {
           priority
           unoptimized
         />
-        <h3 className="m-0">{CONTACT_INFO.name}</h3>
+        <h3 className="m-0">{translations.name}</h3>
       </div>
       <div className="d-flex">
         <LanguageSwitcher locale={locale} />
