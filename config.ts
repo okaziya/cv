@@ -10,7 +10,7 @@ export const CONTACT_INFO = {
 
   export const SITE_INFO = {
     title: "CV | Liza Blomdahl-Olsevskaja - Full Stack Developer",
-    description: "Professional CV of Liza Blomdahl-Olsevskaja, a skilled full stack developer.",
+    description: "Professional CV of Liza Blomdahl-Olsevskaja – a skilled Full Stack Developer.",
   };
 
   export const SKILL_CATEGORIES: { titleKey: SkillCategoryKey; skills: string[] }[] = [
