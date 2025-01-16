@@ -5,10 +5,10 @@ import { media } from "../../styles/media";
 
 export const StyledHeader = styled.header`
   max-width: ${({ theme }) => theme.breakpoints.desktop};
-  height: 60px;
+  min-height: 60px;
 
   ${media.mobile`
-    height: 76px;
+    min-height: 76px;
   `}
 `;
 

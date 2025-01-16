@@ -15,7 +15,6 @@ export const layout = css`
     background-color: ${({ theme }) => theme.colors.darkGrey};
     color: ${({ theme }) => theme.colors.text};
     box-sizing: border-box;
-    overflow-x: hidden;
 
     ${media.laptop`
       padding: 32px 80px;

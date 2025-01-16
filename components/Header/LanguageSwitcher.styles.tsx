@@ -22,5 +22,6 @@ export const StyledLanguageSwitcher = styled(Link)`
   ${media.mobile`
      width: 48px;
      height: 48px;
+     justify-content: center;
   `}
 `;
