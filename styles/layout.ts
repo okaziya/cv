@@ -2,6 +2,12 @@ import { css } from "styled-components";
 import { media } from "./media";
 
 export const layout = css`
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   body {
     margin: 0;
     padding: 40px 120px;

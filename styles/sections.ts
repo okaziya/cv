@@ -1,6 +1,11 @@
 import { css } from "styled-components";
 
 export const sections = css`
+  .section {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .footer .contact-list {
     text-align: center;
   }
