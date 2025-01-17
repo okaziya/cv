@@ -12,6 +12,8 @@ export const PrimaryButton = styled.button`
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
+  max-height: 60px;
+  white-space: nowrap;
 
   &:hover {
     background-color: rgba(107, 107, 241, 1);

@@ -35,8 +35,12 @@ export const typography = css`
   h3 {
     font-weight: 300;
 
+    ${media.tablet`
+      font-size: 22px;
+    `}
+
     ${media.mobile`
-       font-size: 18px;
+       font-size: 20px;
     `}
   }
 

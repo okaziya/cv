@@ -2,9 +2,11 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import { getTranslations } from "../../lib/getTranslations";
 import { Locale } from "../../types";
 import Image from "next/image";
-import Button from "../Button";
+
 import { ImageWrapper, StyledHeader } from "./Header.styles";
 import { getImagePath } from "../../utils/imagePath";
+
+import DownloadPdfButton from "./DownloadPdfButton";
 
 export default function Header({ locale }: { locale: Locale }) {
   const translations = getTranslations(locale);
@@ -26,7 +28,7 @@ export default function Header({ locale }: { locale: Locale }) {
       </div>
       <div className="d-flex">
         <LanguageSwitcher locale={locale} />
-        <Button>{translations.downloadCv}</Button>
+        <DownloadPdfButton locale={locale} />
       </div>
     </StyledHeader>
   );
