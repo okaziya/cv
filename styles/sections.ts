@@ -1,6 +1,11 @@
 import { css } from "styled-components";
 
 export const sections = css`
+  .section {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .footer .contact-list {
     text-align: center;
   }
@@ -21,13 +26,6 @@ export const sections = css`
 
     li {
       padding-top: 20px;
-    }
-  }
-
-  .skills-section {
-    margin-bottom: 80px;
-    .col {
-      margin-top: 80px;
     }
   }
 `;

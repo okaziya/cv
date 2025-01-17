@@ -3,8 +3,12 @@ export const theme = {
     darkGrey: "#19191B",
     brand: "#5454D4",
     text: "#FFFFFF",
+    textMuted: "rgba(255, 255, 255, 0.7)",
   },
-  maxWidth: {
+  breakpoints: {
+    mobile: "480px",
+    tablet: "768px",
+    laptop: "1024px",
     desktop: "1200px",
   },
 };

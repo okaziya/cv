@@ -3,6 +3,7 @@
 import Link from "next/link";
 
 import styled from "styled-components";
+import { media } from "../../styles/media";
 
 export const StyledLanguageSwitcher = styled(Link)`
   background-color: transparent;
@@ -17,4 +18,10 @@ export const StyledLanguageSwitcher = styled(Link)`
       transform: scale(1.1);
     }
   }
+
+  ${media.mobile`
+     width: 48px;
+     height: 48px;
+     justify-content: center;
+  `}
 `;

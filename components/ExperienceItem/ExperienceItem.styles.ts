@@ -1,21 +1,26 @@
-"use client"
+"use client";
 
 import styled from "styled-components";
 
 export const ExperienceItemArticle = styled.article`
-    margin-bottom: 40px;
-    .company-title {
-      font-weight: 300;
-    }
+  margin-bottom: 40px;
 
-    ul {
-      color: rgba(255, 255, 255, 0.7);
+  h5 {
+    font-weight: 700;
+
+    &.company-title {
       font-weight: 300;
-      font-size: 20px;
-      padding-left: 20px;
-      li {
-        padding-top: 16px;
-        line-height: 28px;
-      }
     }
+  }
+
+  ul {
+    color: ${({ theme }) => theme.colors.textMuted};
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 400;
+    li {
+      padding-top: 16px;
+      line-height: 28px;
+    }
+  }
 `;

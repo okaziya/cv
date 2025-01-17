@@ -12,7 +12,7 @@ export default function SkillCategory({
   skillList,
 }: SkillCategoryProps) {
   return (
-    <div className="col w-50">
+    <div className="col">
       <h2 className={montserratExtraBold.className}> {title}</h2>
       <SkillList className="d-flex flex-wrap mt-5">
         {skillList.map((skill, index) => (

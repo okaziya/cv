@@ -1,12 +1,12 @@
 import React from "react";
 
 import HeroSection from "../../components/HeroSection";
-import ContactSection from "../../components/ContactSection";
+import ContactSection from "../../components/ContactSection/ContactSection";
 import WorkExperienceSection from "../../components/WorkExperienceSection";
 import { Locale } from "../../types";
 import SkillsSection from "../../components/SkillsSection";
 import EducationSection from "../../components/EducationSection";
-import LanguagesSection from "../../components/LanguagesSection";
+import LanguagesSection from "../../components/LanguagesSection/LanguagesSection";
 import Image from "next/image";
 import { getImagePath } from "../../utils/imagePath";
 

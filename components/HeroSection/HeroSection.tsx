@@ -11,7 +11,7 @@ export default function HeroSection({ locale }: { locale: Locale }) {
 
   return (
     <HeroSectionWrapper>
-      <div>
+      <div className={"main-info"}>
         <h1 className={`${montserratExtraBold.className} m-0`}>
           {translations.heroSection.title}
         </h1>

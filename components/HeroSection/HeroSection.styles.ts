@@ -1,5 +1,6 @@
-"use client"
+"use client";
 import styled from "styled-components";
+import { media } from "../../styles/media";
 
 export const HeroSectionWrapper = styled.section`
   position: relative;
@@ -7,19 +8,46 @@ export const HeroSectionWrapper = styled.section`
   align-items: center;
   justify-content: space-between;
 
-  .profile-photo-wrapper {
-    width: 560px;
-    height: 560px;
-    position: relative; 
+  ${media.laptop`
+    flex-direction: column
+  `}
+
+  .main-info {
+    max-width: 560px ${media.laptop`
+      align-self: flex-start;
+    `};
   }
 
-  h1 {
-    font-weight: 800;
-    font-size: 72px;
+  .profile-photo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 560px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    ${media.laptop`
+      align-self: flex-end;
+      max-width: 560px; 
+      min-width: auto;
+      width: 100%; 
+    `}
+
+    ${media.tablet`
+      max-width: 400px; 
+    `}
+
+    ${media.mobile`
+      align-self: center;
+      max-width: 296px; 
+    `}
   }
 
   h3 {
-    color: rgba(255, 255, 255, 0.7);
+    color: ${({ theme }) => theme.colors.textMuted};
     font-size: 26px;
     line-height: 34px;
     position: relative;
@@ -44,13 +72,15 @@ export const HeroSectionWrapper = styled.section`
     left: -401px;
     width: 108%;
     height: 35%;
-    background: linear-gradient(rgba(84, 84, 212, 0.27), rgba(84, 84, 212, 0.1134));
+    background: linear-gradient(
+      rgba(84, 84, 212, 0.27),
+      rgba(84, 84, 212, 0.1134)
+    );
     filter: blur(300px);
     transform: rotate(30deg);
     z-index: -1;
     border-radius: 233px;
   }
-
 
   &::after {
     content: "";
@@ -59,7 +89,10 @@ export const HeroSectionWrapper = styled.section`
     right: -30%;
     width: 108%;
     height: 45%;
-    background: linear-gradient(rgba(251, 168, 28, 0.0832), rgba(224, 86, 136, 0.048));
+    background: linear-gradient(
+      rgba(251, 168, 28, 0.0832),
+      rgba(224, 86, 136, 0.048)
+    );
     filter: blur(300px);
     transform: rotate(-25deg);
     z-index: -1;
