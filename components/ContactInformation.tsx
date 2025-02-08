@@ -46,14 +46,7 @@ export default function ContactInformation({ locale }: { locale: Locale }) {
         <ul className="contact-list">
           {contactItems.map(({ href, icon, alt, text, isExternal }, index) => (
             <li key={index}>
-              <Image
-                src={getImagePath(icon)}
-                alt={alt}
-                width={24}
-                height={24}
-                priority
-                unoptimized
-              />
+              <Image src={getImagePath(icon)} alt={alt} width={24} height={24} priority unoptimized />
               {isExternal ? (
                 <Link href={href} target="_blank" rel="noopener noreferrer">
                   {text}

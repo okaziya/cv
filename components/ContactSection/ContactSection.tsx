@@ -12,9 +12,7 @@ export default function ContactSection({ locale }: { locale: Locale }) {
   return (
     <ContactSectionWrapper>
       <div className="section-first-column">
-        <h2 className={montserratExtraBold.className}>
-          {translations.contact.title}
-        </h2>
+        <h2 className={montserratExtraBold.className}>{translations.contact.title}</h2>
       </div>
       <div>
         <ContactInformation locale={locale} />

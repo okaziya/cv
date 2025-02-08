@@ -19,6 +19,19 @@ development tasks, such as ...
    - [x] I can do responsive design
    - [x] I make content that is readable by robots and humans alike
 
+## Development Environment
+
+To get started, fork/clone and install the dependencies and run the dev server:
+
+```sh
+git clone git@github.com:okaziya/cv.git okaziya-cv
+cd okaziya-cv/
+npm install
+npm run dev
+```
+
+Format the code correctly with Prettier before submitting a PR, `npm run format`.
+
 ## Contributing
 
 Do You have some good ideas on how to make your CV into a website? A site that can serve as

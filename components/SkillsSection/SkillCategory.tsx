@@ -7,10 +7,7 @@ interface SkillCategoryProps {
   skillList: string[];
 }
 
-export default function SkillCategory({
-  title,
-  skillList,
-}: SkillCategoryProps) {
+export default function SkillCategory({ title, skillList }: SkillCategoryProps) {
   return (
     <div className="col">
       <h2 className={montserratExtraBold.className}> {title}</h2>
