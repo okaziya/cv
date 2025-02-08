@@ -1,5 +1,5 @@
-import en from "../locales/en.json";
-import sv from "../locales/sv.json";
+import en from "../locales/en";
+import sv from "../locales/sv";
 
 export function getTranslations(locale: string) {
   switch (locale) {
