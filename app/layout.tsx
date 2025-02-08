@@ -15,13 +15,7 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-  params,
-}: {
-  children: ReactNode;
-  params: { locale: Locale };
-}) {
+export default function RootLayout({ children, params }: { children: ReactNode; params: { locale: Locale } }) {
   return (
     <html lang={params.locale}>
       <body className={nunitoSans.className}>

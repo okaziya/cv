@@ -9,12 +9,7 @@ interface ExperienceItemProps {
   responsibilities: string;
 }
 
-export default function ExperienceItem({
-  date,
-  jobTitle,
-  companyTitle,
-  responsibilities,
-}: ExperienceItemProps) {
+export default function ExperienceItem({ date, jobTitle, companyTitle, responsibilities }: ExperienceItemProps) {
   return (
     <ExperienceItemArticle>
       <h3 className="m-0">{jobTitle}</h3>

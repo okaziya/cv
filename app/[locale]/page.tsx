@@ -10,11 +10,7 @@ import LanguagesSection from "../../components/LanguagesSection/LanguagesSection
 import Image from "next/image";
 import { getImagePath } from "../../utils/imagePath";
 
-export default function LocaleHomePage({
-  params,
-}: {
-  params: { locale: Locale };
-}) {
+export default function LocaleHomePage({ params }: { params: { locale: Locale } }) {
   const { locale } = params;
 
   return (

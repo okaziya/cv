@@ -11,9 +11,7 @@ export default function WorkExperienceSection({ locale }: { locale: Locale }) {
   return (
     <WorkExperienceSectionWrapper>
       <div className="section-first-column">
-        <h2 className={montserratExtraBold.className}>
-          {translations.workExperience.title}
-        </h2>
+        <h2 className={montserratExtraBold.className}>{translations.workExperience.title}</h2>
       </div>
       <div>
         {translations.workExperience.experiences.map((experience, index) => (

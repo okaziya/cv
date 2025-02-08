@@ -1,16 +1,17 @@
 {
-  "name": "cv",
+  "name": "okaziya-cv",
   "version": "1.0.0",
-  "description": "",
+  "description": "My personal CV project",
   "main": "index.js",
   "homepage": "https://okaziya.github.io/cv/",
   "scripts": {
     "dev": "next dev & sleep 1 && open http://localhost:3000/cv",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier --write ."
   },
   "keywords": [],
-  "author": "",
+  "author": "@okaziya",
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.25.7",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.34",
-    "babel-plugin-styled-components": "^2.1.4"
+    "babel-plugin-styled-components": "^2.1.4",
+    "prettier": "^3.4.2"
   }
 }

@@ -12,9 +12,7 @@ export default function HeroSection({ locale }: { locale: Locale }) {
   return (
     <HeroSectionWrapper>
       <div className={"main-info"}>
-        <h1 className={`${montserratExtraBold.className} m-0`}>
-          {translations.heroSection.title}
-        </h1>
+        <h1 className={`${montserratExtraBold.className} m-0`}>{translations.heroSection.title}</h1>
         <h3>{translations.heroSection.description}</h3>
       </div>
       <div className="profile-photo-wrapper">

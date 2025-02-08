@@ -5,11 +5,7 @@ import { ThemeProvider } from "styled-components";
 import { theme } from "../styles/theme";
 import GlobalStyles from "../styles/GlobalStyles";
 
-export default function ThemeWrapper({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function ThemeWrapper({ children }: { children: React.ReactNode }) {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
