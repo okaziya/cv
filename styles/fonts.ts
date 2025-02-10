@@ -7,19 +7,23 @@ export const montserratExtraBold = localFont({
   display: "swap",
 });
 
-
 export const nunitoSans = localFont({
-    src: [
-      {
-        path: "../public/fonts/NunitoSans-Regular.ttf",
-        weight: "400",
-        style: "normal",
-      },
-      {
-        path: "../public/fonts/NunitoSans-Bold.ttf",
-        weight: "700",
-        style: "normal",
-      },
-    ],
-    display: "swap",
-  });
+  src: [
+    {
+      path: "../public/fonts/NunitoSans-Light.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/NunitoSans-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/NunitoSans-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  display: "swap",
+});

@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.25.7",
+    "@react-pdf/renderer": "^3.1.11",
     "@types/node": "^22.7.4",
     "@types/react": "^18.3.11",
     "bootstrap": "^5.3.3",
