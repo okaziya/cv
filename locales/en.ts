@@ -36,7 +36,7 @@ const en = {
         jobTitle: "Full Stack Developer",
         companyTitle: "Purple Technology – Brno, Czech Republic & Remote",
         date: "2022-04–2024-09",
-        responsibilities:
+        highlights:
           "- Contributed significantly to the development of an internal CRM system as a Full Stack Developer.\n" +
           "- Involved in the entire development lifecycle, from technical analysis and estimation to backend and " +
           "frontend integration.\n- Participated in the design and implementation of new features.\n" +
@@ -49,7 +49,7 @@ const en = {
         jobTitle: "Front-end Developer",
         companyTitle: "Accenture – Remote",
         date: "2021-10–2022-02",
-        responsibilities:
+        highlights:
           "- Primarily focused on developing reusable components for integration into Storybook.\n" +
           "- Designed and implemented components to enhance UI consistency.\n",
       },
@@ -57,7 +57,7 @@ const en = {
         jobTitle: "Front-end Developer",
         companyTitle: "iQuest s.r.o. – Prague, Czech Republic",
         date: "2019-06–2021-10",
-        responsibilities:
+        highlights:
           "- Specialized in front-end development with additional experience in back-end development.\n" +
           "- Developed responsive styling for web and mobile projects.\n" +
           "- Worked on diverse projects using various programming languages and libraries.\n",
@@ -71,7 +71,7 @@ const en = {
         jobTitle: "BSc in Software Development",
         companyTitle: "Unicorn University – Prague, Czech Republic",
         date: "2020–2024",
-        responsibilities:
+        highlights:
           "- Earned a Bachelor's in Software Development.\n" +
           "- Mastered cloud technologies and modern programming stacks, including JavaScript, Python, React, and " +
           "NodeJS.\n" +
@@ -85,7 +85,7 @@ const en = {
         jobTitle: "Applied Informatics",
         companyTitle: "Prague University of Economics and Business – Prague, Czech Republic",
         date: "2014–2016",
-        responsibilities:
+        highlights:
           "- Studied Applied Informatics with a focus on business applications.\n" +
           "- Gained foundational IT skills and a deep understanding of micro- and macroeconomics, business " +
           "processes, and statistics.\n" +

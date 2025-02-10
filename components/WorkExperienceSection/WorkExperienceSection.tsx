@@ -20,7 +20,7 @@ export default function WorkExperienceSection({ locale }: { locale: Locale }) {
             jobTitle={experience.jobTitle}
             companyTitle={experience.companyTitle}
             date={experience.date}
-            responsibilities={experience.responsibilities}
+            highlights={experience.highlights}
           />
         ))}
       </div>

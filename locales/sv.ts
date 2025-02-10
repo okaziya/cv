@@ -36,7 +36,7 @@ const sv = {
         jobTitle: "Fullstackutvecklare",
         companyTitle: "Purple Technology – Brno, Tjeckien & Remote",
         date: "2022-04–2024-09",
-        responsibilities:
+        highlights:
           "- Bidrog avsevärt till utvecklingen av ett internt CRM-system som fullstackutvecklare.\n" +
           "- Var involverad i hela utvecklingscykeln, från teknisk analys och estimering till backend- och frontend-" +
           "integration.\n" +
@@ -50,7 +50,7 @@ const sv = {
         jobTitle: "Frontendutvecklare",
         companyTitle: "Accenture – Distans",
         date: "2021-10–2022-02",
-        responsibilities:
+        highlights:
           "- Fokuserade främst på att utveckla återanvändbara komponenter för integration i Storybook.\n" +
           "- Designade och implementerade komponenter för att förbättra UI-konsistens.\n",
       },
@@ -58,7 +58,7 @@ const sv = {
         jobTitle: "Frontendutvecklare",
         companyTitle: "iQuest s.r.o. – Prag, Tjeckien",
         date: "2019-06–2021-10",
-        responsibilities:
+        highlights:
           "- Specialiserad på frontendutveckling med erfarenhet av backendutveckling.\n" +
           "- Utvecklade responsiv styling för webb- och mobilprojekt.\n" +
           "- Arbetade med olika projekt och olika programmeringsspråk och bibliotek.\n",
@@ -72,7 +72,7 @@ const sv = {
         jobTitle: "BSc in Software Development",
         companyTitle: "Unicorn University – Prag, Tjeckien",
         date: "2020–2024",
-        responsibilities:
+        highlights:
           "- Slutförde kandidatexamen i mjukvaruutveckling.\n" +
           "- Lärde mig molnteknologier och moderna programmeringsspråk/-ramverk, inklusive JavaScript, Python, React " +
           "och NodeJS.\n" +
@@ -86,7 +86,7 @@ const sv = {
         jobTitle: "Tillämpad informatik",
         companyTitle: "Prague University of Economics and Business – Prag, Tjeckien",
         date: "2014–2016",
-        responsibilities:
+        highlights:
           "- Studerade tillämpad informatik med fokus på affärsapplikationer.\n" +
           "- Fick grundläggande IT-kunskaper och en djup förståelse för mikro- och makroekonomi, affärsprocesser och " +
           "statistik.\n" +
