@@ -125,11 +125,30 @@ const en = {
           "- Earned a Bachelor's in Software Development.\n" +
           "- Mastered cloud technologies and modern programming stacks, including JavaScript, Python, React, and " +
           "NodeJS.\n" +
-          "- Gained practical experience from hackathons and industry internships.\n" +
           "- Prepared for advanced software roles through hands-on projects.\n" +
+          "- Project management and collaboration" +
+          "- Understanding of UML Diagrams" +
+          "- Authentication and security implementation" +
+          "- Gained practical experience from hackathons and industry internships.\n" +
           "- Thesis focused on optimizing MongoDB queries and enhancing application performance with advanced " +
           "sorting, searching, and filtering techniques. Thesis available " +
           "[**here**](https://theses.unicornuniversity.net/olsevskaja-jelizaveta).\n",
+        studentPortalProject:
+          "Student Portal Project - A comprehensive university portal for managing student information, study results, subjects, and literature\n" +
+          "The project underwent a complete development cycle, from the initial idea to the final product.\n" +
+          "including the vision design with UML diagrams, implementation with project management and regular meetings, and testing of the application.\n" +
+          "The application was also properly documented at all stages of development, beginning with the high-level abstraction and ending with the detailed code documentation.\n" +
+          "The application was built using React, with a backend in NodeJS and MongoDB, RESTful APIs, OAuth, JWT, other used tools: Insomnia, MongoDB Atlas.\n",
+        internetOfThingsProject:
+          "IoT-Based Environmental Monitoring\n" +
+          "Developed an IoT system with a team of five to monitor humidity and temperature for a future flower shop using Arduino and Raspberry Pi.\n" +
+          "Designed and built the front-end application, enabling users to visualize real-time data with selectable time intervals (10 min, 1 hour, 1 day, 1 week).\n" +
+          "Focused on data visualization, responsive UI, and REST API integration, ensuring an intuitive and efficient user experience.",
+        cookbookProject:
+          "Built a cookbook app with a team of four as part of the Cloud Application Architecture course at Unicorn University.\n" +
+          "Worked on both the frontend (React) and backend (Node.js, MongoDB),\n" +
+          "focusing on recipe search, API design, and database integration.\n" +
+          "Gained hands-on experience in full-stack development, cloud architecture, and teamwork.",
       },
       {
         jobTitle: "Applied Informatics",
