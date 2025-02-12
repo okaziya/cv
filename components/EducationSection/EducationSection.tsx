@@ -20,7 +20,7 @@ export default function EducationSection({ locale }: { locale: Locale }) {
             jobTitle={degree.jobTitle}
             companyTitle={degree.companyTitle}
             date={degree.date}
-            responsibilities={degree.responsibilities}
+            highlights={degree.highlights}
           />
         ))}
       </div>
