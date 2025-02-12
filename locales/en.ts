@@ -44,6 +44,34 @@ const en = {
           "- Worked with CI/CD pipelines to ensure quality and efficiency.\n" +
           "- Contributed to the development of a client portal, similar to internet banking experience (forex).\n" +
           "- Focused on improving the portal's capabilities through the migration from GraphQL to tRPC.\n",
+        MyAxioryProject:
+          "Worked on MyAxiory as a webside Frontend Developer, a FitTech trading platform that helps users manage their accounts, track financial data, and access trading tools.\n" +
+          "Collaborated closely with backend, iOS, Android, and QA teams to develop and maintain customer-facing features.\n" +
+          "Built reusable components using React, TypeScript, Styled Components, and integrated GraphQL (Apollo, tRPC) and SQL (Postico).\n" +
+          "Contributed to a scalable and efficient frontend architecture in a pure Agile environment.",
+        AppConfigProject:
+          "Participation of development an internal AppConfig for client portal,\n" +
+          "allowing seamless feature flag management to introduce new features gradually.\n" +
+          "This ensured smooth transitions between different versions for intruducing the new features, improving deployment flexibility and reducing risks.",
+        CRMCalculatorTool:
+          "As a Full-Stack Developer making an internal CRM Calculator tool for processing complex SQL queries and analyzing financial data.\n" +
+          "Designed to generate transaction summaries based on individual clients and specific transaction types (e.g., card transactions for the last 10 month),\n" +
+          "with customizable filters. Built using PostgreSQL, MongoDB, React, TS and tRPC. Collaborated with another developer and the project manager to define product specifications and ensure accurate financial reporting.",
+        AdvancedSearchForCRM:
+          "As a Full-Stack Developer built a powerful search tool for FitTech trading platform internal CRM," +
+          "making it easier to track users, transactions, and accounts." +
+          "Developed an autocomplete search that fetches real-time data from MongoDB Atlas and highlights results dynamically." +
+          "Integrated the solution using React, TypeScript, GraphQL, Jest and AtlasSearch, improving efficiency and usability for internal teams.",
+        DepositTool:
+          "Full-Stack Development of the Deposit Tool, a key financial feature in the CRM.\n" +
+          "Designed and developed the solution using tRPC, React, Postico (SQL), and MongoDB, handling financial calculations and integrating deposit processes into the platform.\n" +
+          "Ensured high-quality implementation by writing and maintaining Jest tests in a pure Agile environment",
+        SystemArchitecture:
+          "Worked with AWS Lambda, Cognito, and Amazon S3, optimizing system performance and scalability.\n" +
+          "Collaborated with developers to design a robust and efficient architecture that supports high-traffic operations.",
+        MigrationTotRPC:
+          "Contributed to transforming the CRM from read-only to an interactive, editable system, enabling internal teams to manage customer data more efficiently.\n" +
+          "Helped migrate GraphQL queries to tRPC, improving performance and maintainability.",
       },
       {
         jobTitle: "Front-end Developer",
@@ -52,6 +80,9 @@ const en = {
         highlights:
           "- Primarily focused on developing reusable components for integration into Storybook.\n" +
           "- Designed and implemented components to enhance UI consistency.\n",
+        describtion:
+          "Worked as a React & TypeScript developer on a project for Škoda, focusing on reusable component development for the auto product constructor.\n" +
+          "Designed and implemented components to ensure UI consistency and integrated them into Storybook for a scalable and maintainable design system.",
       },
       {
         jobTitle: "Front-end Developer",
