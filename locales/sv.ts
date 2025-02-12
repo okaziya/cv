@@ -103,10 +103,14 @@ const sv = {
     languages: [
       {
         name: "Svenska",
-        level: "Mellannivå (B1)",
+        level: "Mellannivå (B2)",
       },
       {
         name: "Engelska",
+        level: "Avancerad (C1)",
+      },
+      {
+        name: "Ryska",
         level: "Avancerad (C1)",
       },
       {
