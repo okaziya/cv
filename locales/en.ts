@@ -30,7 +30,7 @@ const en = {
     },
   },
   workExperience: {
-    title: "Work experience",
+    title: "Experience",
     experiences: [
       {
         jobTitle: "Full Stack Developer",
@@ -45,7 +45,8 @@ const en = {
           "- Worked with CI/CD pipelines to ensure quality and efficiency.\n" +
           "- Contributed to the development of a client portal, similar to internet banking experience (forex).\n" +
           "- Focused on improving the portal's capabilities through the migration from GraphQL to tRPC.\n",
-        description: "All the stuff",
+        description: null,
+        assignmentsText: null,
         internalProjectNotes: {
           // 2024-08 to 2024-09
           CRMCalculatorTool:
@@ -74,7 +75,7 @@ const en = {
             "Helped migrate GraphQL queries to tRPC, improving performance and maintainability.",
           // 2022-04 to 2022-06
           AdvancedSearchForCRM:
-            "As a Full-Stack Developer built a powerful search tool for FitTech trading platform internal CRM," +
+            "As a Full-Stack Developer built a powerful search tool for FinTech trading platform internal CRM," +
             "making it easier to track users, transactions, and accounts." +
             "Developed an autocomplete search that fetches real-time data from MongoDB Atlas and highlights results dynamically." +
             "Integrated the solution using React, TypeScript, GraphQL, Jest and AtlasSearch, improving efficiency and usability for internal teams.",
@@ -94,16 +95,20 @@ const en = {
         description:
           "Worked as a React & TypeScript developer on a project for Škoda, focusing on reusable component development for the auto product constructor.\n" +
           "Designed and implemented components to ensure UI consistency and integrated them into Storybook for a scalable and maintainable design system.",
+        assignmentsText: null,
+        internalProjectNotes: null,
       },
       {
         jobTitle: "Front-end Developer",
         companyTitle: "iQuest s.r.o. – Prague, Czech Republic",
         date: "2019-06–2021-10",
         highlights:
-          "- Specialized in front-end development at a software company, with additional experience in back-end development.\n" +
+          "- Specialized in front-end development at a software company, with additional experience in back-end " +
+          "development.\n" +
           "- Developed responsive styling for web and mobile projects.\n" +
           "- Worked on diverse projects using various programming languages and libraries.\n",
-        description: "All the stuff.",
+        description: null,
+        assignmentsText: null,
         internalProjectNotes: {
           // 2021-04 to 2021-10
           adminApplication:
@@ -178,13 +183,15 @@ const en = {
           "- Mastered cloud technologies and modern programming stacks, including JavaScript, Python, React, and " +
           "NodeJS.\n" +
           "- Prepared for advanced software roles through hands-on projects.\n" +
-          "- Project management and collaboration" +
-          "- Understanding of UML Diagrams" +
-          "- Authentication and security implementation" +
+          "- Project management and collaboration.\n" +
+          "- Understanding of UML Diagrams.\n" +
+          "- Authentication and security implementation.\n" +
           "- Gained practical experience from hackathons and industry internships.\n" +
           "- Thesis focused on optimizing MongoDB queries and enhancing application performance with advanced " +
           "sorting, searching, and filtering techniques. Thesis available " +
           "[**here**](https://theses.unicornuniversity.net/olsevskaja-jelizaveta).\n",
+        description: null,
+        assignmentsText: null,
         internalProjectNotes: {
           studentPortalProject:
             "Student Portal Project - A comprehensive university portal for managing student information, study results, subjects, and literature\n" +
@@ -217,6 +224,9 @@ const en = {
           "- Prepared for diverse roles in tech and business sectors.\n" +
           "- Acquired practical insights into designing information systems and analyzing databases.\n" +
           "- Drove business development through effective data-supported solutions.\n",
+        description: null,
+        assignmentsText: null,
+        internalProjectNotes: null,
       },
     ],
   },
