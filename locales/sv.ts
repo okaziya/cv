@@ -56,17 +56,17 @@ const sv = {
           "**DESCRIPTION:**\n" +
           "Liza gick in som frontendutvecklare för att bygga användarportalen till [Axiory](https://www.axiory.com), " +
           "en fintech-satsning med fokus på valutahandel/forex. Hon arbetade i nära samarbete med teamen inom " +
-          "backend, iOS/Android och QA med att färdigställa funktionalitet för att kunderna ska kunna använda sina " +
-          "trading-verktyg, hantera sina användarkonton, och hämta ut finansiella rapporter. Mot slutet av uppdraget " +
-          "utvecklade hon även ett internt verktyg för att ställa databasfrågor kring avvikande kundbeteenden och " +
-          "compliance. Liza tog ett stort arkitekturellt ansvar för React-lösningen bakom webbportalen och " +
-          "revolutionerade sättet de använder autentiseringsinformation i React-appen.\n" +
+          "backend, iOS/Android och QA med att färdigställa funktionalitet för att ta kunderna genom onboarding-" +
+          "processen (avtal, KYC m.m.), och se till att de kunde komma igång med sina trading-verktyg. En betydande " +
+          "del av uppdraget ägnades åt felsökning med backend-teamet, buggfixar och stabilisering av tjänsten. Mot " +
+          "slutet av uppdraget utvecklade hon även ett internt verktyg för att ställa databasfrågor kring " +
+          "kundbeteenden och compliance.\n" +
           "\n" +
-          "**TEKNOLOGIER:** Reusable Components, React, TypeScript, Styled Components, Apollo GraphQL, tRPC, " +
-          "Postico, MongoDB, AWS Lambda\n" +
+          "**TEKNOLOGIER:** React, TypeScript, Styled Components, Apollo GraphQL, tRPC, Postico, MongoDB, AWS " +
+          "Lambda, AWS AppConfig\n" +
           "\n" +
           "**NYCKELORD:** FinTech, forex/FX, trading-plattform, användarhantering, UX, compliance, bank och finans, " +
-          "autentisering, auktorisation & audit (AAA), AWS\n" +
+          "autentisering & auktorisation, Reusable Components, AWS\n" +
           "\n" +
           "----\n" +
           "\n" +
@@ -77,14 +77,16 @@ const sv = {
           "**DESCRIPTION:**\n" +
           "Liza kom in i rollen som fullstack-utvecklare för att bygga ett nytt CRM för att hålla reda på användare, " +
           "transaktioner och kundkonton till ett fintech-projekt. Bland huvuduppgifterna ingick det att integrera " +
-          "olika backend-system för att skapa realtidssökningar mot MongoDB Atlas och optimera databasfrågor för " +
-          "att säkerställa god prestanda.\n" +
+          "olika backend-system för att skapa realtidssökningar mot MongoDB Atlas, optimera databasfrågor för god " +
+          "prestanda och arbeta med datakvalitet. Ett av Lizas varmaste minnen från den här tiden är ett initiativ " +
+          "som hon ledde för att tillhandahålla compliance-teamet med nya automatiserade rapporter varje morgon över " +
+          "felaktiga indata till systemen.\n" +
           "\n" +
           "**TEKNOLOGIER:** React, TypeScript, AWS S3, AWS Cognito, AWS Lambda, MongoDB Atlas, Apollo GraphQL, tRPC, " +
           "AtlasSearch, Jest\n" +
           "\n" +
-          "**NYCKELORD:** CRM, FinTech, query-optimering, prestandatestning, lösningsarkitektur, datamodellering, " +
-          "databas-design\n" +
+          "**NYCKELORD:** CRM, FinTech, query-optimering, UX, compliance, prestandatestning, lösningsarkitektur, " +
+          "datamodellering, datakvalitet, databas-design\n" +
           "\n",
         internalProjectNotes: null,
       },
