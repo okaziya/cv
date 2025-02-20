@@ -12,9 +12,8 @@ export default function DownloadPdfButton({ locale }: { locale: Locale }) {
 
   const isMobile = useIsMobile();
 
-  console.log("isMobile", isMobile);
   return (
-    <PrimaryButton className="btn btn-primary btn-lg ml-1">
+    <PrimaryButton className="btn btn-primary btn-lg ml-1" disabled>
       {isMobile ? <span className="pe-1 fw-light">CV</span> : translations.downloadCv}
       {isMobile && (
         <Image
