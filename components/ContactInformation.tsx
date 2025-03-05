@@ -1,12 +1,16 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { CONTACT_INFO } from "../config";
-import { getTranslations } from "../lib/getTranslations";
-import { Locale } from "../types";
 import { getImagePath } from "../utils/imagePath";
+import { useLocale } from "../context/LocaleContext";
+import { getTranslation } from "../lib/getTranslation";
 
-export default function ContactInformation({ locale }: { locale: Locale }) {
-  const translations = getTranslations(locale);
+export default function ContactInformation() {
+  const { locale } = useLocale();
+
+  const translations = getTranslation(locale);
 
   const contactItems = [
     {
