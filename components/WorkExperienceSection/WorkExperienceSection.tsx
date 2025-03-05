@@ -24,7 +24,7 @@ export default function WorkExperienceSection() {
             companyTitle={experience.companyTitle}
             date={experience.date}
             highlights={experience.highlights}
-            detailsText={experience.assignmentsText}
+            assignmentsText={experience.assignmentsText}
           />
         ))}
       </div>
