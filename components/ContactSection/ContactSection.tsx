@@ -1,13 +1,16 @@
+"use client";
+
 import React from "react";
 import { montserratExtraBold } from "../../styles/fonts";
-import { getTranslations } from "../../lib/getTranslations";
 
-import { Locale } from "../../types";
 import ContactInformation from "../ContactInformation";
 import { ContactSectionWrapper } from "./ContactSection.styles";
+import { useLocale } from "../../context/LocaleContext";
+import { getTranslation } from "../../lib/getTranslation";
 
-export default function ContactSection({ locale }: { locale: Locale }) {
-  const translations = getTranslations(locale);
+export default function ContactSection() {
+  const { locale } = useLocale();
+  const translations = getTranslation(locale);
 
   return (
     <ContactSectionWrapper>
@@ -15,7 +18,7 @@ export default function ContactSection({ locale }: { locale: Locale }) {
         <h2 className={montserratExtraBold.className}>{translations.contact.title}</h2>
       </div>
       <div>
-        <ContactInformation locale={locale} />
+        <ContactInformation />
       </div>
     </ContactSectionWrapper>
   );

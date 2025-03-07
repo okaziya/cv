@@ -1,5 +1,6 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import { LocaleProvider } from "../../context/LocaleContext";
 import { Locale } from "../../types";
 
 export async function generateStaticParams(): Promise<{ locale: Locale }[]> {
@@ -8,13 +9,11 @@ export async function generateStaticParams(): Promise<{ locale: Locale }[]> {
 }
 
 export default function LocaleLayout({ children, params }: { children: React.ReactNode; params: { locale: Locale } }) {
-  const { locale } = params;
-
   return (
-    <>
-      <Header locale={locale} />
+    <LocaleProvider locale={params.locale}>
+      <Header />
       <main className="main-content m-auto">{children}</main>
-      <Footer locale={locale} />
-    </>
+      <Footer />
+    </LocaleProvider>
   );
 }

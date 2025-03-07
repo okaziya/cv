@@ -2,6 +2,7 @@ const en = {
   name: "Liza Blomdahl-Olsevskaja – My CV",
   codeLanguages: "Code Languages",
   downloadCv: "Download CV",
+  showDetails: "Show details",
   heroSection: {
     title: "Full Stack Developer",
     description:
@@ -251,6 +252,8 @@ const en = {
       },
     ],
   },
-};
+} as const;
+
+export type Translations = typeof en;
 
 export default en;

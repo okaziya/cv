@@ -6,9 +6,14 @@ import { media } from "../../styles/media";
 export const StyledHeader = styled.header`
   max-width: ${({ theme }) => theme.breakpoints.desktop};
   min-height: 60px;
+  align-items: center;
+
+  ${media.tablet`
+    align-items: flex-start;
+  `}
 
   ${media.mobile`
-    min-height: 76px;
+    align-items: flex-start;
   `}
 `;
 

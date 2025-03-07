@@ -1,15 +1,19 @@
+"use client";
+
 import LanguageSwitcher from "./LanguageSwitcher";
-import { getTranslations } from "../../lib/getTranslations";
-import { Locale } from "../../types";
 import Image from "next/image";
 
 import { ImageWrapper, StyledHeader } from "./Header.styles";
 import { getImagePath } from "../../utils/imagePath";
 
 import DownloadPdfButton from "./DownloadPdfButton";
+import { useLocale } from "../../context/LocaleContext";
+import { getTranslation } from "../../lib/getTranslation";
 
-export default function Header({ locale }: { locale: Locale }) {
-  const translations = getTranslations(locale);
+export default function Header() {
+  const { locale } = useLocale();
+
+  const translations = getTranslation(locale);
 
   return (
     <StyledHeader className="mx-auto d-flex justify-content-between">
@@ -27,8 +31,8 @@ export default function Header({ locale }: { locale: Locale }) {
         <h3 className="m-0">{translations.name}</h3>
       </div>
       <div className="d-flex">
-        <LanguageSwitcher locale={locale} />
-        <DownloadPdfButton locale={locale} />
+        <LanguageSwitcher />
+        <DownloadPdfButton />
       </div>
     </StyledHeader>
   );

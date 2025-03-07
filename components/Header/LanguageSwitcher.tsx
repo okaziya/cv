@@ -1,9 +1,13 @@
+"use client";
+
 import Image from "next/image";
-import { Locale } from "../../types";
 import { StyledLanguageSwitcher } from "./LanguageSwitcher.styles";
 import { getImagePath } from "../../utils/imagePath";
+import { useLocale } from "../../context/LocaleContext";
 
-export default function LanguageSwitcher({ locale }: { locale: Locale }) {
+export default function LanguageSwitcher() {
+  const { locale } = useLocale();
+
   const nextLocale = locale === "sv" ? "en" : "sv";
   const flagSrc = nextLocale === "sv" ? "/flags/sv.png" : "/flags/en.png";
 

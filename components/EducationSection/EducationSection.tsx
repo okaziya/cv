@@ -1,12 +1,15 @@
+"use client";
+
 import React from "react";
 import { montserratExtraBold } from "../../styles/fonts";
-import { getTranslations } from "../../lib/getTranslations";
-import { Locale } from "../../types";
 import ExperienceItem from "../ExperienceItem/ExperienceItem";
 import { EducationSectionWrapper } from "./EducationSection.styles";
+import { useLocale } from "../../context/LocaleContext";
+import { getTranslation } from "../../lib/getTranslation";
 
-export default function EducationSection({ locale }: { locale: Locale }) {
-  const translations = getTranslations(locale);
+export default function EducationSection() {
+  const { locale } = useLocale();
+  const translations = getTranslation(locale);
 
   return (
     <EducationSectionWrapper>
@@ -21,6 +24,7 @@ export default function EducationSection({ locale }: { locale: Locale }) {
             companyTitle={degree.companyTitle}
             date={degree.date}
             highlights={degree.highlights}
+            detailsText={null}
           />
         ))}
       </div>
