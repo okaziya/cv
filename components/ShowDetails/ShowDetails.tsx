@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, ChevronRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import { AccordionWrapper, ArrowIcon, ToggleButton, Details } from "./ShowDetails.styles";
 import { useLocale } from "../../context/LocaleContext";
 import { getTranslation } from "../../lib/getTranslation";
@@ -21,7 +21,7 @@ const ShowDetails = ({ assignmentsText }: ShowDetailsProps) => {
     <AccordionWrapper>
       <ToggleButton onClick={() => setIsExpanded(!isExpanded)} className="px-0">
         <ArrowIcon isExpanded={isExpanded}>
-          {isExpanded ? <ChevronDown size={20} /> : <ChevronRight size={20} />}
+          <ChevronRight size={20} />
         </ArrowIcon>
         {translations.showDetails}
       </ToggleButton>
