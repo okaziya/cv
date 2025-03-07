@@ -38,5 +38,10 @@ export const Details = styled.div<{ isExpanded: boolean }>`
   max-height: ${({ isExpanded }) => (isExpanded ? "100%" : "0")};
   opacity: ${({ isExpanded }) => (isExpanded ? 1 : 0)};
   margin-top: ${({ isExpanded }) => (isExpanded ? "10px" : "0")};
-  color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.textMuted};
+  font-size: 20px;
+  strong,
+  hr {
+    color: ${({ theme }) => theme.colors.text};
+  }
 `;
