@@ -79,14 +79,13 @@ const sv = {
           "transaktioner och kundkonton till ett fintech-projekt. Bland huvuduppgifterna ingick det att integrera " +
           "olika backend-system för att skapa realtidssökningar mot MongoDB Atlas, optimera databasfrågor för god " +
           "prestanda och arbeta med datakvalitet. Ett av Lizas varmaste minnen från den här tiden är ett initiativ " +
-          "som hon ledde för att tillhandahålla compliance-teamet med nya automatiserade rapporter varje morgon över " +
-          "felaktiga indata till systemen.\n" +
-          "\n" +
-          "**TEKNOLOGIER:** React, TypeScript, AWS S3, AWS Cognito, AWS Lambda, MongoDB Atlas, Apollo GraphQL, tRPC, " +
-          "AtlasSearch, Jest\n" +
+          "för att tillhandahålla compliance-teamet med ett rapporteringsverktyg för beslutsstöd kring insättningar." +
+          "\n\n" +
+          "**TEKNOLOGIER:** React, TypeScript, AWS S3, AWS Cognito, AWS Lambda, MongoDB Atlas, Postgres, SQL, Apollo " +
+          "GraphQL, tRPC, AtlasSearch, Jest\n" +
           "\n" +
           "**NYCKELORD:** CRM, FinTech, query-optimering, UX, compliance, prestandatestning, lösningsarkitektur, " +
-          "datamodellering, datakvalitet, databas-design\n" +
+          "datamodellering, datakvalitet, databas-design, Agile\n" +
           "\n",
         internalProjectNotes: null,
       },
