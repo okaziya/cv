@@ -66,7 +66,7 @@ const sv = {
           "Lambda, AWS AppConfig\n" +
           "\n" +
           "**NYCKELORD:** FinTech, forex/FX, trading-plattform, användarhantering, UX, compliance, bank och finans, " +
-          "autentisering & auktorisation, Reusable Components, AWS\n" +
+          "autentisering & auktorisation, Reusable Components, AWS, marknadsföringskampanjer\n" +
           "\n" +
           "----\n" +
           "\n" +
