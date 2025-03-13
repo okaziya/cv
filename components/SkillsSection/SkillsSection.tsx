@@ -1,13 +1,17 @@
+"use client";
+
 import React from "react";
-import { getTranslations } from "../../lib/getTranslations";
-import { Locale } from "../../types";
 import SkillCategory from "./SkillCategory";
 import { SKILL_CATEGORIES } from "../../config";
 import { SkillCategoryKey } from "../../types";
 import { SkillSectionWrapper } from "./SkillSection.styles";
+import { useLocale } from "../../context/LocaleContext";
+import { getTranslation } from "../../lib/getTranslation";
 
-export default function SkillsSection({ locale }: { locale: Locale }) {
-  const translations = getTranslations(locale);
+export default function SkillsSection() {
+  const { locale } = useLocale();
+
+  const translations = getTranslation(locale);
 
   return (
     <SkillSectionWrapper className="row flex-wrap">

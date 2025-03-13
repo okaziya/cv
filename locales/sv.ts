@@ -1,8 +1,11 @@
+import ShowDetails from "../components/ShowDetails";
+
 const sv = {
   name: "Liza Blomdahl-Olsevskaja – Mitt CV",
   skills: "Färdigheter",
   codeLanguages: "Programmeringsspråk",
   downloadCv: "Ladda ner CV",
+  showDetails: "Visa detaljer",
   heroSection: {
     title: "Fullstack\u00ADutvecklare",
     description:

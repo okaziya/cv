@@ -1,14 +1,16 @@
 "use client";
 
-import { Locale } from "../../types";
 import { getImagePath } from "../../utils/imagePath";
 import Image from "next/image";
-import { getTranslations } from "../../lib/getTranslations";
 import useIsMobile from "../../hooks/useIsMobile";
 import { PrimaryButton } from "./DownloadPdfButton.styles";
+import { useLocale } from "../../context/LocaleContext";
+import { getTranslation } from "../../lib/getTranslation";
 
-export default function DownloadPdfButton({ locale }: { locale: Locale }) {
-  const translations = getTranslations(locale);
+export default function DownloadPdfButton() {
+  const { locale } = useLocale();
+
+  const translations = getTranslation(locale);
 
   const isMobile = useIsMobile();
 

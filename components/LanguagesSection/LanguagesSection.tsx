@@ -1,11 +1,15 @@
+"use client";
+
 import React from "react";
 import { montserratExtraBold } from "../../styles/fonts";
-import { getTranslations } from "../../lib/getTranslations";
-import { Locale } from "../../types";
 import { LanguageSectionWrapper } from "./LanguagesSection.styles";
+import { useLocale } from "../../context/LocaleContext";
+import { getTranslation } from "../../lib/getTranslation";
 
-export default function LanguagesSection({ locale }: { locale: Locale }) {
-  const translations = getTranslations(locale);
+export default function LanguagesSection() {
+  const { locale } = useLocale();
+
+  const translations = getTranslation(locale);
 
   return (
     <LanguageSectionWrapper>
