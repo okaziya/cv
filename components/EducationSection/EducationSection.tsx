@@ -24,7 +24,7 @@ export default function EducationSection() {
             companyTitle={degree.companyTitle}
             date={degree.date}
             highlights={degree.highlights}
-            detailsText={null}
+            assignmentsText={null}
           />
         ))}
       </div>
