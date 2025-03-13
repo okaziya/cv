@@ -52,11 +52,11 @@ const sv = {
         assignmentsText:
           "----\n" +
           "\n" +
-          "**EMPLOYER:** Purple Technology\n" +
+          "**UPPDRAGSGIVARE:** Purple Technology\n" +
           "\n" +
-          "**TITLE:** Frontendutvecklare (2023-12–2024-09)\n" +
+          "**UPPDRAG (PERIOD):** Frontendutvecklare (2023-12–2024-09)\n" +
           "\n" +
-          "**DESCRIPTION:**\n" +
+          "**BESKRIVNING:**\n" +
           "Liza gick in som frontendutvecklare för att bygga användarportalen till [Axiory](https://www.axiory.com), " +
           "en fintech-satsning med fokus på valutahandel/forex. Hon arbetade i nära samarbete med teamen inom " +
           "backend, iOS/Android och QA med att färdigställa funktionalitet för att ta kunderna genom onboarding-" +
@@ -66,18 +66,19 @@ const sv = {
           "kundbeteenden och compliance.\n" +
           "\n" +
           "**TEKNOLOGIER:** React, TypeScript, Styled Components, Apollo GraphQL, tRPC, Postico, MongoDB, AWS " +
-          "Lambda, AWS AppConfig\n" +
+          "Lambda, AWS AppConfig, Git Monorepo, Linear, GitHub, VS Code, GiHub Actions\n" +
           "\n" +
           "**NYCKELORD:** FinTech, forex/FX, trading-plattform, användarhantering, UX, compliance, bank och finans, " +
-          "autentisering & auktorisation, Reusable Components, AWS, marknadsföringskampanjer\n" +
+          "autentisering & auktorisation, Reusable Components, AWS, CI/CD, Serverless, Agile, " +
+          "marknadsföringskampanjer\n" +
           "\n" +
           "----\n" +
           "\n" +
-          "**EMPLOYER:** Purple Technology\n" +
+          "**UPPDRAGSGIVARE:** Purple Technology\n" +
           "\n" +
-          "**TITLE:** Fullstackutvecklare (2022-04–2023-12)\n" +
+          "**UPPDRAG (PERIOD):** Fullstackutvecklare (2022-04–2023-12)\n" +
           "\n" +
-          "**DESCRIPTION:**\n" +
+          "**BESKRIVNING:**\n" +
           "Liza kom in i rollen som fullstack-utvecklare för att bygga ett nytt CRM för att hålla reda på användare, " +
           "transaktioner och kundkonton till ett fintech-projekt. Bland huvuduppgifterna ingick det att integrera " +
           "olika backend-system för att skapa realtidssökningar mot MongoDB Atlas, optimera databasfrågor för god " +
@@ -85,10 +86,10 @@ const sv = {
           "för att tillhandahålla compliance-teamet med ett rapporteringsverktyg för beslutsstöd kring insättningar." +
           "\n\n" +
           "**TEKNOLOGIER:** React, TypeScript, AWS S3, AWS Cognito, AWS Lambda, MongoDB Atlas, Postgres, SQL, Apollo " +
-          "GraphQL, tRPC, AtlasSearch, Jest\n" +
+          "GraphQL, tRPC, AtlasSearch, Jest, Git Monorepo, Jira, Linear, GitHub, VS Code, CircleCI\n" +
           "\n" +
           "**NYCKELORD:** CRM, FinTech, query-optimering, UX, compliance, prestandatestning, lösningsarkitektur, " +
-          "datamodellering, datakvalitet, databas-design, Agile\n" +
+          "datamodellering, datakvalitet, databas-design, CI/CD, Serverless, Agile\n" +
           "\n",
         internalProjectNotes: null,
       },
@@ -100,7 +101,22 @@ const sv = {
           "- Fokuserade främst på att utveckla återanvändbara komponenter för integration i Storybook.\n" +
           "- Designade och implementerade komponenter för att förbättra UI-konsistens.\n",
         description: null,
-        assignmentsText: null,
+        assignmentsText:
+          "----\n" +
+          "\n" +
+          "**UPPDRAGSGIVARE:** Accenture\n" +
+          "\n" +
+          "**UPPDRAG (PERIOD):** Frontendutvecklare (2021-10–2022-02)\n" +
+          "\n" +
+          "**BESKRIVNING:**\n" +
+          "Liza lånades in som frontend-utvecklare till ett projekt för Škoda via Titans Consulting och Accenture. " +
+          "Tillsammans med ett remote-team med ett halvdussin utvecklare i Italien så arbetade hon med att designa " +
+          "och utveckla återanvändbara komponenter för Škodas Storybook. UI-komponenterna implementerade kundens " +
+          "designsystem med stöd för alla förekommande layouter och upplösningar.\n" +
+          "\n" +
+          "**TEKNOLOGIER:** Storybook, React, TypeScript, SASS, GitHub, VS Code, Trello\n" +
+          "\n" +
+          "**NYCKELORD:** Återanvändbara UI-komponenter, responsiv design, skalbarhet, designsystem, accessibility\n",
         internalProjectNotes: null,
       },
       {
@@ -112,7 +128,22 @@ const sv = {
           "- Utvecklade responsiv styling för webb- och mobilprojekt.\n" +
           "- Arbetade med olika projekt och olika programmeringsspråk och bibliotek.\n",
         description: null,
-        assignmentsText: null,
+        assignmentsText:
+          "----\n" +
+          "\n" +
+          "**UPPDRAGSGIVARE:** iQuest s.r.o.\n" +
+          "\n" +
+          "**UPPDRAG (PERIOD):** Fullstack-utvecklare (2021-04–2021-10)\n" +
+          "\n" +
+          "**BESKRIVNING:**\n" +
+          "Liza utvecklade en administrationspanel för en kund till iQuest. I projektet ingick implementation av " +
+          "frontend, backend och autentiseringslösning. React/Bootstrap för frontend och Firebase för backend, " +
+          "Firestore och Realtime Database för datapersistens och Google SSO för autentisering.\n" +
+          "\n" +
+          "**TEKNOLOGIER:** React, Bootstrap, SASS, Firebase Realtime Database, Firebase Firestore, Google Single " +
+          "Sign-On, GitHub, WebStorm\n" +
+          "\n" +
+          "**NYCKELORD:** Admin-panel, Firebase, administrationsverktyg\n",
         internalProjectNotes: null,
       },
     ],
