@@ -85,8 +85,8 @@ const sv = {
           "prestanda och arbeta med datakvalitet. Ett av Lizas varmaste minnen från den här tiden är ett initiativ " +
           "för att tillhandahålla compliance-teamet med ett rapporteringsverktyg för beslutsstöd kring insättningar." +
           "\n\n" +
-          "**TEKNOLOGIER:** React, TypeScript, AWS S3, AWS Cognito, AWS Lambda, MongoDB Atlas, Postgres, SQL, Apollo " +
-          "GraphQL, tRPC, AtlasSearch, Jest, Git Monorepo, Jira, Linear, GitHub, VS Code, CircleCI\n" +
+          "**TEKNOLOGIER:** React, TypeScript, Next.js, AWS S3, AWS Cognito, AWS Lambda, MongoDB Atlas, Postgres, " +
+          "SQL, Apollo GraphQL, tRPC, AtlasSearch, Jest, Git Monorepo, Jira, Linear, GitHub, VS Code, CircleCI\n" +
           "\n" +
           "**NYCKELORD:** CRM, FinTech, query-optimering, UX, compliance, prestandatestning, lösningsarkitektur, " +
           "datamodellering, datakvalitet, databas-design, CI/CD, Serverless, Agile\n" +
@@ -137,13 +137,32 @@ const sv = {
           "\n" +
           "**BESKRIVNING:**\n" +
           "Liza utvecklade en administrationspanel för en kund till iQuest. I projektet ingick implementation av " +
-          "frontend, backend och autentiseringslösning. React/Bootstrap för frontend och Firebase för backend, " +
-          "Firestore och Realtime Database för datapersistens och Google SSO för autentisering.\n" +
+          "frontend, backend och autentiseringslösning. React/Bootstrap för frontend, Firebase för backend, " +
+          "Firestore/Realtime Database för datapersistens, och Google SSO för autentisering.\n" +
           "\n" +
           "**TEKNOLOGIER:** React, Bootstrap, SASS, Firebase Realtime Database, Firebase Firestore, Google Single " +
           "Sign-On, GitHub, WebStorm\n" +
           "\n" +
-          "**NYCKELORD:** Admin-panel, Firebase, administrationsverktyg\n",
+          "**NYCKELORD:** Admin-panel, Firebase, administrationsverktyg\n" +
+          "\n" +
+          "----\n" +
+          "\n" +
+          "**UPPDRAGSGIVARE:** iQuest s.r.o.\n" +
+          "\n" +
+          "**UPPDRAG (PERIOD):** Frontend-utvecklare (2020-12–2021-03)\n" +
+          "\n" +
+          "**BESKRIVNING:**\n" +
+          "Liza implementerade om och moderniserade iQuests webbsida, https://www.iquest.cz/en. I arbetet ingick att " +
+          "höja alla poäng i Google PageSpeed Insights; prestanda, tillgänglighet, nya standarder, best practices " +
+          "samt sökmotoroptimering. Liza ersatte CSS med SCSS, införde återanvändbara komponenter, rensade ut " +
+          "spagettikod, ersatte jQuery med modern JavaScript, och gjorde alla sidor responsiva för olika " +
+          "enheter/skärmstorlekar.\n" +
+          "\n" +
+          "**TEKNOLOGIER:** Lighthouse, PageSpeed Insights, CSS3, SCSS, Git, Ruby, HTML5, JavaScript, jQuery, " +
+          "Bootstrap, WebStorm\n" +
+          "\n" +
+          "**NYCKELORD:** Accessibility, prestandaförbättring, SEO, CSS-animeringar, responsiv design, Reusable " +
+          "Components, Maintainability, refaktorering, företagswebbsida\n",
         internalProjectNotes: null,
       },
     ],
