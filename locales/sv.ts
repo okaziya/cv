@@ -66,7 +66,7 @@ const sv = {
           "kundbeteenden och compliance.\n" +
           "\n" +
           "**TEKNOLOGIER:** React, TypeScript, Styled Components, Apollo GraphQL, tRPC, Postico, MongoDB, AWS " +
-          "Lambda, AWS AppConfig, Git Monorepo, Linear, GitHub, VS Code, GiHub Actions\n" +
+          "Lambda, AWS AppConfig, Git Monorepo, Figma, Linear, GitHub, VS Code, GiHub Actions\n" +
           "\n" +
           "**NYCKELORD:** FinTech, forex/FX, trading-plattform, användarhantering, UX, compliance, bank och finans, " +
           "autentisering & auktorisation, Reusable Components, AWS, CI/CD, Serverless, Agile, " +
@@ -80,13 +80,14 @@ const sv = {
           "\n" +
           "**BESKRIVNING:**\n" +
           "Liza kom in i rollen som fullstack-utvecklare för att bygga ett nytt CRM för att hålla reda på användare, " +
-          "transaktioner och kundkonton till ett fintech-projekt. Bland huvuduppgifterna ingick det att integrera " +
-          "olika backend-system för att skapa realtidssökningar mot MongoDB Atlas, optimera databasfrågor för god " +
+          "transaktioner och kundkonton till ett fintech-projekt. Bland huvuduppgifterna ingick att integrera olika " +
+          "backend-system för att skapa realtidssökningar mot MongoDB Atlas, optimera databasfrågor för god " +
           "prestanda och arbeta med datakvalitet. Ett av Lizas varmaste minnen från den här tiden är ett initiativ " +
           "för att tillhandahålla compliance-teamet med ett rapporteringsverktyg för beslutsstöd kring insättningar." +
           "\n\n" +
           "**TEKNOLOGIER:** React, TypeScript, Next.js, AWS S3, AWS Cognito, AWS Lambda, MongoDB Atlas, Postgres, " +
-          "SQL, Apollo GraphQL, tRPC, AtlasSearch, Jest, Git Monorepo, Jira, Linear, GitHub, VS Code, CircleCI\n" +
+          "SQL, Apollo GraphQL, tRPC, AtlasSearch, Jest, Git Monorepo, Figma, Jira, Linear, GitHub, VS Code, " +
+          "CircleCI\n" +
           "\n" +
           "**NYCKELORD:** CRM, FinTech, query-optimering, UX, compliance, prestandatestning, lösningsarkitektur, " +
           "datamodellering, datakvalitet, databas-design, CI/CD, Serverless, Agile\n" +
@@ -114,7 +115,8 @@ const sv = {
           "och utveckla återanvändbara komponenter för Škodas Storybook. UI-komponenterna implementerade kundens " +
           "designsystem med stöd för alla förekommande layouter och upplösningar.\n" +
           "\n" +
-          "**TEKNOLOGIER:** Storybook, React, TypeScript, SASS, GitHub, VS Code, Trello\n" +
+          "**TEKNOLOGIER:** Storybook, Adobe Experience Manager (AEM), Figma, React, TypeScript, SASS, GitHub, VS " +
+          "Code, Trello\n" +
           "\n" +
           "**NYCKELORD:** Återanvändbara UI-komponenter, responsiv design, skalbarhet, designsystem, accessibility\n",
         internalProjectNotes: null,
@@ -152,8 +154,8 @@ const sv = {
           "**UPPDRAG (PERIOD):** Frontend-utvecklare (2020-12–2021-03)\n" +
           "\n" +
           "**BESKRIVNING:**\n" +
-          "Liza implementerade om och moderniserade iQuests webbsida, https://www.iquest.cz/en. I arbetet ingick att " +
-          "höja alla poäng i Google PageSpeed Insights; prestanda, tillgänglighet, nya standarder, best practices " +
+          "Liza byggde om och moderniserade iQuests webbsida, https://www.iquest.cz/en. I arbetet ingick att höja " +
+          "alla poäng i Google PageSpeed Insights; prestanda, tillgänglighet, nya standarder, best practices " +
           "samt sökmotoroptimering. Liza ersatte CSS med SCSS, införde återanvändbara komponenter, rensade ut " +
           "spagettikod, ersatte jQuery med modern JavaScript, och gjorde alla sidor responsiva för olika " +
           "enheter/skärmstorlekar.\n" +
@@ -162,7 +164,51 @@ const sv = {
           "Bootstrap, WebStorm\n" +
           "\n" +
           "**NYCKELORD:** Accessibility, prestandaförbättring, SEO, CSS-animeringar, responsiv design, Reusable " +
-          "Components, Maintainability, refaktorering, företagswebbsida\n",
+          "Components, Maintainability, refaktorering, företagswebbsida\n" +
+          "\n" +
+          "----\n" +
+          "\n" +
+          "**UPPDRAGSGIVARE:** iQuest s.r.o.\n" +
+          "\n" +
+          "**UPPDRAG (PERIOD):** Frontend-utvecklare (2020-09–2020-12)\n" +
+          "\n" +
+          "**BESKRIVNING:**\n" +
+          "Liza implementerade frontend från scratch för en ny webbplats åt en återförsäljare inom medicinsk " +
+          "utrustning. Uppdraget utfördes i samarbete med en backend-utvecklare (Ruby) och en designer (Adobe XD).\n" +
+          "\n" +
+          "**TEKNOLOGIER:** Bootstrap, HTML5, CSS3, Ruby on Rails, WebStorm, Adobe XD\n" +
+          "\n" +
+          "**NYCKELORD:** B2B, företagswebbsida, responsiv design\n" +
+          "\n" +
+          "----\n" +
+          "\n" +
+          "**UPPDRAGSGIVARE:** iQuest s.r.o.\n" +
+          "\n" +
+          "**UPPDRAG (PERIOD):** Frontend-utvecklare (2020-06–2020-09)\n" +
+          "\n" +
+          "**BESKRIVNING:**\n" +
+          "Liza byggde en webbplats åt ett tyskt livsmedelsföretag för att marknadsföra deras yoghurt-produktserie " +
+          "med recept och liknande. Sajten implementerades med Jekyll och Ruby.\n" +
+          "\n" +
+          "**TEKNOLOGIER:** Ruby, Jekyll, HTML, CSS3, JetBrains RubyMine\n" +
+          "\n" +
+          "**NYCKELORD:** B2C, SEO, responsiv design, marknadsföring, produktpresentationer\n" +
+          "\n" +
+          "----\n" +
+          "\n" +
+          "**UPPDRAGSGIVARE:** iQuest s.r.o.\n" +
+          "\n" +
+          "**UPPDRAG (PERIOD):** Frontend-utvecklare (2020-02–2020-06)\n" +
+          "\n" +
+          "**BESKRIVNING:**\n" +
+          "Liza ingick i ett frontend-team, tillsammans implementerade de en anpassad design för en videospelare " +
+          "(styling av kontrollknappar, tidssökare m.m.) och lade in hållpunkter med interaktiv frågesport/quiz. " +
+          "Syftet med projektet var att bidra till komponenter i en lärplattform för första hjälpen-utbildning.\n" +
+          "\n" +
+          "**TEKNOLOGIER:** HTML5 Video API, React, JavaScript, SCSS/CSS3, WebStorm, Firebase Firestore\n" +
+          "\n" +
+          "**NYCKELORD:** Ljud & video, Video on demand (VOD), accessibility, responsiv design\n" +
+          "\n",
         internalProjectNotes: null,
       },
     ],
