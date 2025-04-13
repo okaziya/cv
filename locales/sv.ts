@@ -66,7 +66,7 @@ const sv = {
           "kundbeteenden och compliance.\n" +
           "\n" +
           "**TEKNOLOGIER:** React, TypeScript, Styled Components, Apollo GraphQL, tRPC, Postico, MongoDB, AWS " +
-          "Lambda, AWS AppConfig, Git Monorepo, Figma, Linear, GitHub, VS Code, GiHub Actions\n" +
+          "Lambda, AWS AppConfig, Git Monorepo, Figma, Linear, GitHub, Slack, VS Code, GitHub Actions\n" +
           "\n" +
           "**NYCKELORD:** FinTech, forex/FX, trading-plattform, användarhantering, UX, compliance, bank och finans, " +
           "autentisering & auktorisation, Reusable Components, AWS, CI/CD, Serverless, Agile, " +
@@ -86,7 +86,7 @@ const sv = {
           "för att tillhandahålla compliance-teamet med ett rapporteringsverktyg för beslutsstöd kring insättningar." +
           "\n\n" +
           "**TEKNOLOGIER:** React, TypeScript, Next.js, AWS S3, AWS Cognito, AWS Lambda, MongoDB Atlas, Postgres, " +
-          "SQL, Apollo GraphQL, tRPC, AtlasSearch, Jest, Git Monorepo, Figma, Jira, Linear, GitHub, VS Code, " +
+          "SQL, Apollo GraphQL, tRPC, AtlasSearch, Jest, Git Monorepo, Figma, Jira, Linear, GitHub, Slack, VS Code, " +
           "CircleCI\n" +
           "\n" +
           "**NYCKELORD:** CRM, FinTech, query-optimering, UX, compliance, prestandatestning, lösningsarkitektur, " +
@@ -115,8 +115,8 @@ const sv = {
           "och utveckla återanvändbara komponenter för Škodas Storybook. UI-komponenterna implementerade kundens " +
           "designsystem med stöd för alla förekommande layouter och upplösningar.\n" +
           "\n" +
-          "**TEKNOLOGIER:** Storybook, Adobe Experience Manager (AEM), Figma, React, TypeScript, SASS, GitHub, VS " +
-          "Code, Trello\n" +
+          "**TEKNOLOGIER:** Storybook, Adobe Experience Manager (AEM), Figma, React, TypeScript, SASS, GitHub, " +
+          "Slack, VS Code, Trello\n" +
           "\n" +
           "**NYCKELORD:** Återanvändbara UI-komponenter, responsiv design, skalbarhet, designsystem, accessibility\n",
         internalProjectNotes: null,
@@ -143,7 +143,7 @@ const sv = {
           "Firestore/Realtime Database för datapersistens, och Google SSO för autentisering.\n" +
           "\n" +
           "**TEKNOLOGIER:** React, Bootstrap, SASS, Firebase Realtime Database, Firebase Firestore, Google Single " +
-          "Sign-On, GitHub, WebStorm\n" +
+          "Sign-On, GitHub, WebStorm, Slack\n" +
           "\n" +
           "**NYCKELORD:** Admin-panel, Firebase, administrationsverktyg\n" +
           "\n" +
@@ -161,7 +161,7 @@ const sv = {
           "enheter/skärmstorlekar.\n" +
           "\n" +
           "**TEKNOLOGIER:** Lighthouse, PageSpeed Insights, CSS3, SCSS, Git, Ruby, HTML5, JavaScript, jQuery, " +
-          "Bootstrap, WebStorm\n" +
+          "Bootstrap, WebStorm, Slack\n" +
           "\n" +
           "**NYCKELORD:** Accessibility, prestandaförbättring, SEO, CSS-animeringar, responsiv design, Reusable " +
           "Components, Maintainability, refaktorering, företagswebbsida\n" +
@@ -176,7 +176,7 @@ const sv = {
           "Liza implementerade frontend från scratch för en ny webbplats åt en återförsäljare inom medicinsk " +
           "utrustning. Uppdraget utfördes i samarbete med en backend-utvecklare (Ruby) och en designer (Adobe XD).\n" +
           "\n" +
-          "**TEKNOLOGIER:** Bootstrap, HTML5, CSS3, Ruby on Rails, WebStorm, Adobe XD\n" +
+          "**TEKNOLOGIER:** Bootstrap, HTML5, CSS3, Ruby on Rails, WebStorm, Slack, Adobe XD\n" +
           "\n" +
           "**NYCKELORD:** B2B, företagswebbsida, responsiv design\n" +
           "\n" +
@@ -190,7 +190,7 @@ const sv = {
           "Liza byggde en webbplats åt ett tyskt livsmedelsföretag för att marknadsföra deras yoghurt-produktserie " +
           "med recept och liknande. Sajten implementerades med Jekyll och Ruby.\n" +
           "\n" +
-          "**TEKNOLOGIER:** Ruby, Jekyll, HTML, CSS3, JetBrains RubyMine\n" +
+          "**TEKNOLOGIER:** Ruby, Jekyll, HTML, CSS3, Slack, JetBrains RubyMine\n" +
           "\n" +
           "**NYCKELORD:** B2C, SEO, responsiv design, marknadsföring, produktpresentationer\n" +
           "\n" +
@@ -205,9 +205,39 @@ const sv = {
           "(styling av kontrollknappar, tidssökare m.m.) och lade in hållpunkter med interaktiv frågesport/quiz. " +
           "Syftet med projektet var att bidra till komponenter i en lärplattform för första hjälpen-utbildning.\n" +
           "\n" +
-          "**TEKNOLOGIER:** HTML5 Video API, React, JavaScript, SCSS/CSS3, WebStorm, Firebase Firestore\n" +
+          "**TEKNOLOGIER:** HTML5 Video API, React, JavaScript, SCSS/CSS3, Slack, WebStorm, Firebase Firestore\n" +
           "\n" +
-          "**NYCKELORD:** Ljud & video, Video on demand (VOD), accessibility, responsiv design\n" +
+          "**NYCKELORD:** Ljud & video, Video on demand (VOD), accessibility, e-learning, responsiv design\n" +
+          "\n" +
+          "----\n" +
+          "\n" +
+          "**UPPDRAGSGIVARE:** iQuest s.r.o.\n" +
+          "\n" +
+          "**UPPDRAG (PERIOD):** Frontend-utvecklare (2019-09–2020-02)\n" +
+          "\n" +
+          "**BESKRIVNING:**\n" +
+          "Liza utvecklade en kundklubbs-app åt en matvarukedja med React Native, för Android och iOS. Appen " +
+          "presenterade kampanjer & erbjudanden för medlemmar och visade ackumulerade bonusar. Arbetet utfördes i " +
+          "nära samarbete med ett backend-team.\n" +
+          "\n" +
+          "**TEKNOLOGIER:** React Native, iOS, Android, Android Studio, Xcode, Slack, VS Code\n" +
+          "\n" +
+          "**NYCKELORD:** App-utveckling, mobilapp, lojalitetsapp, marknadsföring, B2C, livsmedelskedja\n" +
+          "\n" +
+          "----\n" +
+          "\n" +
+          "**UPPDRAGSGIVARE:** iQuest s.r.o.\n" +
+          "\n" +
+          "**UPPDRAG (PERIOD):** Frontend-utvecklare (2019-06–2019-09)\n" +
+          "\n" +
+          "**BESKRIVNING:**\n" +
+          "Liza utvecklade en frontend i en desktop-applikation för Doosan Robotics. Applikationen var ett " +
+          "internt verktyg för att tillhandahålla en katalogtjänst med manualer till olika maskiner som produceras " +
+          "av företaget.\n" +
+          "\n" +
+          "**TEKNOLOGIER:** CSS3, HTML5, Ruby on Rails, Slack, VS Code\n" +
+          "\n" +
+          "**NYCKELORD:** Desktop-applikation, offline-app, katalogtjänst, dokumentregister, tillverkningsindustri\n" +
           "\n",
         internalProjectNotes: null,
       },
