@@ -260,7 +260,40 @@ const sv = {
           "avancerad sortering, sökning och filtrering. Examensarbete tillgängligt " +
           "[**här**](https://theses.unicornuniversity.net/olsevskaja-jelizaveta).\n",
         description: null,
-        assignmentsText: null,
+        assignmentsText:
+          "----\n" +
+          "\n" +
+          "**UPPDRAGSGIVARE:** Unicorn University\n" +
+          "\n" +
+          "**UPPDRAG (PERIOD):** Fullstack-utvecklare (2022-01–2022-03)\n" +
+          "\n" +
+          "**BESKRIVNING:**\n" +
+          "Liza byggde ett förslag till studentportal för Unicorn University, från projektbeskrivning och -planering," +
+          "design av UML-diagram för alla flöden, och JIRA-backlog. Lösningen implementerades med studentinloggning, " +
+          "översikt av pågående kurser, kurslitteratur, personuppgifter, betyg, och kontaktuppgifter till lärare.\n" +
+          "\n" +
+          "**TEKNOLOGIER:** React, TypeScript, Material UI, CSS3, NodeJS, MongoDB Atlas, OAuth, UML, Insomnia, " +
+          "GitHub, VS Code\n" +
+          "\n" +
+          "**NYCKELORD:** Systemdesign, systemdokumentation, systemimplementation, studentprojekt, elevportal\n" +
+          "\n" +
+          "----\n" +
+          "\n" +
+          "**UPPDRAGSGIVARE:** Unicorn University\n" +
+          "\n" +
+          "**UPPDRAG (PERIOD):** IoT-utvecklare (2021-02–2021-05)\n" +
+          "\n" +
+          "**BESKRIVNING:**\n" +
+          "Liza utvecklade en IoT-lösning för blomsterbutiker tillsammans med ett team på 4 andra studenter. " +
+          "Systemet mätte luftfuktighet från sensorer i butiken och samlade in mätvärden i MongoDB. Teamet byggde en " +
+          "interaktiv dashboard för att visualisera data i realtid. Sensorutrustningen baserades på Arduino Uno " +
+          "(mikrokontroller) och Raspberry Pi för datainsamling.\n" +
+          "\n" +
+          "**TEKNOLOGIER:** React, TypeScript, Chart.js, CSS3, Raspberry Pi, Arduino Uno, MongoDB, GitHub, Trello, " +
+          "VS Code\n" +
+          "\n" +
+          "**NYCKELORD:** Systemdesign, visualisering, datainsamling, studentprojekt, Internet of Things (IoT)\n" +
+          "\n",
         internalProjectNotes: null,
       },
       {
