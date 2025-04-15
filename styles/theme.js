@@ -1,4 +1,5 @@
 export const theme = {
+  isSafari: false,
   colors: {
     darkGrey: "#19191B",
     brand: "#5454D4",
