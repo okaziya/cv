@@ -34,6 +34,51 @@ const en = {
     title: "Experience",
     experiences: [
       {
+        jobTitle: "Co-Founder & Consultant",
+        companyTitle: "OwnTube Nordic AB – Stockholm, Sweden",
+        date: "2024-10–Present",
+        highlights:
+          "- Co-founded own IT consulting company OwnTube Nordic AB with my partner.\n" +
+          "- Familiarized myself with business context and culture in Sweden, gained proficiency in dealing with " +
+          "Swedish authorities and banks. Learnt Swedish up to intermediate proficiency level and completed Swedish " +
+          "For Immigrants (SFI).\n" +
+          "- Contributed to [@OwnTube-tv](https://github.com/OwnTube-tv) and other open source projects on GitHub. " +
+          "Built a number of projects using different AI tools; Lovable.dev apps, CustomGPTs in ChatGPT, OpenAI " +
+          "Assistants.\n" +
+          "- Built professional network in Stockholm; interviewing and meeting with customers, established " +
+          "partnerships.\n",
+        description: null,
+        assignmentsText: null,
+        internalProjectNotes: {
+          // 2024-08 to 2025-02
+          Folkuniversitetet:
+            "Learning everything about Swedish language basics, from A1 to B2-",
+          // 2024-10 to 2024-12
+          OwnTubeProject:
+            "Registered a company in Sweden, learning about Bolagsverket and Banks and Skatteverket" +
+            "Learnt more/other Swedish" +
+            "Integrating" +
+            "Getting to know people" +
+            "Knows Mats social-professional network" +
+            "Knows Mats family and friends" +
+            "Interviews with different companies",
+          // 2025-01 to 2025-04
+          AIprojektet:
+            "Project plan and selling it" +
+            "building a custom gpt with Mats" +
+            "using Python click for command line tool development" +
+            "learning to deal with Python projects (tests and stuff)",
+          // 2025-03 and ongoing
+          'SFX-IT':
+            "Going to SFX-IT in Tyresö" +
+            "Completing SFI levels C and D" +
+            "Learning Swedish IT vocabulary" +
+            "Professional skills in Swedish" +
+            "Getting all documents in place, translated Czech grades and more" +
+            "...",
+        },
+      },
+      {
         jobTitle: "Full Stack Developer",
         companyTitle: "Purple Technology – Brno, Czech Republic & Remote",
         date: "2022-04–2024-09",
@@ -175,6 +220,17 @@ const en = {
   education: {
     title: "Education",
     degrees: [
+      {
+        jobTitle: "Swedish courses A1 to B2",
+        companyTitle: "Folkuniversitetet – Stockholm, Sweden",
+        date: "2024–2025",
+        highlights:
+          "- Completed first 5 Swedish courses in 6 months of half-time classroom studies.\n" +
+          "- Reached intermediate proficiency in Swedish, CEFR level B1.\n",
+        description: null,
+        assignmentsText: null,
+        internalProjectNotes: null,
+      },
       {
         jobTitle: "BSc in Software Development",
         companyTitle: "Unicorn University – Prague, Czech Republic",
