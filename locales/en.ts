@@ -55,27 +55,26 @@ const en = {
             "Learning everything about Swedish language basics, from A1 to B2-",
           // 2024-10 to 2024-12
           OwnTubeProject:
-            "Registered a company in Sweden, learning about Bolagsverket and Banks and Skatteverket" +
-            "Learnt more/other Swedish" +
-            "Integrating" +
-            "Getting to know people" +
-            "Knows Mats social-professional network" +
-            "Knows Mats family and friends" +
-            "Interviews with different companies",
+            "Registered a company in Sweden, learning about Bolagsverket and Banks and Skatteverket\n" +
+            "Learnt more/other Swedish\n" +
+            "Integrating\n" +
+            "Getting to know people\n" +
+            "Knows my partner's social-professional network\n" +
+            "Interviews with different companies\n",
           // 2025-01 to 2025-04
-          AIprojektet:
-            "Project plan and selling it" +
-            "building a custom gpt with Mats" +
-            "using Python click for command line tool development" +
-            "learning to deal with Python projects (tests and stuff)",
+          'AI-projektet':
+            "Project plan and selling it\n" +
+            "Building a CustomGPT with my partner\n" +
+            "Using Python Click for command line tool development\n" +
+            "Learning to deal with Python projects (tests and stuff)\n",
           // 2025-03 and ongoing
           'SFX-IT':
-            "Going to SFX-IT in Tyresö" +
-            "Completing SFI levels C and D" +
-            "Learning Swedish IT vocabulary" +
-            "Professional skills in Swedish" +
-            "Getting all documents in place, translated Czech grades and more" +
-            "...",
+            "Going to SFX-IT in Tyresö\n" +
+            "Completing SFI levels C and D\n" +
+            "Learning Swedish IT vocabulary\n" +
+            "Professional skills in Swedish\n" +
+            "Getting all documents in place, translated Czech grades and more\n" +
+            "...\n",
         },
       },
       {
