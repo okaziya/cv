@@ -217,6 +217,16 @@ const en = {
   education: {
     title: "Education",
     degrees: [
+      // {
+      //   jobTitle: "Swedish for programmers",
+      //   companyTitle: "SFX-IT – Tyresö, Sweden",
+      //   date: "2025–Ongoing",
+      //   highlights:
+      //     "- Vocational Swedish for IT professionals (distance studies).\n",
+      //   description: null,
+      //   assignmentsText: null,
+      //   internalProjectNotes: null,
+      // },
       {
         jobTitle: "Swedish courses A1 to B2",
         companyTitle: "Folkuniversitetet – Stockholm, Sweden",
@@ -306,7 +316,5 @@ const en = {
     ],
   },
 } as const;
-
-export type Translations = typeof en;
 
 export default en;
