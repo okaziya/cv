@@ -268,7 +268,7 @@ const sv = {
           "**UPPDRAG (PERIOD):** Fullstack-utvecklare (2022-01–2022-03)\n" +
           "\n" +
           "**BESKRIVNING:**\n" +
-          "Liza byggde ett förslag till studentportal för Unicorn University, från projektbeskrivning och -planering," +
+          "Liza byggde ett förslag till studentportal för Unicorn University, från projektbeskrivning och -planering, " +
           "design av UML-diagram för alla flöden, och JIRA-backlog. Lösningen implementerades med studentinloggning, " +
           "översikt av pågående kurser, kurslitteratur, personuppgifter, betyg, och kontaktuppgifter till lärare.\n" +
           "\n" +
