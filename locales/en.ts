@@ -23,12 +23,80 @@ const en = {
   },
   skillsSection: {
     title: "Skills",
-    categories: {
-      skills: "Skills",
-      codeLanguages: "Programming Languages",
-      tools: "Tools & Frameworks",
-      databases: "Databases",
-    },
+    categories: [
+      {
+        key: "codeLanguages",
+        title: "Programming Languages",
+        items: ["JavaScript (ES6+)", "TypeScript", "Python", "HTML5", "CSS3", "SQL", "Ruby (basic knowledge)"],
+      },
+      {
+        key: "databases",
+        title: "Databases",
+        items: [
+          "MongoDB",
+          "DynamoDB",
+          "SQL (PostgreSQL, basic MySQL)",
+          "SQLite",
+          "Elasticsearch",
+          "Firebase (Firestore)",
+        ],
+      },
+      {
+        key: "skills",
+        title: "Skills",
+        items: [
+          "Responsive Web Design",
+          "Cloud Computing",
+          "API Design (RESTful APIs)",
+          "Authentication and Authorization (OAuth, JWT, Google Sign-In)",
+          "Agile Methodology (Scrum)",
+          "Unit Testing and Integration Testing (Jest)",
+          "CI/CD (GitHub Actions, CircleCI)",
+          "Version Control (Git)",
+          "Feature Flag Management (AWS AppConfig)",
+          "Code Review and Refactoring",
+          "Data Visualization",
+          "Web Accessibility (WCAG)",
+          "SEO Optimization",
+          "Cross-functional Team Collaboration",
+          "UX/UI Best Practices",
+          "Project Management basics",
+          "Technical Documentation",
+        ],
+      },
+      {
+        key: "tools",
+        title: "Tools & Frameworks",
+        items: [
+          "React",
+          "Bootstrap",
+          "SCSS (SASS)",
+          "GraphQL (Apollo)",
+          "tRPC",
+          "Jest",
+          "Vitest",
+          "React Testing Library",
+          "React Query",
+          "React Native (basic knowledge)",
+          "AWS Lambda",
+          "AWS Step Functions",
+          "AWS Cognito",
+          "Amazon S3",
+          "Jekyll",
+          "Next.js",
+          "Storybook",
+          "Tailwind CSS",
+          "Git & GitHub",
+          "Figma",
+          "Postico",
+          "Android Studio",
+          "Firebase (Realtime Database, Firestore)",
+          "MongoDB Atlas Search",
+          "Insomnia",
+          "Raspberry Pi & Arduino (IoT)",
+        ],
+      },
+    ],
   },
   workExperience: {
     title: "Experience",
@@ -49,8 +117,7 @@ const en = {
         assignmentsText: null,
         internalProjectNotes: {
           // 2024-08 to 2025-02
-          Folkuniversitetet:
-            "Learning everything about Swedish language basics, from A1 to B2-",
+          Folkuniversitetet: "Learning everything about Swedish language basics, from A1 to B2-",
           // 2024-10 to 2024-12
           OwnTubeProject:
             "Registered a company in Sweden, learning about Bolagsverket and Banks and Skatteverket\n" +
@@ -60,13 +127,13 @@ const en = {
             "Knows my partner's social-professional network\n" +
             "Interviews with different companies\n",
           // 2025-01 to 2025-04
-          'AI-projektet':
+          "AI-projektet":
             "Project plan and selling it\n" +
             "Building a CustomGPT with my partner\n" +
             "Using Python Click for command line tool development\n" +
             "Learning to deal with Python projects (tests and stuff)\n",
           // 2025-03 and ongoing
-          'SFX-IT':
+          "SFX-IT":
             "Going to SFX-IT in Tyresö\n" +
             "Completing SFI levels C and D\n" +
             "Learning Swedish IT vocabulary\n" +
