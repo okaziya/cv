@@ -110,10 +110,8 @@ const en = {
           "- Familiarized myself with business context and culture in Sweden, gained proficiency in dealing with " +
           "Swedish authorities and banks. Learnt Swedish up to intermediate proficiency level and completed Swedish " +
           "For Immigrants (SFI).\n" +
-          "- Contributed to [@OwnTube-tv](https://github.com/OwnTube-tv) and other open source projects on GitHub. " +
-          "Built a number of projects using different AI tools; Lovable.dev apps, CustomGPTs in ChatGPT, OpenAI " +
-          "Assistants.\n" +
-          "- Built professional network in Stockholm; interviewing and meeting with customers, established " +
+          "- Built a number of projects using different AI tools; Lovable.dev apps, CustomGPTs in ChatGPT, OpenAI " +
+          "Assistants. Established professional network in Stockholm; meeting with customers and building " +
           "partnerships.\n",
         description: null,
         assignmentsText: null,
@@ -286,6 +284,16 @@ const en = {
   education: {
     title: "Education",
     degrees: [
+      // {
+      //   jobTitle: "Swedish for programmers",
+      //   companyTitle: "SFX-IT – Tyresö, Sweden",
+      //   date: "2025–Ongoing",
+      //   highlights:
+      //     "- Vocational Swedish for IT professionals (distance studies).\n",
+      //   description: null,
+      //   assignmentsText: null,
+      //   internalProjectNotes: null,
+      // },
       {
         jobTitle: "Swedish courses A1 to B2",
         companyTitle: "Folkuniversitetet – Stockholm, Sweden",
@@ -375,7 +383,5 @@ const en = {
     ],
   },
 } as const;
-
-export type Translations = typeof en;
 
 export default en;
