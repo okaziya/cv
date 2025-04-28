@@ -77,6 +77,7 @@ export const HeroSectionWrapper = styled.section`
     filter: blur(100px);
     transform: rotate(30deg);
     border-radius: 233px;
+    z-index: -1;
   }
 
   &::after {
@@ -91,5 +92,6 @@ export const HeroSectionWrapper = styled.section`
     filter: blur(100px);
     transform: rotate(-25deg);
     border-radius: 233px;
+    z-index: -1;
   }
 `;

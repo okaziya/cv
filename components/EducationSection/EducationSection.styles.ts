@@ -23,5 +23,6 @@ export const EducationSectionWrapper = styled.section`
     filter: blur(100px);
     transform: rotate(-22deg);
     border-radius: 233px;
+    z-index: -1;
   }
 `;
