@@ -28,7 +28,7 @@ export default function ThemeWrapper({ children }: { children: React.ReactNode }
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <div>{children}</div>
+      {children}
     </ThemeProvider>
   );
 }
