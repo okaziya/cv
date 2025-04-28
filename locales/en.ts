@@ -23,16 +23,125 @@ const en = {
   },
   skillsSection: {
     title: "Skills",
-    categories: {
-      skills: "Skills",
-      codeLanguages: "Programming Languages",
-      tools: "Tools & Frameworks",
-      databases: "Databases",
-    },
+    categories: [
+      {
+        key: "codeLanguages",
+        title: "Programming Languages",
+        items: ["JavaScript (ES6+)", "TypeScript", "Python", "HTML5", "CSS3", "SQL", "Ruby (basic knowledge)"],
+      },
+      {
+        key: "databases",
+        title: "Databases",
+        items: [
+          "MongoDB",
+          "DynamoDB",
+          "SQL (PostgreSQL, basic MySQL)",
+          "SQLite",
+          "Elasticsearch",
+          "Firebase (Firestore)",
+        ],
+      },
+      {
+        key: "skills",
+        title: "Skills",
+        items: [
+          "Responsive Web Design",
+          "Cloud Computing",
+          "API Design (RESTful APIs)",
+          "Authentication and Authorization (OAuth, JWT, Google Sign-In)",
+          "Agile Methodology (Scrum)",
+          "Unit Testing and Integration Testing (Jest)",
+          "CI/CD (GitHub Actions, CircleCI)",
+          "Version Control (Git)",
+          "Feature Flag Management (AWS AppConfig)",
+          "Code Review and Refactoring",
+          "Data Visualization",
+          "Web Accessibility (WCAG)",
+          "SEO Optimization",
+          "Cross-functional Team Collaboration",
+          "UX/UI Best Practices",
+          "Project Management basics",
+          "Technical Documentation",
+        ],
+      },
+      {
+        key: "tools",
+        title: "Tools & Frameworks",
+        items: [
+          "React",
+          "Bootstrap",
+          "SCSS (SASS)",
+          "GraphQL (Apollo)",
+          "tRPC",
+          "Jest",
+          "Vitest",
+          "React Testing Library",
+          "React Query",
+          "React Native (basic knowledge)",
+          "AWS Lambda",
+          "AWS Step Functions",
+          "AWS Cognito",
+          "Amazon S3",
+          "Jekyll",
+          "Next.js",
+          "Storybook",
+          "Tailwind CSS",
+          "Git & GitHub",
+          "Figma",
+          "Postico",
+          "Android Studio",
+          "Firebase (Realtime Database, Firestore)",
+          "MongoDB Atlas Search",
+          "Insomnia",
+          "Raspberry Pi & Arduino (IoT)",
+        ],
+      },
+    ],
   },
   workExperience: {
     title: "Experience",
     experiences: [
+      {
+        jobTitle: "Co-Founder & Consultant",
+        companyTitle: "OwnTube Nordic AB – Stockholm, Sweden",
+        date: "2024-10–Present",
+        highlights:
+          "- Co-founded own IT consulting company OwnTube Nordic AB with my partner.\n" +
+          "- Familiarized myself with business context and culture in Sweden, gained proficiency in dealing with " +
+          "Swedish authorities and banks. Learnt Swedish up to intermediate proficiency level and completed Swedish " +
+          "For Immigrants (SFI).\n" +
+          "- Built a number of projects using different AI tools; Lovable.dev apps, CustomGPTs in ChatGPT, OpenAI " +
+          "Assistants. Established professional network in Stockholm; meeting with customers and building " +
+          "partnerships.\n",
+        description: null,
+        assignmentsText: null,
+        internalProjectNotes: {
+          // 2024-08 to 2025-02
+          Folkuniversitetet: "Learning everything about Swedish language basics, from A1 to B2-",
+          // 2024-10 to 2024-12
+          OwnTubeProject:
+            "Registered a company in Sweden, learning about Bolagsverket and Banks and Skatteverket\n" +
+            "Learnt more/other Swedish\n" +
+            "Integrating\n" +
+            "Getting to know people\n" +
+            "Knows my partner's social-professional network\n" +
+            "Interviews with different companies\n",
+          // 2025-01 to 2025-04
+          "AI-projektet":
+            "Project plan and selling it\n" +
+            "Building a CustomGPT with my partner\n" +
+            "Using Python Click for command line tool development\n" +
+            "Learning to deal with Python projects (tests and stuff)\n",
+          // 2025-03 and ongoing
+          "SFX-IT":
+            "Going to SFX-IT in Tyresö\n" +
+            "Completing SFI levels C and D\n" +
+            "Learning Swedish IT vocabulary\n" +
+            "Professional skills in Swedish\n" +
+            "Getting all documents in place, translated Czech grades and more\n" +
+            "...\n",
+        },
+      },
       {
         jobTitle: "Full Stack Developer",
         companyTitle: "Purple Technology – Brno, Czech Republic & Remote",
@@ -175,6 +284,27 @@ const en = {
   education: {
     title: "Education",
     degrees: [
+      // {
+      //   jobTitle: "Swedish for programmers",
+      //   companyTitle: "SFX-IT – Tyresö, Sweden",
+      //   date: "2025–Ongoing",
+      //   highlights:
+      //     "- Vocational Swedish for IT professionals (distance studies).\n",
+      //   description: null,
+      //   assignmentsText: null,
+      //   internalProjectNotes: null,
+      // },
+      {
+        jobTitle: "Swedish courses A1 to B2",
+        companyTitle: "Folkuniversitetet – Stockholm, Sweden",
+        date: "2024–2025",
+        highlights:
+          "- Completed first 5 Swedish courses in 6 months of half-time classroom studies.\n" +
+          "- Reached intermediate proficiency in Swedish, CEFR level B1.\n",
+        description: null,
+        assignmentsText: null,
+        internalProjectNotes: null,
+      },
       {
         jobTitle: "BSc in Software Development",
         companyTitle: "Unicorn University – Prague, Czech Republic",
@@ -253,7 +383,5 @@ const en = {
     ],
   },
 } as const;
-
-export type Translations = typeof en;
 
 export default en;

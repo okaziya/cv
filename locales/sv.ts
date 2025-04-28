@@ -1,5 +1,3 @@
-import ShowDetails from "../components/ShowDetails";
-
 const sv = {
   name: "Liza Blomdahl-Olsevskaja – Mitt CV",
   skills: "Färdigheter",
@@ -25,16 +23,99 @@ const sv = {
   },
   skillsSection: {
     title: "Färdigheter",
-    categories: {
-      skills: "Allmänna kunskaper",
-      codeLanguages: "Programmeringsspråk",
-      tools: "Verktyg och ramverk",
-      databases: "Databaser",
-    },
+    categories: [
+      {
+        key: "codeLanguages",
+        title: "Programmeringsspråk",
+        items: ["JavaScript (ES6+)", "TypeScript", "Python", "HTML5", "CSS3", "SQL", "Ruby (grundläggande kunskaper)"],
+      },
+      {
+        key: "databases",
+        title: "Databaser",
+        items: [
+          "MongoDB",
+          "DynamoDB",
+          "SQL (PostgreSQL, grundläggande MySQL)",
+          "SQLite",
+          "Elasticsearch",
+          "Firebase (Firestore)",
+        ],
+      },
+      {
+        key: "skills",
+        title: "Allmänna kunskaper",
+        items: [
+          "Responsiv webbdesign",
+          "Molnbaserade lösningar (Cloud Computing)",
+          "API-design (RESTful APIs)",
+          "Autentisering och auktorisation (OAuth, JWT, Google Sign-In)",
+          "Agil metodik (Scrum)",
+          "Enhets- och integrationstester (Jest)",
+          "CI/CD (GitHub Actions, CircleCI)",
+          "Versionshantering (Git)",
+          "Feature flag-hantering (AWS AppConfig)",
+          "Kodgranskning och refaktorisering",
+          "Datavisualisering",
+          "Webbtillgänglighet (WCAG)",
+          "SEO-optimering",
+          "Tvärfunktionellt samarbete",
+          "UX/UI-bästa praxis",
+          "Grundläggande projektledning",
+          "Teknisk dokumentation",
+        ],
+      },
+      {
+        key: "tools",
+        title: "Verktyg och ramverk",
+        items: [
+          "React",
+          "Bootstrap",
+          "SCSS (SASS)",
+          "GraphQL (Apollo)",
+          "tRPC",
+          "Jest",
+          "Vitest",
+          "React Testing Library",
+          "React Query",
+          "React Native (grundläggande kunskaper)",
+          "AWS Lambda",
+          "AWS Step Functions",
+          "AWS Cognito",
+          "Amazon S3",
+          "Jekyll",
+          "Next.js",
+          "Storybook",
+          "Tailwind CSS",
+          "Git & GitHub",
+          "Figma",
+          "Postico",
+          "Android Studio",
+          "Firebase (Realtime Database, Firestore)",
+          "MongoDB Atlas Search",
+          "Insomnia",
+          "Raspberry Pi & Arduino (IoT)",
+        ],
+      },
+    ],
   },
   workExperience: {
     title: "Erfarenhet",
     experiences: [
+      {
+        jobTitle: "Medgrundare & IT-konsult",
+        companyTitle: "OwnTube Nordic AB – Stockholm, Sverige",
+        date: "2024-10–pågående",
+        highlights:
+          "- Medgrundade konsultbolaget OwnTube Nordic AB tillsammans med min partner.\n" +
+          "- Integration i Sverige: folkbokföring avklarad, kontakt med myndigheter och banker, slutfört alla steg i " +
+          "SFI och lärt mig om arbetsmarknad/företagskultur i mitt nya hemland.\n" +
+          "- Byggt ett antal projekt med olika AI-verktyg: Lovable.dev-appar, egna CustomGPTs i ChatGPT och OpenAI " +
+          "Assistants.\n" +
+          "- Etablerat professionellt nätverk i Stockholm, träffat kunder och påbörjat yrkesmässiga samarbeten.\n",
+        description: null,
+        assignmentsText: null,
+        internalProjectNotes: null,
+      },
       {
         jobTitle: "Fullstackutvecklare",
         companyTitle: "Purple Technology – Brno, Tjeckien & Remote",
@@ -246,6 +327,26 @@ const sv = {
   education: {
     title: "Utbildning",
     degrees: [
+      // {
+      //   jobTitle: "Svenska för programmerare",
+      //   companyTitle: "SFX-IT – Tyresö, Sverige",
+      //   date: "2025–pågående",
+      //   highlights:
+      //     "- Yrkessvenska inom IT från nivå SVA grund (distanskurs).\n",
+      //   description: null,
+      //   assignmentsText: null,
+      //   internalProjectNotes: null,
+      // },
+      {
+        jobTitle: "Svenska A1 till B2",
+        companyTitle: "Folkuniversitetet – Stockholm, Sverige",
+        date: "2024–2025",
+        highlights:
+          "- Slutförde första 5 svenska-kurserna (6 månader av klassrumsstudier på halvfart).\n",
+        description: null,
+        assignmentsText: null,
+        internalProjectNotes: null,
+      },
       {
         jobTitle: "BSc in Software Development",
         companyTitle: "Unicorn University – Prag, Tjeckien",
@@ -268,7 +369,7 @@ const sv = {
           "**UPPDRAG (PERIOD):** Fullstack-utvecklare (2022-01–2022-03)\n" +
           "\n" +
           "**BESKRIVNING:**\n" +
-          "Liza byggde ett förslag till studentportal för Unicorn University, från projektbeskrivning och -planering," +
+          "Liza byggde ett förslag till studentportal för Unicorn University, från projektbeskrivning och -planering, " +
           "design av UML-diagram för alla flöden, och JIRA-backlog. Lösningen implementerades med studentinloggning, " +
           "översikt av pågående kurser, kurslitteratur, personuppgifter, betyg, och kontaktuppgifter till lärare.\n" +
           "\n" +
