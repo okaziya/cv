@@ -12,6 +12,7 @@ export const EducationSectionWrapper = styled.section`
   `}
 
   &::before {
+    will-change: filter, transform;
     content: "";
     position: absolute;
     top: 300px;

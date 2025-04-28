@@ -66,6 +66,7 @@ export const HeroSectionWrapper = styled.section`
   }
 
   &::before {
+    will-change: filter, transform;
     content: "";
     position: absolute;
     top: 231px;
@@ -79,6 +80,7 @@ export const HeroSectionWrapper = styled.section`
   }
 
   &::after {
+    will-change: filter, transform;
     content: "";
     position: absolute;
     top: 570px;

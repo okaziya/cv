@@ -11,6 +11,7 @@ export const WorkExperienceSectionWrapper = styled.section`
   `}
 
   &::before {
+    will-change: filter, transform;
     content: "";
     position: absolute;
     bottom: 52px;
