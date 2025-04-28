@@ -66,6 +66,7 @@ export const HeroSectionWrapper = styled.section`
   }
 
   &::before {
+    will-change: filter, transform;
     content: "";
     position: absolute;
     top: 231px;
@@ -73,13 +74,14 @@ export const HeroSectionWrapper = styled.section`
     width: 108%;
     height: 35%;
     background: linear-gradient(rgba(84, 84, 212, 0.27), rgba(84, 84, 212, 0.1134));
-    filter: blur(300px);
+    filter: blur(100px);
     transform: rotate(30deg);
-    z-index: -1;
     border-radius: 233px;
+    z-index: -1;
   }
 
   &::after {
+    will-change: filter, transform;
     content: "";
     position: absolute;
     top: 570px;
@@ -87,9 +89,9 @@ export const HeroSectionWrapper = styled.section`
     width: 108%;
     height: 45%;
     background: linear-gradient(rgba(251, 168, 28, 0.0832), rgba(224, 86, 136, 0.048));
-    filter: blur(300px);
+    filter: blur(100px);
     transform: rotate(-25deg);
-    z-index: -1;
     border-radius: 233px;
+    z-index: -1;
   }
 `;
