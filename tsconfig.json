@@ -107,12 +107,6 @@
       }
     ]
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "pages/index.js",
-    ".next/types/**/*.ts"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.js", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }

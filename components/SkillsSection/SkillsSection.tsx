@@ -1,33 +1,24 @@
-import React from "react";
-import { getTranslations } from "../../lib/getTranslations";
-import { Locale } from "../../types";
-import SkillCategory from "./SkillCategory";
-import { SKILL_CATEGORIES } from "../../config";
-import { SkillCategoryKey } from "../../types";
-import { SkillSectionWrapper } from "./SkillSection.styles";
+"use client";
 
-export default function SkillsSection({ locale }: { locale: Locale }) {
-  const translations = getTranslations(locale);
+import React from "react";
+import SkillCategory from "./SkillCategory";
+import { SkillSectionWrapper } from "./SkillSection.styles";
+import { useLocale } from "../../context/LocaleContext";
+import { getTranslation } from "../../lib/getTranslation";
+
+export default function SkillsSection() {
+  const { locale } = useLocale();
+
+  const translations = getTranslation(locale);
 
   return (
     <SkillSectionWrapper className="row flex-wrap">
-      {SKILL_CATEGORIES.map(({ titleKey, skills }, index) => {
-        // Ensure TypeScript enforces that titleKey exists in translations
-        const translatedTitle =
-          translations.skillsSection.categories[titleKey as SkillCategoryKey];
-
-        return (
-          <>
-            <SkillCategory
-              key={index}
-              title={translatedTitle} // Type-safe translation lookup
-              skillList={skills}
-            />
-            {index === 1 && <div className="w-100"></div>}
-            {/* Row break after the second item */}
-          </>
-        );
-      })}
+      {translations.skillsSection.categories.map(({ key, title, items }, index) => (
+        <React.Fragment key={key}>
+          <SkillCategory title={title} skillList={Array.from(items)} />
+          {index === 1 && <div className="w-100" />}
+        </React.Fragment>
+      ))}
     </SkillSectionWrapper>
   );
 }

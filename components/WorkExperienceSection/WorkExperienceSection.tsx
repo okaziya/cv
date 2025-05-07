@@ -1,19 +1,20 @@
+"use client";
+
 import React from "react";
 import { montserratExtraBold } from "../../styles/fonts";
-import { getTranslations } from "../../lib/getTranslations";
-import { Locale } from "../../types";
 import ExperienceItem from "../ExperienceItem/ExperienceItem";
 import { WorkExperienceSectionWrapper } from "./WorkExperienceSection.styles";
+import { useLocale } from "../../context/LocaleContext";
+import { getTranslation } from "../../lib/getTranslation";
 
-export default function WorkExperienceSection({ locale }: { locale: Locale }) {
-  const translations = getTranslations(locale);
+export default function WorkExperienceSection() {
+  const { locale } = useLocale();
+  const translations = getTranslation(locale);
 
   return (
     <WorkExperienceSectionWrapper>
       <div className="section-first-column">
-        <h2 className={montserratExtraBold.className}>
-          {translations.workExperience.title}
-        </h2>
+        <h2 className={montserratExtraBold.className}>{translations.workExperience.title}</h2>
       </div>
       <div>
         {translations.workExperience.experiences.map((experience, index) => (
@@ -22,7 +23,8 @@ export default function WorkExperienceSection({ locale }: { locale: Locale }) {
             jobTitle={experience.jobTitle}
             companyTitle={experience.companyTitle}
             date={experience.date}
-            responsibilities={experience.responsibilities}
+            highlights={experience.highlights}
+            assignmentsText={experience.assignmentsText}
           />
         ))}
       </div>

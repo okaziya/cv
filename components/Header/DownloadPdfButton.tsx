@@ -1,16 +1,17 @@
 "use client";
 
-import { Locale } from "../../types";
 import { getImagePath } from "../../utils/imagePath";
 import Image from "next/image";
-import { getTranslations } from "../../lib/getTranslations";
 import useIsMobile from "../../hooks/useIsMobile";
 import { PrimaryButton } from "./DownloadPdfButton.styles";
 import { PDFDownloadLink } from "@react-pdf/renderer";
+import { getTranslation } from "../../lib/getTranslation";
 import MyPDFDocument from "../MyPDFDocument";
+import { useLocale } from "../../context/LocaleContext";
 
-export default function DownloadPdfButton({ locale }: { locale: Locale }) {
-  const translations = getTranslations(locale);
+export default function DownloadPdfButton() {
+  const { locale } = useLocale();
+  const translations = getTranslation(locale);
   const isMobile = useIsMobile();
 
   return (

@@ -1,12 +1,16 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { CONTACT_INFO } from "../config";
-import { getTranslations } from "../lib/getTranslations";
-import { Locale } from "../types";
 import { getImagePath } from "../utils/imagePath";
+import { useLocale } from "../context/LocaleContext";
+import { getTranslation } from "../lib/getTranslation";
 
-export default function ContactInformation({ locale }: { locale: Locale }) {
-  const translations = getTranslations(locale);
+export default function ContactInformation() {
+  const { locale } = useLocale();
+
+  const translations = getTranslation(locale);
 
   const contactItems = [
     {
@@ -46,14 +50,7 @@ export default function ContactInformation({ locale }: { locale: Locale }) {
         <ul className="contact-list">
           {contactItems.map(({ href, icon, alt, text, isExternal }, index) => (
             <li key={index}>
-              <Image
-                src={getImagePath(icon)}
-                alt={alt}
-                width={24}
-                height={24}
-                priority
-                unoptimized
-              />
+              <Image src={getImagePath(icon)} alt={alt} width={24} height={24} priority unoptimized />
               {isExternal ? (
                 <Link href={href} target="_blank" rel="noopener noreferrer">
                   {text}

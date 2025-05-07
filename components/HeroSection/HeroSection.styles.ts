@@ -72,10 +72,7 @@ export const HeroSectionWrapper = styled.section`
     left: -401px;
     width: 108%;
     height: 35%;
-    background: linear-gradient(
-      rgba(84, 84, 212, 0.27),
-      rgba(84, 84, 212, 0.1134)
-    );
+    background: linear-gradient(rgba(84, 84, 212, 0.27), rgba(84, 84, 212, 0.1134));
     filter: blur(300px);
     transform: rotate(30deg);
     z-index: -1;
@@ -89,10 +86,7 @@ export const HeroSectionWrapper = styled.section`
     right: -30%;
     width: 108%;
     height: 45%;
-    background: linear-gradient(
-      rgba(251, 168, 28, 0.0832),
-      rgba(224, 86, 136, 0.048)
-    );
+    background: linear-gradient(rgba(251, 168, 28, 0.0832), rgba(224, 86, 136, 0.048));
     filter: blur(300px);
     transform: rotate(-25deg);
     z-index: -1;
