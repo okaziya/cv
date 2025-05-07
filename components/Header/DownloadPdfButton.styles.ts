@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { media } from "../../styles/media";
 
 export const PrimaryButton = styled.button`
+  color: ${({ theme }) => theme.colors.text};
   background-color: ${({ theme }) => theme.colors.brand};
   border-color: ${({ theme }) => theme.colors.brand};
   padding: 10px 20px;

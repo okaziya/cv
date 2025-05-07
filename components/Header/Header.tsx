@@ -30,7 +30,7 @@ export default function Header() {
         </ImageWrapper>
         <h3 className="m-0">{translations.name}</h3>
       </div>
-      <div className="d-flex">
+      <div className="d-flex align-items-center">
         <LanguageSwitcher />
         <DownloadPdfButton />
       </div>
