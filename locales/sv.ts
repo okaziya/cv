@@ -1,5 +1,5 @@
 const sv = {
-  name: "Liza Blomdahl-Olsevskaja – Mitt CV",
+  name: "Liza Blomdahl – Mitt CV",
   skills: "Färdigheter",
   codeLanguages: "Programmeringsspråk",
   downloadCv: "Ladda ner CV",
