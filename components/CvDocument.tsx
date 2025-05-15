@@ -178,6 +178,9 @@ const styles = StyleSheet.create({
     color: "#2c2ca7",
     marginBottom: 4,
   },
+  paddingTop: {
+    marginTop: 20,
+  },
 });
 
 const CvDocument = () => (
@@ -426,6 +429,31 @@ const CvDocument = () => (
 
         <View style={styles.assignment}>
           <Text style={styles.label}>
+            UPPDRAGSGIVARE: <Text style={styles.text}>Unicorn University</Text>
+          </Text>
+          <Text style={styles.label}>
+            UPPDRAG (PERIOD): <Text style={styles.text}>Fullstack-utvecklare (2022-01–2022-03)</Text>
+          </Text>
+          <Text style={styles.assignmentDescription}>
+            Liza byggde ett förslag till studentportal för Unicorn University, från projektbeskrivning och -planering,
+            design av UML-diagram för alla flöden, och JIRA-backlog. Lösningen implementerades med studentinloggning,
+            översikt av pågående kurser, kurslitteratur, personuppgifter, betyg, och kontaktuppgifter till lärare.
+          </Text>
+          <Text style={styles.label}>TEKNOLOGIER:</Text>
+          <Text style={styles.technologies}>
+            React, TypeScript, Material UI, CSS3, NodeJS, MongoDB Atlas, OAuth, UML, Insomnia, GitHub, VS Code
+          </Text>
+          <Text style={styles.label}>NYCKELORD:</Text>
+          <Text style={styles.text}>
+            Systemdesign, systemdokumentation, systemimplementation, studentprojekt, elevportal
+          </Text>
+        </View>
+      </View>
+    </Page>
+    <Page size="A4" style={styles.page}>
+      <View style={styles.projectPage}>
+        <View style={styles.assignment}>
+          <Text style={styles.label}>
             UPPDRAGSGIVARE: <Text style={styles.text}>Accenture</Text>
           </Text>
           <Text style={styles.label}>
@@ -447,10 +475,9 @@ const CvDocument = () => (
             Återanvändbara UI-komponenter, responsiv design, skalbarhet, designsystem, accessibility
           </Text>
         </View>
-      </View>
-    </Page>
-    <Page size="A4" style={styles.page}>
-      <View style={styles.projectPage}>
+
+        <View style={styles.separator} />
+
         <View style={styles.assignment}>
           <Text style={styles.label}>
             UPPDRAGSGIVARE: <Text style={styles.text}>iQuest s.r.o.</Text>
@@ -476,6 +503,32 @@ const CvDocument = () => (
 
         <View style={styles.assignment}>
           <Text style={styles.label}>
+            UPPDRAGSGIVARE: <Text style={styles.text}>Unicorn University</Text>
+          </Text>
+          <Text style={styles.label}>
+            UPPDRAG (PERIOD): <Text style={styles.text}>IoT-utvecklare (2021-02–2021-05)</Text>
+          </Text>
+
+          <Text style={styles.assignmentDescription}>
+            Liza utvecklade en IoT-lösning för blomsterbutiker tillsammans med ett team på 4 andra studenter. Systemet
+            mätte luftfuktighet från sensorer i butiken och samlade in mätvärden i MongoDB. Teamet byggde en interaktiv
+            dashboard för att visualisera data i realtid. Sensorutrustningen baserades på Arduino Uno (mikrokontroller)
+            och Raspberry Pi för datainsamling.
+          </Text>
+          <Text style={styles.label}>TEKNOLOGIER:</Text>
+          <Text style={styles.technologies}>
+            React, TypeScript, Chart.js, CSS3, Raspberry Pi, Arduino Uno, MongoDB, GitHub, Trello, VS Code
+          </Text>
+          <Text style={styles.label}>NYCKELORD:</Text>
+          <Text style={styles.text}>
+            Systemdesign, visualisering, datainsamling, studentprojekt, Internet of Things (IoT)
+          </Text>
+        </View>
+
+        <View style={styles.separator} />
+
+        <View style={styles.assignment}>
+          <Text style={styles.label}>
             UPPDRAGSGIVARE: <Text style={styles.text}>iQuest s.r.o.</Text>
           </Text>
           <Text style={styles.label}>
@@ -492,7 +545,7 @@ const CvDocument = () => (
           <Text style={styles.technologies}>
             Lighthouse, PageSpeed Insights, CSS3, SCSS, Git, Ruby, HTML5, JavaScript, jQuery, Bootstrap, WebStorm, Slack
           </Text>
-          <Text style={styles.label}>NYCKELORD:</Text>
+          <Text style={[styles.label, styles.paddingTop]}>NYCKELORD:</Text>
           <Text style={styles.text}>
             Accessibility, prestandaförbättring, SEO, CSS-animeringar, responsiv design, Reusable Components,
             Maintainability, refaktorering, företagswebbsida
@@ -537,11 +590,8 @@ const CvDocument = () => (
           <Text style={styles.label}>NYCKELORD:</Text>
           <Text style={styles.text}>B2C, SEO, responsiv design, marknadsföring, produktpresentationer</Text>
         </View>
-      </View>
-    </Page>
+        <View style={styles.separator} />
 
-    <Page size="A4" style={styles.page}>
-      <View style={styles.projectPage}>
         <View style={styles.assignment}>
           <Text style={styles.label}>
             UPPDRAGSGIVARE: <Text style={styles.text}>iQuest s.r.o.</Text>
@@ -585,9 +635,11 @@ const CvDocument = () => (
           <Text style={styles.label}>NYCKELORD:</Text>
           <Text style={styles.text}>App-utveckling, mobilapp, lojalitetsapp, marknadsföring, B2C, livsmedelskedja</Text>
         </View>
+      </View>
+    </Page>
 
-        <View style={styles.separator} />
-
+    <Page size="A4" style={styles.page}>
+      <View style={styles.projectPage}>
         <View style={styles.assignment}>
           <Text style={styles.label}>
             UPPDRAGSGIVARE: <Text style={styles.text}>iQuest s.r.o.</Text>
