@@ -12,6 +12,7 @@ export const EducationSectionWrapper = styled.section`
   `}
 
   &::before {
+    will-change: filter, transform;
     content: "";
     position: absolute;
     top: 300px;
@@ -19,9 +20,9 @@ export const EducationSectionWrapper = styled.section`
     width: 215%;
     height: 860px;
     background: linear-gradient(rgba(251, 168, 28, 0.084), rgba(224, 86, 136, 0.0315));
-    filter: blur(300px);
+    filter: blur(100px);
     transform: rotate(-22deg);
-    z-index: -1;
     border-radius: 233px;
+    z-index: -1;
   }
 `;

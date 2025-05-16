@@ -1,5 +1,5 @@
 export const CONTACT_INFO = {
-  name: "Liza Blomdahl-Olsevskaja",
+  name: "Liza Blomdahl",
   email: "liza.blomdahl@gmail.com",
   phone: "0730-500 244",
   linkedin: "https://www.linkedin.com/in/liza-blomdahl/",
@@ -7,6 +7,6 @@ export const CONTACT_INFO = {
 };
 
 export const SITE_INFO = {
-  title: "CV | Liza Blomdahl-Olsevskaja - Full Stack Developer",
-  description: "Professional CV of Liza Blomdahl-Olsevskaja – a skilled Full Stack Developer.",
+  title: "CV | Liza Blomdahl - Full Stack Developer",
+  description: "Professional CV of Liza Blomdahl – a skilled Full Stack Developer.",
 };

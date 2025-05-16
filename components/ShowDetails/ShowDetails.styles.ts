@@ -22,24 +22,27 @@ export const ToggleButton = styled.button`
   }
 `;
 
-export const ArrowIcon = styled.span<{ isExpanded: boolean }>`
+export const ArrowIcon = styled.span.withConfig({
+  shouldForwardProp: (prop) => prop !== "isExpanded",
+})<{ isExpanded: boolean }>`
   transition: transform 0.3s ease;
   display: inline-block;
   transform: ${({ isExpanded }) => (isExpanded ? "rotate(90deg)" : "rotate(0)")};
 `;
 
-export const Details = styled.div<{ isExpanded: boolean }>`
+export const Details = styled.div.withConfig({
+  shouldForwardProp: (prop) => prop !== "isExpanded",
+})<{ isExpanded: boolean }>`
   width: 100%;
   overflow: hidden;
-  transition:
-    max-height 0.3s ease-in-out,
-    opacity 0.3s ease-in-out;
+  transition: ${({ theme }) => (theme.isSafari ? "none" : "max-height 0.3s ease-in-out, opacity 0.3s ease-in-out")};
 
   max-height: ${({ isExpanded }) => (isExpanded ? "100%" : "0")};
   opacity: ${({ isExpanded }) => (isExpanded ? 1 : 0)};
   margin-top: ${({ isExpanded }) => (isExpanded ? "10px" : "0")};
   color: ${({ theme }) => theme.colors.textMuted};
   font-size: 20px;
+
   strong,
   hr {
     color: ${({ theme }) => theme.colors.text};

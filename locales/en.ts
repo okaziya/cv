@@ -1,5 +1,5 @@
 const en = {
-  name: "Liza Blomdahl-Olsevskaja – My CV",
+  name: "Liza Blomdahl – My CV",
   codeLanguages: "Code Languages",
   downloadCv: "Download CV",
   showDetails: "Show details",
