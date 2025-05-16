@@ -341,8 +341,7 @@ const sv = {
         jobTitle: "Svenska A1 till B2",
         companyTitle: "Folkuniversitetet – Stockholm, Sverige",
         date: "2024–2025",
-        highlights:
-          "- Slutförde första 5 svenska-kurserna (6 månader av klassrumsstudier på halvfart).\n",
+        highlights: "- Slutförde första 5 svenska-kurserna (6 månader av klassrumsstudier på halvfart).\n",
         description: null,
         assignmentsText: null,
         internalProjectNotes: null,
@@ -421,18 +420,18 @@ const sv = {
     languages: [
       {
         name: "Svenska",
-        level: "Mellannivå (B2)",
+        level: "Mellannivå (på väg mot B2)",
       },
       {
         name: "Engelska",
-        level: "Avancerad (C1)",
-      },
-      {
-        name: "Ryska",
-        level: "Avancerad (C1)",
+        level: "Övre medelnivå (B2)",
       },
       {
         name: "Tjeckiska",
+        level: "Flytande (C2)",
+      },
+      {
+        name: "Ryska",
         level: "Flytande (C2)",
       },
     ],

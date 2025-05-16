@@ -6,7 +6,7 @@ import Image from "next/image";
 import { ImageWrapper, StyledHeader } from "./Header.styles";
 import { getImagePath } from "../../utils/imagePath";
 
-import DownloadPdfButton from "./DownloadPdfButton";
+import DownloadPdfButton from "./DownloadPdfLink";
 import { useLocale } from "../../context/LocaleContext";
 import { getTranslation } from "../../lib/getTranslation";
 
@@ -30,7 +30,7 @@ export default function Header() {
         </ImageWrapper>
         <h3 className="m-0">{translations.name}</h3>
       </div>
-      <div className="d-flex">
+      <div className="d-flex align-items-center">
         <LanguageSwitcher />
         <DownloadPdfButton />
       </div>

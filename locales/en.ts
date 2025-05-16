@@ -366,18 +366,18 @@ const en = {
     languages: [
       {
         name: "Swedish",
-        level: "Intermediate (B2)",
+        level: "Intermediate (in progress, B1–B2)",
       },
       {
         name: "English",
-        level: "Advanced (C1)",
-      },
-      {
-        name: "Russian",
-        level: "Advanced (C1)",
+        level: "Upper-Intermediate (B2)",
       },
       {
         name: "Czech",
+        level: "Proficient (C2)",
+      },
+      {
+        name: "Russian",
         level: "Proficient (C2)",
       },
     ],
