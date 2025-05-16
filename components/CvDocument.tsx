@@ -29,6 +29,8 @@ Font.register({
   ],
 });
 
+Font.registerHyphenationCallback((word) => [word]);
+
 const styles = StyleSheet.create({
   page: {
     color: "#333",
@@ -200,7 +202,7 @@ const CvDocument = () => (
           <View>
             <Image style={styles.logo} src="glasses-black.png" />
             <Text style={styles.name}>Liza Blomdahl</Text>
-            <Text>EU-medborgare (Tjeckien), svenskt{"\n"}personnumber: 940711-4223</Text>
+            <Text>EU-medborgare (Tjeckien), svenskt personnumber: 940711-4223</Text>
             <Text style={styles.personalNumber}></Text>
           </View>
           <Text style={styles.orgamisationName}>https://okaziya.github.io/cv/</Text>
@@ -248,9 +250,9 @@ const CvDocument = () => (
           <View style={styles.section}>
             <Text style={styles.title}>Skills</Text>
             <Text style={styles.skills}>
-              TypeScript, JavaScript, Python, HTML5, CSS3, SQL, React, Agile{"\n"}/Scrum, Bootstrap, SASS, Material UI,
-              GraphQL, Next.js, tRPC, useQuery, REST API, CI/CD (GitHub Actions,{"\n"}CircleCI), MongoDB, DynamoDB,
-              SQLite, Firebase (Firestore), Jest, Vitest, Storybook, Tailwind CSS, AWS, Git & GitHub, React Native
+              TypeScript, JavaScript, Python, HTML5, CSS3, SQL, React, Agile, Scrum, Bootstrap, SASS, Material UI,
+              GraphQL, Next.js, tRPC, useQuery, REST API, CI/CD (GitHub Actions, CircleCI), MongoDB, DynamoDB, SQLite,
+              Firebase (Firestore), Jest, Vitest, Storybook, Tailwind CSS, AWS, Git & GitHub, React Native
             </Text>
           </View>
 
@@ -309,15 +311,15 @@ const CvDocument = () => (
               </View>
               <Text style={styles.orgamisationName}>OwnTube Nordic AB – Stockholm, Sverige </Text>
               <Text style={styles.list}>
-                • Medgrundade konsultbolaget OwnTube Nordic AB tillsammans med min partner.
+                • Medgrundade konsultbolaget OwnTube Nordic AB{"\n"}tillsammans med min partner.
               </Text>
               <Text style={styles.list}>
                 • Integration i Sverige: folkbokföring avklarad, kontakt med myndigheter och banker, slutfört alla steg
                 i SFI och lärt mig om arbetsmarknad/företagskultur i mitt nya hemland.
               </Text>
-              <Text style={styles.list}>
-                • Byggt ett antal projekt med olika AI-verktyg: Lovable.dev-appar, egna CustomGPTs i ChatGPT och OpenAI
-                Assistants.
+              <Text style={styles.list} wrap={false}>
+                • Byggt ett antal projekt med olika AI-verktyg: {"\n"} Lovable.dev-appar, egna CustomGPTs i ChatGPT och
+                OpenAI Assistants.
               </Text>
             </View>
 
