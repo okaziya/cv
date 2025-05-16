@@ -15,14 +15,14 @@ export default function DownloadPdfButton() {
   const isMobile = useIsMobile();
 
   return (
-    <PrimaryButton>
-      <PDFDownloadLink
-        document={<CvDocument />}
-        fileName="Liza-Blomdahl-CV.pdf"
-        style={{ all: "unset", cursor: "pointer" }}
-      >
-        {({ loading }) =>
-          loading ? (
+    <PDFDownloadLink
+      document={<CvDocument />}
+      fileName="Liza-Blomdahl-CV.pdf"
+      style={{ all: "unset", cursor: "pointer" }}
+    >
+      {({ loading }) => (
+        <PrimaryButton>
+          {loading ? (
             "Loading PDF..."
           ) : isMobile ? (
             <>
@@ -38,9 +38,9 @@ export default function DownloadPdfButton() {
             </>
           ) : (
             translations.downloadCv
-          )
-        }
-      </PDFDownloadLink>
-    </PrimaryButton>
+          )}
+        </PrimaryButton>
+      )}
+    </PDFDownloadLink>
   );
 }
