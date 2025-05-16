@@ -20,7 +20,9 @@ export const StyledPdfLink = styled(PDFDownloadLink)`
   transition: all 0.3s ease;
   max-height: 60px;
   white-space: nowrap;
-  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     background-color: rgba(107, 107, 241, 1);
