@@ -5,7 +5,6 @@ import { media } from "../../styles/media";
 import { PDFDownloadLink } from "@react-pdf/renderer";
 
 export const StyledPdfLink = styled(PDFDownloadLink)`
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
