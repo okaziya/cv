@@ -25,6 +25,5 @@ export const PrimaryButton = styled.button`
   ${media.mobile`
     white-space: nowrap;
     padding: 12px 16px;
-    max-height: 48px;
   `}
 `;
