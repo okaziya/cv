@@ -57,6 +57,7 @@ const styles = StyleSheet.create({
   },
   logo: {
     width: 54,
+    height: "auto",
     paddingBottom: 5,
   },
   name: {
@@ -181,6 +182,13 @@ const styles = StyleSheet.create({
   paddingTop: {
     marginTop: 20,
   },
+  pageNumber: {
+    position: "absolute",
+    bottom: 20,
+    right: 18,
+    fontSize: 10,
+    color: "grey",
+  },
 });
 
 const CvDocument = () => (
@@ -192,10 +200,10 @@ const CvDocument = () => (
           <View>
             <Image style={styles.logo} src="glasses-black.png" />
             <Text style={styles.name}>Liza Blomdahl</Text>
-            <Text>EU-medborgare (Tjeckien)</Text>
-            <Text style={styles.personalNumber}>Folkbokförd i Sverige</Text>
+            <Text>EU-medborgare (Tjeckien), svenskt{"\n"}personnumber: 940711-4223</Text>
+            <Text style={styles.personalNumber}></Text>
           </View>
-          <Text style={styles.orgamisationName}>okaziya.github.io/cv/</Text>
+          <Text style={styles.orgamisationName}>https://okaziya.github.io/cv/</Text>
         </View>
 
         {/* Main Content */}
@@ -203,7 +211,7 @@ const CvDocument = () => (
           <Text style={styles.workingTitle}>Fullstackutvecklare</Text>
           <Text style={styles.summary}>
             En engagerad Fullstack-utvecklare med fokus på frontend och över fem års erfarenhet. Skicklig i JavaScript,
-            React, TypeScript och MongoDB. {"\n"} Jag har bidragit till fler än 30 projekt.
+            React, TypeScript och MongoDB. Jag har bidragit till fler än 30 projekt.
           </Text>
         </View>
       </View>
@@ -240,8 +248,8 @@ const CvDocument = () => (
           <View style={styles.section}>
             <Text style={styles.title}>Skills</Text>
             <Text style={styles.skills}>
-              TypeScript, JavaScript, Python, HTML5, CSS3, SQL, React, Agil metodik (Scrum), Bootstrap, SASS, Material
-              UI, GraphQL, Next.js, tRPC, useQuery, REST API, CI/CD (GitHub Actions, CircleCI), MongoDB, DynamoDB,
+              TypeScript, JavaScript, Python, HTML5, CSS3, SQL, React, Agile{"\n"}/Scrum, Bootstrap, SASS, Material UI,
+              GraphQL, Next.js, tRPC, useQuery, REST API, CI/CD (GitHub Actions,{"\n"}CircleCI), MongoDB, DynamoDB,
               SQLite, Firebase (Firestore), Jest, Vitest, Storybook, Tailwind CSS, AWS, Git & GitHub, React Native
             </Text>
           </View>
@@ -292,7 +300,7 @@ const CvDocument = () => (
         <View style={styles.experienceColumn}>
           {/* Work Experience */}
           <View style={styles.section}>
-            <Text style={styles.title}>Arbetslivserfarenhet</Text>
+            <Text style={styles.title}>Anställningar</Text>
 
             <View style={styles.section}>
               <View style={styles.row}>
@@ -367,6 +375,7 @@ const CvDocument = () => (
           </View>
         </View>
       </View>
+      <Text style={styles.pageNumber} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} fixed />
     </Page>
     <Page size="A4" style={styles.page}>
       <View style={styles.projectPage}>
@@ -449,6 +458,7 @@ const CvDocument = () => (
           </Text>
         </View>
       </View>
+      <Text style={styles.pageNumber} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} fixed />
     </Page>
     <Page size="A4" style={styles.page}>
       <View style={styles.projectPage}>
@@ -636,6 +646,7 @@ const CvDocument = () => (
           <Text style={styles.text}>App-utveckling, mobilapp, lojalitetsapp, marknadsföring, B2C, livsmedelskedja</Text>
         </View>
       </View>
+      <Text style={styles.pageNumber} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} fixed />
     </Page>
 
     <Page size="A4" style={styles.page}>
@@ -661,6 +672,7 @@ const CvDocument = () => (
           </Text>
         </View>
       </View>
+      <Text style={styles.pageNumber} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} fixed />
     </Page>
   </Document>
 );
