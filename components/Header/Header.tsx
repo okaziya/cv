@@ -6,7 +6,7 @@ import Image from "next/image";
 import { ImageWrapper, StyledHeader } from "./Header.styles";
 import { getImagePath } from "../../utils/imagePath";
 
-import DownloadPdfButton from "./DownloadPdfButton";
+import DownloadPdfButton from "./DownloadPdfLink";
 import { useLocale } from "../../context/LocaleContext";
 import { getTranslation } from "../../lib/getTranslation";
 

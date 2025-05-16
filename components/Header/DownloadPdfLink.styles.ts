@@ -2,8 +2,13 @@
 
 import styled from "styled-components";
 import { media } from "../../styles/media";
+import { PDFDownloadLink } from "@react-pdf/renderer";
 
-export const PrimaryButton = styled.button`
+export const StyledPdfLink = styled(PDFDownloadLink)`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   color: ${({ theme }) => theme.colors.text};
   background-color: ${({ theme }) => theme.colors.brand};
   border-color: ${({ theme }) => theme.colors.brand};
