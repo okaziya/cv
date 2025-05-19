@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     fontWeight: "light",
     paddingLeft: 5,
   },
-  orgamisationName: {
+  organizationName: {
     fontWeight: "medium",
     marginBottom: 5,
   },
@@ -205,7 +205,7 @@ const CvDocument = () => (
             <Text>EU-medborgare (Tjeckien), svenskt personnumber: 940711-4223</Text>
             <Text style={styles.personalNumber}></Text>
           </View>
-          <Text style={styles.orgamisationName}>https://okaziya.github.io/cv/</Text>
+          <Text style={styles.organizationName}>https://okaziya.github.io/cv/</Text>
         </View>
 
         {/* Main Content */}
@@ -266,7 +266,7 @@ const CvDocument = () => (
                 <Text style={styles.year}>(2024-2025)</Text>
               </View>
 
-              <Text style={styles.orgamisationName}>Folkuniversitetet – Stockholm, Sverige</Text>
+              <Text style={styles.organizationName}>Folkuniversitetet – Stockholm, Sverige</Text>
             </View>
 
             <View style={styles.section}>
@@ -274,7 +274,7 @@ const CvDocument = () => (
                 <Text style={styles.subtitle}>Software Development</Text>
                 <Text style={styles.year}>(2020–2024)</Text>
               </View>
-              <Text style={styles.orgamisationName}>Unicorn University – Prag, Tjeckien</Text>
+              <Text style={styles.organizationName}>Unicorn University – Prag, Tjeckien</Text>
               <Text style={styles.list}>• Slutförde kandidatexamen i mjukvaruutveckling.</Text>
             </View>
 
@@ -283,7 +283,7 @@ const CvDocument = () => (
                 <Text style={styles.subtitle}>Tillämpad informatik</Text>
                 <Text style={styles.year}>(2014–2016)</Text>
               </View>
-              <Text style={styles.orgamisationName}>Prague University of Economics and Business – Prag, Tjeckien </Text>
+              <Text style={styles.organizationName}>Prague University of Economics and Business – Prag, Tjeckien </Text>
               <Text style={styles.list}>• Studerade tillämpad informatik med fokus på affärsapplikationer.</Text>
             </View>
           </View>
@@ -309,7 +309,7 @@ const CvDocument = () => (
                 <Text style={styles.subtitle}>Medgrundare & IT-konsult</Text>
                 <Text style={styles.year}>(2024-10–pågående)</Text>
               </View>
-              <Text style={styles.orgamisationName}>OwnTube Nordic AB – Stockholm, Sverige </Text>
+              <Text style={styles.organizationName}>OwnTube Nordic AB – Stockholm, Sverige </Text>
               <Text style={styles.list}>
                 • Medgrundade konsultbolaget OwnTube Nordic AB{"\n"}tillsammans med min partner.
               </Text>
@@ -328,7 +328,7 @@ const CvDocument = () => (
                 <Text style={styles.subtitle}>Fullstackutvecklare</Text>
                 <Text style={styles.year}>(2022-04–2024-09)</Text>
               </View>
-              <Text style={styles.orgamisationName}>Purple Technology – Brno, Tjeckien & Remote </Text>
+              <Text style={styles.organizationName}>Purple Technology – Brno, Tjeckien & Remote </Text>
               <Text style={styles.list}>
                 • Bidrog avsevärt till utvecklingen av ett internt CRM-system som fullstackutvecklare.
               </Text>
@@ -353,7 +353,7 @@ const CvDocument = () => (
                 <Text style={styles.subtitle}>Frontendutvecklare</Text>
                 <Text style={styles.year}>(2021-10–2022-02)</Text>
               </View>
-              <Text style={styles.orgamisationName}>Accenture – Distans </Text>
+              <Text style={styles.organizationName}>Accenture – Distans </Text>
               <Text style={styles.list}>
                 • Fokuserade främst på att utveckla återanvändbara komponenter för integration i Storybook.
               </Text>
@@ -365,7 +365,7 @@ const CvDocument = () => (
             <View style={styles.section}>
               <Text style={styles.subtitle}>Frontendutvecklare</Text>
               <View style={styles.row}>
-                <Text style={styles.orgamisationName}>iQuest s.r.o. – Prag, Tjeckien</Text>
+                <Text style={styles.organizationName}>iQuest s.r.o. – Prag, Tjeckien</Text>
                 <Text style={styles.year}>(2019-06–2021-10)</Text>
               </View>
               <Text style={styles.list}>
