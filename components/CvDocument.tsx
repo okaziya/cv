@@ -202,7 +202,7 @@ const CvDocument = () => (
           <View>
             <Image style={styles.logo} src="glasses-black.png" />
             <Text style={styles.name}>Liza Blomdahl</Text>
-            <Text>EU-medborgare (Tjeckien), svenskt personnumber: 940711-4223</Text>
+            <Text>EU-medborgare (Tjeckien), svenskt personnummer: 940711-4223</Text>
             <Text style={styles.personalNumber}></Text>
           </View>
           <Text style={styles.organizationName}>https://okaziya.github.io/cv/</Text>
