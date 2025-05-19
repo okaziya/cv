@@ -191,6 +191,18 @@ const styles = StyleSheet.create({
     fontSize: 10,
     color: "grey",
   },
+  listItem: {
+    flexDirection: "row",
+    marginBottom: 4,
+  },
+  bullet: {
+    width: 10,
+    fontSize: 12,
+  },
+  itemContent: {
+    flex: 1,
+    fontSize: 12,
+  },
 });
 
 const CvDocument = () => (
@@ -310,17 +322,26 @@ const CvDocument = () => (
                 <Text style={styles.year}>(2024-10–pågående)</Text>
               </View>
               <Text style={styles.orgamisationName}>OwnTube Nordic AB – Stockholm, Sverige </Text>
-              <Text style={styles.list}>
-                • Medgrundade konsultbolaget OwnTube Nordic AB{"\n"}tillsammans med min partner.
-              </Text>
-              <Text style={styles.list}>
-                • Integration i Sverige: folkbokföring avklarad, kontakt med myndigheter och banker, slutfört alla steg
-                i SFI och lärt mig om arbetsmarknad/företagskultur i mitt nya hemland.
-              </Text>
-              <Text style={styles.list} wrap={false}>
-                • Byggt ett antal projekt med olika AI-verktyg: {"\n"} Lovable.dev-appar, egna CustomGPTs i ChatGPT och
-                OpenAI Assistants.
-              </Text>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Medgrundade konsultbolaget OwnTube Nordic AB tillsammans med min partner.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Integration i Sverige: folkbokföring avklarad, kontakt med myndigheter och banker, slutfört alla steg
+                  i SFI och lärt mig om arbetsmarknad/företagskultur i mitt nya hemland.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Byggt ett antal projekt med olika AI-verktyg: Lovable.dev- appar, egna CustomGPTs i ChatGPT och OpenAI
+                  Assistants.
+                </Text>
+              </View>
             </View>
 
             <View style={styles.section}>
@@ -329,23 +350,33 @@ const CvDocument = () => (
                 <Text style={styles.year}>(2022-04–2024-09)</Text>
               </View>
               <Text style={styles.orgamisationName}>Purple Technology – Brno, Tjeckien & Remote </Text>
-              <Text style={styles.list}>
-                • Bidrog avsevärt till utvecklingen av ett internt CRM-system som fullstackutvecklare.
-              </Text>
-              <Text style={styles.list}>
-                • Deltog i hela utvecklingscykeln – från teknisk analys och estimering till design, implementation samt
-                backend- och frontend-integration – enligt en strukturerad process med enhetstestning och
-                acceptanstestning.
-              </Text>
-              <Text style={styles.list}>
-                • Arbetade med CI/CD-pipelines för att säkerställa god kvalitet och effektiv leverans.
-              </Text>
-              <Text style={styles.list}>
-                • Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank.
-              </Text>
-              <Text style={styles.list}>
-                • Fokuserade på att förbättra portalens funktioner genom migrering från GraphQL till tRPC.
-              </Text>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Bidrog avsevärt till utvecklingen av ett internt CRM-system som fullstackutvecklare.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Deltog i hela utvecklingscykeln – från teknisk analys och estimering till design, implementation samt
+                  backend- och frontend-integration – enligt en strukturerad process med enhetstestning och
+                  acceptanstestning.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Arbetade med CI/CD-pipelines för att säkerställa god kvalitet och effektiv leverans.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank, och förbättrade
+                  portalens funktion genom migrering från GraphQL till tRPC.
+                </Text>
+              </View>
             </View>
 
             <View style={styles.section}>
