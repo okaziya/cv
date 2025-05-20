@@ -133,22 +133,17 @@ const styles = StyleSheet.create({
   contactText: {
     fontWeight: "bold",
   },
-  list: {
-    paddingLeft: 0,
-    marginLeft: 0,
-  },
   skills: {
     fontSize: 12,
     lineHeight: 1.5,
   },
   row: {
     flexDirection: "row",
-    marginBottom: 3,
+    marginBottom: 2,
     flexWrap: "wrap",
   },
   languageRow: {
     fontSize: 12,
-
     lineHeight: 1.5,
   },
   assignment: {
@@ -168,7 +163,7 @@ const styles = StyleSheet.create({
   label: {
     fontFamily: "Montserrat",
     fontSize: 10,
-    marginBottom: 6,
+    marginBottom: 4,
   },
   text: { fontWeight: "normal", fontFamily: "Nunito Sans", fontSize: 12 },
   projectPage: {
@@ -190,6 +185,19 @@ const styles = StyleSheet.create({
     right: 18,
     fontSize: 10,
     color: "grey",
+  },
+  listItem: {
+    flexDirection: "row",
+    lineHeight: 0.87,
+    marginBottom: 3,
+  },
+  bullet: {
+    width: 10,
+    fontSize: 12,
+  },
+  itemContent: {
+    flex: 1,
+    fontSize: 12,
   },
 });
 
@@ -275,7 +283,10 @@ const CvDocument = () => (
                 <Text style={styles.year}>(2020–2024)</Text>
               </View>
               <Text style={styles.organizationName}>Unicorn University – Prag, Tjeckien</Text>
-              <Text style={styles.list}>• Slutförde kandidatexamen i mjukvaruutveckling.</Text>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>Slutförde kandidatexamen i mjukvaruutveckling.</Text>
+              </View>
             </View>
 
             <View style={styles.section}>
@@ -284,7 +295,10 @@ const CvDocument = () => (
                 <Text style={styles.year}>(2014–2016)</Text>
               </View>
               <Text style={styles.organizationName}>Prague University of Economics and Business – Prag, Tjeckien </Text>
-              <Text style={styles.list}>• Studerade tillämpad informatik med fokus på affärsapplikationer.</Text>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>Studerade tillämpad informatik med fokus på affärsapplikationer.</Text>
+              </View>
             </View>
           </View>
 
@@ -310,17 +324,26 @@ const CvDocument = () => (
                 <Text style={styles.year}>(2024-10–pågående)</Text>
               </View>
               <Text style={styles.organizationName}>OwnTube Nordic AB – Stockholm, Sverige </Text>
-              <Text style={styles.list}>
-                • Medgrundade konsultbolaget OwnTube Nordic AB{"\n"}tillsammans med min partner.
-              </Text>
-              <Text style={styles.list}>
-                • Integration i Sverige: folkbokföring avklarad, kontakt med myndigheter och banker, slutfört alla steg
-                i SFI och lärt mig om arbetsmarknad/företagskultur i mitt nya hemland.
-              </Text>
-              <Text style={styles.list} wrap={false}>
-                • Byggt ett antal projekt med olika AI-verktyg: {"\n"} Lovable.dev-appar, egna CustomGPTs i ChatGPT och
-                OpenAI Assistants.
-              </Text>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Medgrundade konsultbolaget OwnTube Nordic AB tillsammans med min partner.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Integration i Sverige: folkbokföring avklarad, kontakt med myndigheter och banker, slutfört alla steg
+                  i SFI och lärt mig om arbetsmarknad/företagskultur i mitt nya hemland.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Byggt ett antal projekt med olika AI-verktyg: Lovable.dev-appar, egna CustomGPTs i ChatGPT och OpenAI
+                  Assistants.
+                </Text>
+              </View>
             </View>
 
             <View style={styles.section}>
@@ -329,23 +352,38 @@ const CvDocument = () => (
                 <Text style={styles.year}>(2022-04–2024-09)</Text>
               </View>
               <Text style={styles.organizationName}>Purple Technology – Brno, Tjeckien & Remote </Text>
-              <Text style={styles.list}>
-                • Bidrog avsevärt till utvecklingen av ett internt CRM-system som fullstackutvecklare.
-              </Text>
-              <Text style={styles.list}>
-                • Deltog i hela utvecklingscykeln – från teknisk analys och estimering till design, implementation samt
-                backend- och frontend-integration – enligt en strukturerad process med enhetstestning och
-                acceptanstestning.
-              </Text>
-              <Text style={styles.list}>
-                • Arbetade med CI/CD-pipelines för att säkerställa god kvalitet och effektiv leverans.
-              </Text>
-              <Text style={styles.list}>
-                • Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank.
-              </Text>
-              <Text style={styles.list}>
-                • Fokuserade på att förbättra portalens funktioner genom migrering från GraphQL till tRPC.
-              </Text>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Bidrog avsevärt till utvecklingen av ett internt CRM-system som fullstackutvecklare.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Deltog i hela utvecklingscykeln – från teknisk analys och estimering till design, implementation samt
+                  backend- och frontend-integration – enligt en strukturerad process med enhetstestning och
+                  acceptanstestning.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Arbetade med CI/CD-pipelines för att säkerställa god kvalitet och effektiv leverans.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Fokuserade på att förbättra portalens funktioner genom migrering från GraphQL till tRPC.
+                </Text>
+              </View>
             </View>
 
             <View style={styles.section}>
@@ -354,12 +392,18 @@ const CvDocument = () => (
                 <Text style={styles.year}>(2021-10–2022-02)</Text>
               </View>
               <Text style={styles.organizationName}>Accenture – Distans </Text>
-              <Text style={styles.list}>
-                • Fokuserade främst på att utveckla återanvändbara komponenter för integration i Storybook.
-              </Text>
-              <Text style={styles.list}>
-                • Designade och implementerade komponenter för att förbättra UI-konsistens.
-              </Text>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Fokuserade främst på att utveckla återanvändbara komponenter för integration i Storybook.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Designade och implementerade komponenter för att förbättra UI-konsistens.
+                </Text>
+              </View>
             </View>
 
             <View style={styles.section}>
@@ -368,11 +412,22 @@ const CvDocument = () => (
                 <Text style={styles.organizationName}>iQuest s.r.o. – Prag, Tjeckien</Text>
                 <Text style={styles.year}>(2019-06–2021-10)</Text>
               </View>
-              <Text style={styles.list}>
-                • Specialiserad på frontendutveckling med erfarenhet av backendutveckling.
-              </Text>
-              <Text style={styles.list}>• Utvecklade responsiv styling för webb- och mobilprojekt.</Text>
-              <Text style={styles.list}>• Arbetade med olika projekt och olika programmeringsspråk och bibliotek.</Text>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Specialiserad på frontendutveckling med erfarenhet av backendutveckling.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}> Utvecklade responsiv styling för webb- och mobilprojekt.</Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Arbetade med olika projekt och olika programmeringsspråk och bibliotek.
+                </Text>
+              </View>
             </View>
           </View>
         </View>
