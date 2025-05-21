@@ -1,6 +1,6 @@
 export const CONTACT_INFO = {
   name: "Liza Blomdahl",
-  email: "liza.blomdahl@gmail.com",
+  email: "liza@owntube.tv",
   phone: "0730-500 244",
   linkedin: "https://www.linkedin.com/in/liza-blomdahl/",
   github: "https://github.com/okaziya",

@@ -32,6 +32,9 @@ npm run dev
 
 Format the code correctly with Prettier before submitting a PR, `npm run format`.
 
+**Note:** For playing with the PDF export feature, you may enable a live preview by uncommenting
+the _`PDFViewer`_ component in `app/[locale]/page.tsx`.
+
 ## Contributing
 
 Do You have some good ideas on how to make your CV into a website? A site that can serve as
