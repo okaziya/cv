@@ -130,8 +130,10 @@ const styles = StyleSheet.create({
     width: 12,
     marginRight: 5,
   },
-  contactText: {
+  contactLink: {
     fontWeight: "bold",
+    color: "#000000",
+    textDecoration: "none",
   },
   skills: {
     fontSize: 12,
@@ -177,7 +179,7 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   paddingTop: {
-    marginTop: 20,
+    marginTop: 30,
   },
   pageNumber: {
     position: "absolute",
@@ -188,7 +190,7 @@ const styles = StyleSheet.create({
   },
   listItem: {
     flexDirection: "row",
-    lineHeight: 0.87,
+    lineHeight: 0.9,
     marginBottom: 3,
   },
   bullet: {
@@ -198,6 +200,11 @@ const styles = StyleSheet.create({
   itemContent: {
     flex: 1,
     fontSize: 12,
+  },
+  cvLink: {
+    color: "#000000",
+    textDecoration: "none",
+    marginBottom: 4,
   },
 });
 
@@ -213,11 +220,10 @@ const CvDocument = () => (
             <Text>EU-medborgare (Tjeckien), svenskt personnummer: 940711-4223</Text>
             <Text style={styles.personalNumber}></Text>
           </View>
-          <Text style={styles.organizationName}>
-            <Link src="https://okaziya.github.io/cv/">https://okaziya.github.io/cv/</Link>
-          </Text>
+          <Link style={styles.cvLink} src="https://okaziya.github.io/cv/">
+            https://okaziya.github.io/cv/
+          </Link>
         </View>
-
         {/* Main Content */}
         <View style={styles.titleColumn}>
           <Text style={styles.workingTitle}>Fullstackutvecklare</Text>
@@ -235,34 +241,35 @@ const CvDocument = () => (
             <Text style={styles.title}>Kontakt</Text>
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="city.png" />
-              <Text style={styles.contactText}>
-                &nbsp;<Link src="https://maps.app.goo.gl/svMdqrQLshZExFHJ8">Hjorthagen, Stockholm</Link>
-              </Text>
+              <Link style={styles.contactLink} src="https://maps.app.goo.gl/svMdqrQLshZExFHJ8">
+                Hjorthagen, Stockholm
+              </Link>
             </View>
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="phone-gray.png" />
-              <Text style={styles.contactText}>
-                &nbsp;<Link src="tel:+46730500244">0730-500 244</Link>
-              </Text>
+              <Link style={styles.contactLink} src="tel:+46730500244">
+                0730-500 244
+              </Link>
             </View>
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="email-gray.png" />
-              <Text style={styles.contactText}>
-                &nbsp;<Link src="mailto:liza@owntube.tv">liza@owntube.tv</Link>
-              </Text>
+
+              <Link style={styles.contactLink} src="mailto:liza@owntube.tv">
+                liza@owntube.tv
+              </Link>
             </View>
 
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="in-gray.png" />
-              <Text style={styles.contactText}>
-                &nbsp;<Link src="https://www.linkedin.com/in/liza-blomdahl/">linkedin.com/in/liza-blomdahl/</Link>
-              </Text>
+              <Link style={styles.contactLink} src="https://www.linkedin.com/in/liza-blomdahl/">
+                linkedin.com/in/liza-blomdahl/
+              </Link>
             </View>
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="github-gray.png" />
-              <Text style={styles.contactText}>
-                &nbsp;<Link src="https://github.com/okaziya">@okaziya</Link>
-              </Text>
+              <Link style={styles.contactLink} src="https://github.com/okaziya">
+                @okaziya
+              </Link>
             </View>
           </View>
 
