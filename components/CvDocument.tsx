@@ -1,5 +1,5 @@
 import React from "react";
-import { Page, Text, View, Document, StyleSheet, Font, Image } from "@react-pdf/renderer";
+import { Page, Link, Text, View, Document, StyleSheet, Font, Image } from "@react-pdf/renderer";
 
 Font.register({
   family: "Nunito Sans",
@@ -213,7 +213,9 @@ const CvDocument = () => (
             <Text>EU-medborgare (Tjeckien), svenskt personnummer: 940711-4223</Text>
             <Text style={styles.personalNumber}></Text>
           </View>
-          <Text style={styles.organizationName}>https://okaziya.github.io/cv/</Text>
+          <Text style={styles.organizationName}>
+            <Link src="https://okaziya.github.io/cv/">https://okaziya.github.io/cv/</Link>
+          </Text>
         </View>
 
         {/* Main Content */}
@@ -233,30 +235,40 @@ const CvDocument = () => (
             <Text style={styles.title}>Kontakt</Text>
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="city.png" />
-              <Text style={styles.contactText}>Stockholm</Text>
+              <Text style={styles.contactText}>
+                &nbsp;<Link src="https://maps.app.goo.gl/svMdqrQLshZExFHJ8">Hjorthagen, Stockholm</Link>
+              </Text>
             </View>
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="phone-gray.png" />
-              <Text style={styles.contactText}> 0730-500 244</Text>
+              <Text style={styles.contactText}>
+                &nbsp;<Link src="tel:+46730500244">0730-500 244</Link>
+              </Text>
             </View>
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="email-gray.png" />
-              <Text style={styles.contactText}> liza.blomdahl@gmail.com</Text>
+              <Text style={styles.contactText}>
+                &nbsp;<Link src="mailto:liza@owntube.tv">liza@owntube.tv</Link>
+              </Text>
             </View>
 
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="in-gray.png" />
-              <Text style={styles.contactText}> linkedin.com/in/liza-blomdahl/</Text>
+              <Text style={styles.contactText}>
+                &nbsp;<Link src="https://www.linkedin.com/in/liza-blomdahl/">linkedin.com/in/liza-blomdahl/</Link>
+              </Text>
             </View>
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="github-gray.png" />
-              <Text style={styles.contactText}> @okaziya</Text>
+              <Text style={styles.contactText}>
+                &nbsp;<Link src="https://github.com/okaziya">@okaziya</Link>
+              </Text>
             </View>
           </View>
 
           {/* Skills */}
           <View style={styles.section}>
-            <Text style={styles.title}>Skills</Text>
+            <Text style={styles.title}>Teknologier/färdigheter</Text>
             <Text style={styles.skills}>
               TypeScript, JavaScript, Python, HTML5, CSS3, SQL, React, Agile, Scrum, Bootstrap, SASS, Material UI,
               GraphQL, Next.js, tRPC, useQuery, REST API, CI/CD (GitHub Actions, CircleCI), MongoDB, DynamoDB, SQLite,
@@ -306,7 +318,7 @@ const CvDocument = () => (
           <View style={styles.section}>
             <Text style={styles.title}>Språk</Text>
             <Text style={styles.languageRow}>Svenska – Mellannivå (på väg mot B2)</Text>
-            <Text style={styles.languageRow}>Engelska - Övre medelnivå (B2)</Text>
+            <Text style={styles.languageRow}>Engelska – Övre medelnivå (B2)</Text>
             <Text style={styles.languageRow}>Tjeckiska – Flytande (C2)</Text>
             <Text style={styles.languageRow}>Ryska – Flytande (C2)</Text>
           </View>
@@ -340,7 +352,7 @@ const CvDocument = () => (
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.itemContent}>
-                  Byggt ett antal projekt med olika AI-verktyg: Lovable.dev-appar, egna CustomGPTs i ChatGPT och OpenAI
+                  Byggt ett antal projekt med olika AI-verktyg: Lovable.dev- appar, egna CustomGPTs i ChatGPT och OpenAI
                   Assistants.
                 </Text>
               </View>
@@ -375,13 +387,8 @@ const CvDocument = () => (
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.itemContent}>
-                  Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank.
-                </Text>
-              </View>
-              <View style={styles.listItem}>
-                <Text style={styles.bullet}>•</Text>
-                <Text style={styles.itemContent}>
-                  Fokuserade på att förbättra portalens funktioner genom migrering från GraphQL till tRPC.
+                  Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank, och förbättrade
+                  portalens funktion genom migrering från GraphQL till tRPC.
                 </Text>
               </View>
             </View>
