@@ -268,7 +268,7 @@ const CvDocument = () => (
 
           {/* Skills */}
           <View style={styles.section}>
-            <Text style={styles.title}>Skills</Text>
+            <Text style={styles.title}>Teknologier/färdigheter</Text>
             <Text style={styles.skills}>
               TypeScript, JavaScript, Python, HTML5, CSS3, SQL, React, Agile, Scrum, Bootstrap, SASS, Material UI,
               GraphQL, Next.js, tRPC, useQuery, REST API, CI/CD (GitHub Actions, CircleCI), MongoDB, DynamoDB, SQLite,
