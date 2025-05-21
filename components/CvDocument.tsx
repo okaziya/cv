@@ -318,7 +318,7 @@ const CvDocument = () => (
           <View style={styles.section}>
             <Text style={styles.title}>Språk</Text>
             <Text style={styles.languageRow}>Svenska – Mellannivå (på väg mot B2)</Text>
-            <Text style={styles.languageRow}>Engelska - Övre medelnivå (B2)</Text>
+            <Text style={styles.languageRow}>Engelska – Övre medelnivå (B2)</Text>
             <Text style={styles.languageRow}>Tjeckiska – Flytande (C2)</Text>
             <Text style={styles.languageRow}>Ryska – Flytande (C2)</Text>
           </View>
@@ -352,7 +352,7 @@ const CvDocument = () => (
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.itemContent}>
-                  Byggt ett antal projekt med olika AI-verktyg: Lovable.dev-appar, egna CustomGPTs i ChatGPT och OpenAI
+                  Byggt ett antal projekt med olika AI-verktyg: Lovable.dev- appar, egna CustomGPTs i ChatGPT och OpenAI
                   Assistants.
                 </Text>
               </View>
