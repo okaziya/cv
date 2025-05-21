@@ -1,5 +1,5 @@
 import React from "react";
-import { Page, Text, View, Document, StyleSheet, Font, Image } from "@react-pdf/renderer";
+import { Page, Link, Text, View, Document, StyleSheet, Font, Image } from "@react-pdf/renderer";
 
 Font.register({
   family: "Nunito Sans",
@@ -213,7 +213,9 @@ const CvDocument = () => (
             <Text>EU-medborgare (Tjeckien), svenskt personnummer: 940711-4223</Text>
             <Text style={styles.personalNumber}></Text>
           </View>
-          <Text style={styles.organizationName}>https://okaziya.github.io/cv/</Text>
+          <Text style={styles.organizationName}>
+            <Link src="https://okaziya.github.io/cv/">https://okaziya.github.io/cv/</Link>
+          </Text>
         </View>
 
         {/* Main Content */}
@@ -233,24 +235,34 @@ const CvDocument = () => (
             <Text style={styles.title}>Kontakt</Text>
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="city.png" />
-              <Text style={styles.contactText}>Stockholm</Text>
+              <Text style={styles.contactText}>
+                &nbsp;<Link src="https://maps.app.goo.gl/svMdqrQLshZExFHJ8">Hjorthagen, Stockholm</Link>
+              </Text>
             </View>
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="phone-gray.png" />
-              <Text style={styles.contactText}> 0730-500 244</Text>
+              <Text style={styles.contactText}>
+                &nbsp;<Link src="tel:+46730500244">0730-500 244</Link>
+              </Text>
             </View>
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="email-gray.png" />
-              <Text style={styles.contactText}> liza.blomdahl@gmail.com</Text>
+              <Text style={styles.contactText}>
+                &nbsp;<Link src="mailto:liza@owntube.tv">liza@owntube.tv</Link>
+              </Text>
             </View>
 
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="in-gray.png" />
-              <Text style={styles.contactText}> linkedin.com/in/liza-blomdahl/</Text>
+              <Text style={styles.contactText}>
+                &nbsp;<Link src="https://www.linkedin.com/in/liza-blomdahl/">linkedin.com/in/liza-blomdahl/</Link>
+              </Text>
             </View>
             <View style={styles.contactRow}>
               <Image style={styles.contactIcon} src="github-gray.png" />
-              <Text style={styles.contactText}> @okaziya</Text>
+              <Text style={styles.contactText}>
+                &nbsp;<Link src="https://github.com/okaziya">@okaziya</Link>
+              </Text>
             </View>
           </View>
 
