@@ -387,13 +387,8 @@ const CvDocument = () => (
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.itemContent}>
-                  Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank.
-                </Text>
-              </View>
-              <View style={styles.listItem}>
-                <Text style={styles.bullet}>•</Text>
-                <Text style={styles.itemContent}>
-                  Fokuserade på att förbättra portalens funktioner genom migrering från GraphQL till tRPC.
+                  Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank, och förbättrade
+                  portalens funktion genom migrering från GraphQL till tRPC.
                 </Text>
               </View>
             </View>
