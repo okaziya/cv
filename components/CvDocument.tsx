@@ -66,10 +66,6 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
   },
-  personalNumber: {
-    fontSize: 12,
-    fontWeight: "bold",
-  },
   workingTitle: {
     paddingBottom: 5,
     fontFamily: "Montserrat",
@@ -206,6 +202,10 @@ const styles = StyleSheet.create({
     textDecoration: "none",
     marginBottom: 4,
   },
+  description: {
+    marginTop: -6,
+    marginBottom: 4,
+  },
 });
 
 const CvDocument = () => (
@@ -218,7 +218,6 @@ const CvDocument = () => (
             <Image style={styles.logo} src="glasses-black.png" />
             <Text style={styles.name}>Liza Blomdahl</Text>
             <Text>EU-medborgare (Tjeckien), svenskt personnummer: 940711-4223</Text>
-            <Text style={styles.personalNumber}></Text>
           </View>
           <Link style={styles.cvLink} src="https://okaziya.github.io/cv/">
             https://okaziya.github.io/cv/
@@ -226,10 +225,11 @@ const CvDocument = () => (
         </View>
         {/* Main Content */}
         <View style={styles.titleColumn}>
-          <Text style={styles.workingTitle}>Fullstackutvecklare</Text>
+          <Text style={styles.workingTitle}>Frontendutvecklare och Fullstack</Text>
           <Text style={styles.summary}>
-            En engagerad Fullstack-utvecklare med fokus på frontend och över fem års erfarenhet. Skicklig i JavaScript,
-            React, TypeScript och MongoDB. Jag har bidragit till fler än 30 projekt.
+            Engagerad fullstackutvecklare med +5 års erfarenhet och fokus på React/frontend. En lagspelare som tycker om
+            att bygga bra produkter och tjänster tillsammans med andra, och har hittills bidragit i fler än 30
+            utvecklingsprojekt.
           </Text>
         </View>
       </View>
@@ -272,7 +272,6 @@ const CvDocument = () => (
               </Link>
             </View>
           </View>
-
           {/* Skills */}
           <View style={styles.section}>
             <Text style={styles.title}>Teknologier/färdigheter</Text>
@@ -282,18 +281,15 @@ const CvDocument = () => (
               Firebase (Firestore), Jest, Vitest, Storybook, Tailwind CSS, AWS, Git & GitHub, React Native
             </Text>
           </View>
-
           {/* Education */}
           <View style={styles.section}>
             <Text style={styles.title}>Utbildning</Text>
-
             <View style={styles.section}>
               <View style={styles.row}>
                 <Text style={styles.subtitle}>Svenska A1 till B2</Text>
                 <Text style={styles.year}>(2024-2025)</Text>
               </View>
-
-              <Text style={styles.organizationName}>Folkuniversitetet – Stockholm, Sverige</Text>
+              <Text style={styles.organizationName}>Folkuniversitetet – Stockholm</Text>
             </View>
 
             <View style={styles.section}>
@@ -302,13 +298,14 @@ const CvDocument = () => (
                 <Text style={styles.year}>(2020–2024)</Text>
               </View>
               <Text style={styles.organizationName}>Unicorn University – Prag, Tjeckien</Text>
+              <Text style={styles.description}>(Kombinerade distansstudier med helglektioner)</Text>
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.itemContent}>Slutförde kandidatexamen i mjukvaruutveckling.</Text>
               </View>
             </View>
 
-            <View style={styles.section}>
+            <View>
               <View style={styles.row}>
                 <Text style={styles.subtitle}>Tillämpad informatik</Text>
                 <Text style={styles.year}>(2014–2016)</Text>
@@ -320,7 +317,6 @@ const CvDocument = () => (
               </View>
             </View>
           </View>
-
           {/* Languages */}
           <View style={styles.section}>
             <Text style={styles.title}>Språk</Text>
@@ -367,7 +363,7 @@ const CvDocument = () => (
 
             <View style={styles.section}>
               <View style={styles.row}>
-                <Text style={styles.subtitle}>Fullstackutvecklare</Text>
+                <Text style={styles.subtitle}>Fullstack & Frontendutvecklare</Text>
                 <Text style={styles.year}>(2022-04–2024-09)</Text>
               </View>
               <Text style={styles.organizationName}>Purple Technology – Brno, Tjeckien & Remote </Text>
@@ -420,7 +416,7 @@ const CvDocument = () => (
               </View>
             </View>
 
-            <View style={styles.section}>
+            <View>
               <Text style={styles.subtitle}>Frontendutvecklare</Text>
               <View style={styles.row}>
                 <Text style={styles.organizationName}>iQuest s.r.o. – Prag, Tjeckien</Text>
