@@ -226,10 +226,11 @@ const CvDocument = () => (
         </View>
         {/* Main Content */}
         <View style={styles.titleColumn}>
-          <Text style={styles.workingTitle}>Fullstackutvecklare</Text>
+          <Text style={styles.workingTitle}>Frontend-utvecklare och Fullstack</Text>
           <Text style={styles.summary}>
-            En engagerad Fullstack-utvecklare med fokus på frontend och över fem års erfarenhet. Skicklig i JavaScript,
-            React, TypeScript och MongoDB. Jag har bidragit till fler än 30 projekt.
+            En engagerad fullstack-utvecklare med fem års erfarenhet och fokus på React/frontend. Liza är en lagspelare
+            som tycker om att bygga bra produkter och tjänster tillsammans med andra, hon har hittills bidragit i fler
+            än 30 utvecklingsprojekt.
           </Text>
         </View>
       </View>
