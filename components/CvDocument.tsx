@@ -371,28 +371,23 @@ const CvDocument = () => (
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.itemContent}>
-                  Bidrog avsevärt till utvecklingen av ett internt CRM-system som fullstackutvecklare.
+                  Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank, och förbättrade
+                  portalens funktion genom migrering från GraphQL till tRPC i React-frontend och backend. Deltog även i
+                  utvecklingen ett internt CRM-system.
                 </Text>
               </View>
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.itemContent}>
-                  Deltog i hela utvecklingscykeln – från teknisk analys och estimering till design, implementation samt
-                  backend- och frontend-integration – enligt en strukturerad process med enhetstestning och
-                  acceptanstestning.
+                  Agilt team! Deltog i hela utvecklingscykeln – från teknisk analys och estimering till design,
+                  implementation samt backend- och frontend-integration – enligt en strukturerad process med
+                  enhetstestning och acceptanstestning.
                 </Text>
               </View>
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.itemContent}>
                   Arbetade med CI/CD-pipelines för att säkerställa god kvalitet och effektiv leverans.
-                </Text>
-              </View>
-              <View style={styles.listItem}>
-                <Text style={styles.bullet}>•</Text>
-                <Text style={styles.itemContent}>
-                  Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank, och förbättrade
-                  portalens funktion genom migrering från GraphQL till tRPC.
                 </Text>
               </View>
             </View>
