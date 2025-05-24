@@ -333,8 +333,7 @@ const CvDocument = () => (
           {/* Work Experience */}
           <View style={styles.section}>
             <Text style={styles.title}>Anställningar</Text>
-
-            <View style={styles.section}>
+            <View>
               <View style={styles.row}>
                 <Text style={styles.subtitle}>Medgrundare & IT-konsult</Text>
                 <Text style={styles.year}>(2024-10–pågående)</Text>
@@ -362,26 +361,25 @@ const CvDocument = () => (
               </View>
             </View>
 
-            <View style={styles.section}>
+            <View>
               <View style={styles.row}>
-                <Text style={styles.subtitle}>Fullstack & Frontendutvecklare</Text>
+                <Text style={styles.subtitle}>Frontendutvecklare & Fullstack</Text>
                 <Text style={styles.year}>(2022-04–2024-09)</Text>
               </View>
               <Text style={styles.organizationName}>Purple Technology – Brno, Tjeckien & Remote </Text>
+
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.itemContent}>
-                  Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank, och förbättrade
-                  portalens funktion genom migrering från GraphQL till tRPC i React-frontend och backend. Deltog även i
-                  utvecklingen ett internt CRM-system.
+                  Samarbete i ett agilt team med andra utvecklare, en team lead, QA, design och produktägare.
                 </Text>
               </View>
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.itemContent}>
-                  Agilt team! Deltog i hela utvecklingscykeln – från teknisk analys och estimering till design,
-                  implementation samt backend- och frontend-integration – enligt en strukturerad process med
-                  enhetstestning och acceptanstestning.
+                  Deltog i hela utvecklingscykeln – från teknisk analys och estimering till design, implementation samt
+                  backend- och frontend-integration – enligt en strukturerad process med enhetstestning och
+                  acceptanstestning.
                 </Text>
               </View>
               <View style={styles.listItem}>
@@ -390,9 +388,17 @@ const CvDocument = () => (
                   Arbetade med CI/CD-pipelines för att säkerställa god kvalitet och effektiv leverans.
                 </Text>
               </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank, och förbättrade
+                  portalens funktion genom migrering från GraphQL till tRPC i React-frontend och backend. Deltog även i
+                  utvecklingen ett internt CRM-system.
+                </Text>
+              </View>
             </View>
 
-            <View style={styles.section}>
+            <View>
               <View style={styles.row}>
                 <Text style={styles.subtitle}>Frontendutvecklare</Text>
                 <Text style={styles.year}>(2021-10–2022-02)</Text>
@@ -460,8 +466,8 @@ const CvDocument = () => (
           </Text>
           <Text style={styles.label}>TEKNOLOGIER:</Text>
           <Text style={styles.technologies}>
-            React, TypeScript, Styled Components, Apollo GraphQL, tRPC, Postico, MongoDB, AWS Lambda, AWS AppConfig, Git
-            Monorepo, Figma, Linear, GitHub, Slack, VS Code, GitHub Actions
+            React, TypeScript, Zod, Yup, Styled Components, Apollo GraphQL, tRPC, Postico, MongoDB, AWS Lambda, AWS
+            AppConfig, Git Monorepo, Figma, Linear, GitHub, Slack, VS Code, GitHub Actions
           </Text>
           <Text style={styles.label}>NYCKELORD:</Text>
           <Text style={styles.text}>
@@ -488,8 +494,8 @@ const CvDocument = () => (
           </Text>
           <Text style={styles.label}>TEKNOLOGIER:</Text>
           <Text style={styles.technologies}>
-            React, TypeScript, Next.js, AWS S3, AWS Cognito, AWS Lambda, MongoDB Atlas, Postgres, SQL, Apollo GraphQL,
-            tRPC, AtlasSearch, Jest, Git Monorepo, Figma, Jira, Linear, GitHub, Slack, VS Code, CircleCI
+            React, TypeScript, Zod, Next.js, AWS S3, AWS Cognito, AWS Lambda, MongoDB Atlas, Postgres, SQL, Apollo
+            GraphQL, tRPC, AtlasSearch, Jest, Git Monorepo, Figma, Jira, Linear, GitHub, Slack, VS Code, CircleCI
           </Text>
           <Text style={styles.label}>NYCKELORD:</Text>
           <Text style={styles.text}>
