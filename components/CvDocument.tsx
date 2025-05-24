@@ -202,10 +202,6 @@ const styles = StyleSheet.create({
     textDecoration: "none",
     marginBottom: 4,
   },
-  description: {
-    marginTop: -6,
-    marginBottom: 4,
-  },
 });
 
 const CvDocument = () => (
@@ -298,10 +294,13 @@ const CvDocument = () => (
                 <Text style={styles.year}>(2020–2024)</Text>
               </View>
               <Text style={styles.organizationName}>Unicorn University – Prag, Tjeckien</Text>
-              <Text style={styles.description}>(Kombinerade distansstudier med helglektioner)</Text>
+
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
-                <Text style={styles.itemContent}>Slutförde kandidatexamen i mjukvaruutveckling.</Text>
+                <Text style={styles.itemContent}>
+                  Slutförde kandidatexamen i mjukvaruutveckling, i form av kombinerade distansstudier tillsammans med
+                  helglektioner.
+                </Text>
               </View>
             </View>
 
@@ -313,7 +312,9 @@ const CvDocument = () => (
               <Text style={styles.organizationName}>Prague University of Economics and Business – Prag, Tjeckien </Text>
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
-                <Text style={styles.itemContent}>Studerade tillämpad informatik med fokus på affärsapplikationer.</Text>
+                <Text style={styles.itemContent}>
+                  Affärsapplikationer, programmering, statistik och databehandling.
+                </Text>
               </View>
             </View>
           </View>
