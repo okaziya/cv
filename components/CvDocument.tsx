@@ -202,6 +202,9 @@ const styles = StyleSheet.create({
     textDecoration: "none",
     marginBottom: 4,
   },
+  additionalExperience: {
+    marginTop: 20,
+  },
 });
 
 const CvDocument = () => (
@@ -274,7 +277,7 @@ const CvDocument = () => (
             <Text style={styles.skills}>
               TypeScript, JavaScript, Python, HTML5, CSS3, SQL, React, Agile, Scrum, Bootstrap, SASS, Material UI,
               GraphQL, Next.js, tRPC, useQuery, REST API, CI/CD (GitHub Actions, CircleCI), MongoDB, DynamoDB, SQLite,
-              Firebase (Firestore), Jest, Vitest, Storybook, Tailwind CSS, AWS, Git & GitHub, React Native
+              Firebase (Firestore), Jest, Vitest, Storybook, Tailwind CSS, AWS, Git & GitHub, React Native, Vercel
             </Text>
           </View>
           {/* Education */}
@@ -572,8 +575,8 @@ const CvDocument = () => (
           </Text>
           <Text style={styles.label}>TEKNOLOGIER:</Text>
           <Text style={styles.technologies}>
-            React, Bootstrap, SASS, Firebase Realtime Database, Firebase Firestore, Google Single Sign-On, GitHub,
-            WebStorm, Slack
+            React, Bootstrap, SASS, Firebase Realtime Database, Vercel, Firebase Firestore, Google Single Sign-On,
+            GitHub, WebStorm, Slack
           </Text>
           <Text style={styles.label}>NYCKELORD:</Text>
           <Text style={styles.text}>Admin-panel, Firebase, administrationsverktyg</Text>
@@ -739,6 +742,20 @@ const CvDocument = () => (
           <Text style={styles.text}>
             Desktop-applikation, offline-app, katalogtjänst, dokumentregister, tillverkningsindustria
           </Text>
+        </View>
+        <View style={styles.additionalExperience}>
+          <Text style={styles.projectTitle}>Övrig anställningar</Text>
+          <View>
+            <View style={styles.row}>
+              <Text style={styles.subtitle}>Egenföretagare inom frisöryrket</Text>
+              <Text style={styles.year}>(2016-01–2019-05)</Text>
+            </View>
+            <Text style={styles.organizationName}>Hair Salon 41 – Prag, Tjeckien</Text>
+            {/* <View style={styles.listItem}>
+              <Text style={styles.bullet}>•</Text>
+              <Text style={styles.itemContent}></Text>
+            </View> */}
+          </View>
         </View>
       </View>
       <Text style={styles.pageNumber} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} fixed />
