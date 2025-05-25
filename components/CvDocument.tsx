@@ -744,7 +744,7 @@ const CvDocument = () => (
           </Text>
         </View>
         <View style={styles.additionalExperience}>
-          <Text style={styles.projectTitle}>Övrig anställningar</Text>
+          <Text style={styles.projectTitle}>Övriga anställningar</Text>
           <View>
             <View style={styles.row}>
               <Text style={styles.subtitle}>Egenföretagare inom frisöryrket</Text>
