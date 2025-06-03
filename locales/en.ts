@@ -6,9 +6,7 @@ const en = {
   heroSection: {
     title: "Full Stack Developer",
     description:
-      "A dedicated Full Stack Developer with a frontend focus and 5+ years of experience, proficient in JavaScript, " +
-      "React, TypeScript, and MongoDB. I have contributed to more than 30 projects, including those in the fintech " +
-      "sector.",
+      "Dedicated full-stack developer with over 5 years of experience, specializing in React and front-end development. A strong team player who enjoys building great products and services in collaboration with others, and has contributed to more than 30 development projects to date.",
     photoAlt: "Photo of Liza Blomdahl, a Full Stack Developer",
   },
   contact: {
@@ -143,18 +141,16 @@ const en = {
         },
       },
       {
-        jobTitle: "Full Stack Developer",
+        jobTitle: "Front-end & Full-Stack Developer",
         companyTitle: "Purple Technology – Brno, Czech Republic & Remote",
         date: "2022-04–2024-09",
         highlights:
-          "- Contributed significantly to the development of an internal CRM system as a Full Stack Developer.\n" +
-          "- Involved in the entire development lifecycle, from technical analysis and estimation to backend and " +
-          "frontend integration.\n" +
-          "- Participated in the design and implementation of new features.\n" +
-          "- Followed structured development phases including unit testing and final testing.\n" +
+          "- Collaborated in an agile team with other developers, a team lead, QA, designers, and a product owner.\n" +
+          "- Took part in the entire development cycle – from technical analysis and estimation to design, implementation, and both back-end and front-end integration – following a structured process with unit testing and acceptance testing.\n" +
           "- Worked with CI/CD pipelines to ensure quality and efficiency.\n" +
           "- Contributed to the development of a client portal, similar to internet banking experience (forex).\n" +
-          "- Focused on improving the portal's capabilities through the migration from GraphQL to tRPC.\n",
+          "- Improved the functionality of the forex client portal by helping migrate from GraphQL to tRPC in both the React front end and the back end.\n" +
+          "- Played a key role in the development of an internal CRM system as a full-stack developer.\n",
         description: null,
         assignmentsText: null,
         internalProjectNotes: {
@@ -310,7 +306,7 @@ const en = {
         companyTitle: "Unicorn University – Prague, Czech Republic",
         date: "2020–2024",
         highlights:
-          "- Earned a Bachelor's in Software Development.\n" +
+          "- Earned a Bachelor's degree in Software Development through a combination of remote studies and weekend classes.\n" +
           "- Mastered cloud technologies and modern programming stacks, including JavaScript, Python, React, and " +
           "NodeJS.\n" +
           "- Prepared for advanced software roles through hands-on projects.\n" +
@@ -347,7 +343,7 @@ const en = {
         companyTitle: "Prague University of Economics and Business – Prague, Czech Republic",
         date: "2014–2016",
         highlights:
-          "- Studied Applied Informatics with a focus on business applications.\n" +
+          "- Business applications, programming, statistics, and data processing.\n" +
           "- Gained foundational IT skills and a deep understanding of micro- and macroeconomics, business " +
           "processes, and statistics.\n" +
           "- Completed an intensive 1.5 years of study, equipping me with critical abilities in data processing, " +

@@ -7,8 +7,7 @@ const sv = {
   heroSection: {
     title: "Fullstack\u00ADutvecklare",
     description:
-      "En engagerad Fullstack-utvecklare med fokus på frontend och över fem års erfarenhet. Skicklig i JavaScript, " +
-      "React, TypeScript och MongoDB. Jag har bidragit till fler än 30 projekt, inklusive inom fintech.",
+      "Engagerad fullstackutvecklare med +5 års erfarenhet och fokus på React/frontend. En lagspelare som tycker om att bygga bra produkter och tjänster tillsammans med andra, och har hittills bidragit i fler än 30 utvecklingsprojekt.",
     photoAlt: "Foto av Liza Blomdahl, en fullstackutvecklare",
   },
   contact: {
@@ -117,18 +116,16 @@ const sv = {
         internalProjectNotes: null,
       },
       {
-        jobTitle: "Fullstackutvecklare",
+        jobTitle: "Frontendutvecklare & Fullstack",
         companyTitle: "Purple Technology – Brno, Tjeckien & Remote",
         date: "2022-04–2024-09",
         highlights:
-          "- Bidrog avsevärt till utvecklingen av ett internt CRM-system som fullstackutvecklare.\n" +
-          "- Var involverad i hela utvecklingscykeln, från teknisk analys och estimering till backend- och frontend-" +
-          "integration.\n" +
-          "- Deltog i design och implementering av nya funktioner.\n" +
-          "- Följde en strukturerad utvecklingsprocess, inklusive enhetstestning och acceptanstestning.\n" +
+          "- Samarbete i ett agilt team med andra utvecklare, en team lead, QA, design och produktägare.\n" +
+          "- Deltog i hela utvecklingscykeln – från teknisk analys och estimering till design, implementation samt backend- och frontend-integration – enligt en strukturerad process med enhetstestning och acceptanstestning.\n" +
           "- Arbetade med CI/CD-pipelines för att säkerställa god kvalitet och effektiv leverans.\n" +
           "- Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank.\n" +
-          "- Fokuserade på att förbättra portalens funktioner genom migrering från GraphQL till tRPC.\n",
+          "- Bidrog till utvecklingen av en klientportal för forex, liknande en internetbank, och förbättrade portalens funktion genom migrering från GraphQL till tRPC i React-frontend och backend.\n" +
+          "- Bidrog avsevärt till utvecklingen av ett internt CRM-system som fullstackutvecklare.\n",
         description: null,
         assignmentsText:
           "----\n" +
@@ -351,7 +348,7 @@ const sv = {
         companyTitle: "Unicorn University – Prag, Tjeckien",
         date: "2020–2024",
         highlights:
-          "- Slutförde kandidatexamen i mjukvaruutveckling.\n" +
+          "- Slutförde kandidatexamen i mjukvaruutveckling, i form av kombinerade distansstudier tillsammans med helglektioner.\n" +
           "- Lärde mig molnteknologier och moderna programmeringsspråk/-ramverk, inklusive JavaScript, Python, React " +
           "och NodeJS.\n" +
           "- Fick praktisk erfarenhet genom hackathons och praktik inom IT-branschen.\n" +
@@ -401,7 +398,7 @@ const sv = {
         companyTitle: "Prague University of Economics and Business – Prag, Tjeckien",
         date: "2014–2016",
         highlights:
-          "- Studerade tillämpad informatik med fokus på affärsapplikationer.\n" +
+          "- Affärsapplikationer, programmering, statistik och databehandling.\n" +
           "- Fick grundläggande IT-kunskaper och en djup förståelse för mikro- och makroekonomi, affärsprocesser och " +
           "statistik.\n" +
           "- Genomförde intensiva studier under 1,5 års tid, vilket gav mig viktiga färdigheter inom databehandling, " +
