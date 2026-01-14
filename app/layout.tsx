@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import Script from "next/script";
 import React from "react";
 import { SITE_INFO } from "../config";
 
@@ -18,6 +19,7 @@ export const metadata = {
 export default function RootLayout({ children, params }: { children: ReactNode; params: { locale: Locale } }) {
   return (
     <html lang={params.locale}>
+      <Script defer src="https://cloud.umami.is/script.js" data-website-id="24a69cac-c400-483f-a3d1-be3527ddc341"/>
       <body className={nunitoSans.className}>
         <ThemeWrapper>{children}</ThemeWrapper>
       </body>
