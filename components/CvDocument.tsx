@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
   separator: {
     marginVertical: 4,
     borderBottomWidth: 1,
-    borderBottomColor: '#d7d7ff"',
+    borderBottomColor: "#d7d7ff",
   },
   assignmentDescription: {
     fontSize: 12,
