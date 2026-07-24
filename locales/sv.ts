@@ -327,6 +327,17 @@ const sv = {
   education: {
     title: "Utbildning",
     degrees: [
+      {
+        jobTitle: "Svenska som andraspråk 1, 2 och 3",
+        companyTitle: "Komvux – Stockholm, Sverige",
+        date: "2025–2026",
+        highlights:
+          "- Slutförde gymnasiekurserna Svenska som andraspråk 1, 2 och 3.\n" +
+          "- Uppnådde avancerad nivå i svenska (CEFR C1) och behörighet till högskola/universitet i Sverige.\n",
+        description: null,
+        assignmentsText: null,
+        internalProjectNotes: null,
+      },
       // {
       //   jobTitle: "Svenska för programmerare",
       //   companyTitle: "SFX-IT – Tyresö, Sverige",
@@ -337,15 +348,15 @@ const sv = {
       //   assignmentsText: null,
       //   internalProjectNotes: null,
       // },
-      {
-        jobTitle: "Svenska A1 till B2",
-        companyTitle: "Folkuniversitetet – Stockholm, Sverige",
-        date: "2024–2025",
-        highlights: "- Slutförde första 5 svenska-kurserna (6 månader av klassrumsstudier på halvfart).\n",
-        description: null,
-        assignmentsText: null,
-        internalProjectNotes: null,
-      },
+      // {
+      //   jobTitle: "Svenska A1 till B2",
+      //   companyTitle: "Folkuniversitetet – Stockholm, Sverige",
+      //   date: "2024–2025",
+      //   highlights: "- Slutförde första 5 svenska-kurserna (6 månader av klassrumsstudier på halvfart).\n",
+      //   description: null,
+      //   assignmentsText: null,
+      //   internalProjectNotes: null,
+      // },
       {
         jobTitle: "BSc in Software Development",
         companyTitle: "Unicorn University – Prag, Tjeckien",
@@ -420,7 +431,7 @@ const sv = {
     languages: [
       {
         name: "Svenska",
-        level: "Övre medelnivå (B2)",
+        level: "Avancerad (C1)",
       },
       {
         name: "Engelska",

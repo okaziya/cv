@@ -284,6 +284,17 @@ const en = {
   education: {
     title: "Education",
     degrees: [
+      {
+        jobTitle: "Swedish as a Second Language 1, 2 & 3",
+        companyTitle: "Komvux – Stockholm, Sweden",
+        date: "2025–2026",
+        highlights:
+          "- Completed the upper-secondary courses Swedish as a Second Language 1, 2 and 3.\n" +
+          "- Reached advanced proficiency in Swedish (CEFR C1) and eligibility for university/higher education in Sweden.\n",
+        description: null,
+        assignmentsText: null,
+        internalProjectNotes: null,
+      },
       // {
       //   jobTitle: "Swedish for programmers",
       //   companyTitle: "SFX-IT – Tyresö, Sweden",
@@ -294,17 +305,15 @@ const en = {
       //   assignmentsText: null,
       //   internalProjectNotes: null,
       // },
-      {
-        jobTitle: "Swedish courses A1 to B2",
-        companyTitle: "Folkuniversitetet – Stockholm, Sweden",
-        date: "2024–2025",
-        highlights:
-          "- Completed first 5 Swedish courses in 6 months of half-time classroom studies.\n" +
-          "- Reached intermediate proficiency in Swedish, CEFR level B1.\n",
-        description: null,
-        assignmentsText: null,
-        internalProjectNotes: null,
-      },
+      // {
+      //   jobTitle: "Swedish courses A1 to B2",
+      //   companyTitle: "Folkuniversitetet – Stockholm, Sweden",
+      //   date: "2024–2025",
+      //   highlights: "- Completed first 5 Swedish courses in 6 months of half-time classroom studies.\n",
+      //   description: null,
+      //   assignmentsText: null,
+      //   internalProjectNotes: null,
+      // },
       {
         jobTitle: "BSc in Software Development",
         companyTitle: "Unicorn University – Prague, Czech Republic",
@@ -366,7 +375,7 @@ const en = {
     languages: [
       {
         name: "Swedish",
-        level: "Upper-Intermediate (B2)",
+        level: "Advanced (C1)",
       },
       {
         name: "English",

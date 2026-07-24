@@ -285,10 +285,10 @@ const CvDocument = () => (
             <Text style={styles.title}>Utbildning</Text>
             <View style={styles.section}>
               <View style={styles.row}>
-                <Text style={styles.subtitle}>Svenska A1 till B2</Text>
-                <Text style={styles.year}>(2024-2025)</Text>
+                <Text style={styles.subtitle}>Svenska (SVA) nivå 3</Text>
+                <Text style={styles.year}>(2025–2026)</Text>
               </View>
-              <Text style={styles.organizationName}>Folkuniversitetet – Stockholm</Text>
+              <Text style={styles.organizationName}>Komvux – Stockholm, Sverige</Text>
             </View>
 
             <View style={styles.section}>
@@ -324,7 +324,7 @@ const CvDocument = () => (
           {/* Languages */}
           <View style={styles.section}>
             <Text style={styles.title}>Språk</Text>
-            <Text style={styles.languageRow}>Svenska – Övre medelnivå (B2)</Text>
+            <Text style={styles.languageRow}>Svenska – Avancerad (C1)</Text>
             <Text style={styles.languageRow}>Engelska – Avancerad (C1)</Text>
             <Text style={styles.languageRow}>Tjeckiska – Flytande (C2)</Text>
           </View>
