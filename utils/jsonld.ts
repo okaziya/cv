@@ -41,15 +41,17 @@ export function generateJsonLdForConsultantCv(locale: Locale) {
 
   const allAssignments = [
     ...data.workExperience.experiences.flatMap((exp) =>
-      exp.assignmentsText ? parseAssignmentsText(exp.assignmentsText) : [],
+      exp.assignmentsText ? parseAssignmentsText(exp.assignmentsText) : []
     ),
-    ...data.education.degrees.flatMap((deg) =>
-      deg.assignmentsText ? parseAssignmentsText(deg.assignmentsText) : [],
-    ),
+    ...data.education.degrees.flatMap((deg) => (deg.assignmentsText ? parseAssignmentsText(deg.assignmentsText) : [])),
   ];
 
   const assignments = allAssignments.map((a) => {
-    const descParts = [a.description, a.technologies && `Teknologier: ${a.technologies}`, a.keywords && `Nyckelord: ${a.keywords}`].filter(Boolean);
+    const descParts = [
+      a.description,
+      a.technologies && `Teknologier: ${a.technologies}`,
+      a.keywords && `Nyckelord: ${a.keywords}`,
+    ].filter(Boolean);
     return {
       "@type": "OrganizationRole",
       roleName: a.role,

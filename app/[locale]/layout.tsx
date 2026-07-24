@@ -38,7 +38,10 @@ export async function generateMetadata({ params }: { params: { locale: Locale } 
 }
 
 export default function LocaleLayout({ children, params }: { children: React.ReactNode; params: { locale: Locale } }) {
-  const jsonLd = params.locale === "sv" ? generateJsonLdForConsultantCv(params.locale) : generateJsonLdForEmploymentCv(params.locale);
+  const jsonLd =
+    params.locale === "sv"
+      ? generateJsonLdForConsultantCv(params.locale)
+      : generateJsonLdForEmploymentCv(params.locale);
 
   return (
     <>
