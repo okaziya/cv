@@ -2,6 +2,8 @@
 
 Liza's CV repo for GitHub Pages deployment @ https://okaziya.github.io/cv/
 
+The site deploys to the `/cv/` subpath of the root Pages site [okaziya/okaziya.github.io](https://github.com/okaziya/okaziya.github.io), which redirects the apex `okaziya.github.io/` here.
+
 ## Project Description
 
 The scope of this project is to establish a stand-alone presentation of my education, professional

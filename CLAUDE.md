@@ -27,7 +27,7 @@ No test scripts are configured. `package.json` pins `engines.node` to `>=22`.
 
 **PDF export:** `components/CvDocument.tsx` is a standalone @react-pdf/renderer `<Document>` with hardcoded Swedish content for the downloadable CV PDF. It is loaded via dynamic import with `ssr: false` in `Header.tsx` to avoid breaking static export. The `PDFViewer` in `app/[locale]/page.tsx` can be uncommented for live preview during development. Note: CvDocument content is manually maintained and may drift from the locale files.
 
-**Static export config:** `next.config.js` sets `output: "export"`, `basePath: "/cv"`, and `images: { unoptimized: true }`. Image paths must go through `utils/imagePath.ts` to respect the base path.
+**Static export config:** `next.config.js` sets `output: "export"`, `basePath: "/cv"`, and `images: { unoptimized: true }`. Image paths must go through `utils/imagePath.ts` to respect the base path. The `/cv` base path exists because the site deploys to the `/cv/` subpath of the root Pages repo [`okaziya/okaziya.github.io`](https://github.com/okaziya/okaziya.github.io), which redirects the apex `okaziya.github.io/` here.
 
 **CI/CD:** Two GitHub Actions workflows, both on Node 24. `.github/workflows/nextjs.yml` builds and deploys to GitHub Pages on push to `main`. `.github/workflows/lint.yml` ("Run Lint on PR") runs ESLint and the Prettier format check on every pull request.
 
