@@ -11,9 +11,11 @@ Personal CV website for Liza Blomdahl, deployed as a static site to GitHub Pages
 - `npm run dev` — Start dev server (sets `NEXT_PUBLIC_SITE_URL=http://localhost:3000/cv`)
 - `npm run build` — Static export build (outputs to `out/`)
 - `npm run start` — Serve the built site locally via `serve` (requires `mkdir -p dist && ln -sf ../out dist/cv` for correct basePath)
+- `npm run lint` — Lint with ESLint (`next lint`, extends `next/core-web-vitals`)
 - `npm run format` — Format all files with Prettier
+- `npm run format:check` — Check formatting without writing (used in CI)
 
-There are no test scripts or linting commands configured.
+No test scripts are configured. `package.json` pins `engines.node` to `>=22`.
 
 ## Architecture
 
@@ -21,13 +23,13 @@ There are no test scripts or linting commands configured.
 
 **i18n:** Locale strings live in `locales/en.ts` and `locales/sv.ts` as plain TypeScript objects (not a framework). Components access the current locale via `useLocale()` from `context/LocaleContext.tsx`, then import and index into the locale files directly.
 
-**Styling:** styled-components with a theme (`styles/theme.js`) provided via `ThemeWrapper`. `StyledComponentsRegistry` (`lib/registry.tsx`) collects CSS during SSR so styles are inlined in the static HTML. Bootstrap CSS is imported globally. Component-level styles use co-located `.styles.ts/.tsx` files. Shared style utilities are in `styles/` (typography, media breakpoints, layout, sections).
+**Styling:** styled-components with a theme (`styles/theme.js`) provided via `ThemeWrapper`. `StyledComponentsRegistry` (`lib/registry.tsx`) collects CSS during SSR so styles are inlined in the static HTML. Bootstrap CSS is imported globally. Component-level styles use co-located `.styles.ts/.tsx` files. Shared style utilities are in `styles/` (typography, media breakpoints, layout, sections). The theme is typed by augmenting styled-components' `DefaultTheme` in `styles/styled.d.ts`, derived from `theme.js` so `theme.*` access is type-safe.
 
 **PDF export:** `components/CvDocument.tsx` is a standalone @react-pdf/renderer `<Document>` with hardcoded Swedish content for the downloadable CV PDF. It is loaded via dynamic import with `ssr: false` in `Header.tsx` to avoid breaking static export. The `PDFViewer` in `app/[locale]/page.tsx` can be uncommented for live preview during development. Note: CvDocument content is manually maintained and may drift from the locale files.
 
 **Static export config:** `next.config.js` sets `output: "export"`, `basePath: "/cv"`, and `images: { unoptimized: true }`. Image paths must go through `utils/imagePath.ts` to respect the base path.
 
-**CI/CD:** GitHub Actions workflow (`.github/workflows/nextjs.yml`) builds and deploys to GitHub Pages on push to `main`.
+**CI/CD:** Two GitHub Actions workflows, both on Node 24. `.github/workflows/nextjs.yml` builds and deploys to GitHub Pages on push to `main`. `.github/workflows/lint.yml` ("Run Lint on PR") runs ESLint and the Prettier format check on every pull request.
 
 ## CV Dimensions
 
@@ -45,4 +47,4 @@ The site presents two conceptual CV types, reflecting different career perspecti
 - Components use barrel exports via `index.ts` files
 - Custom hooks are in `hooks/` (e.g., `useIsMobile`)
 - Types are defined in `types/index.ts`
-- Format code with Prettier before committing (`npm run format`)
+- Lint and format before committing: `npm run lint` and `npm run format` (CI checks both on PRs)
