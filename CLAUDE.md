@@ -48,3 +48,4 @@ The site presents two conceptual CV types, reflecting different career perspecti
 - Custom hooks are in `hooks/` (e.g., `useIsMobile`)
 - Types are defined in `types/index.ts`
 - Lint and format before committing: `npm run lint` and `npm run format` (CI checks both on PRs)
+- Keep `README.md` in sync with the code as the project changes (commands, workflow, conventions), alongside this file

@@ -39,7 +39,7 @@ mkdir -p dist && ln -sf ../out dist/cv   # one-time setup
 npm start                                # serves at http://localhost:3000/cv/
 ```
 
-Format the code correctly with Prettier before submitting a PR, `npm run format`.
+Lint and format the code before submitting a PR — `npm run lint` and `npm run format` (CI runs both on every PR).
 
 **Note:** For playing with the PDF export feature, you may enable a live preview by uncommenting
 the _`PDFViewer`_ component in `app/[locale]/page.tsx`.
