@@ -337,28 +337,35 @@ const CvDocument = () => (
             <Text style={styles.title}>Anställningar</Text>
             <View>
               <View style={styles.row}>
-                <Text style={styles.subtitle}>Medgrundare & IT-konsult</Text>
+                <Text style={styles.subtitle}>Grundare & Fullstackutvecklare</Text>
                 <Text style={styles.year}>(2024-10–pågående)</Text>
               </View>
               <Text style={styles.organizationName}>OwnTube Nordic AB – Stockholm, Sverige </Text>
+              {/*<View style={styles.listItem}>*/}
+              {/*  <Text style={styles.bullet}>•</Text>*/}
+              {/*  <Text style={styles.itemContent}>*/}
+              {/*    Grundade OwnTube Nordic AB, ett IT-konsultbolag med fokus på modern mjukvara och AI-teknologi.*/}
+              {/*  </Text>*/}
+              {/*</View>*/}
+              {/*<View style={styles.listItem}>*/}
+              {/*  <Text style={styles.bullet}>•</Text>*/}
+              {/*  <Text style={styles.itemContent}>*/}
+              {/*    Integration i Sverige: lärde mig om arbetsmarknad/företagskultur i mitt nya hemland, lärde mig*/}
+              {/*    språket, och etablerade ett professionellt nätverk i Stockholm.*/}
+              {/*  </Text>*/}
+              {/*</View>*/}
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.itemContent}>
-                  Medgrundade konsultbolaget OwnTube Nordic AB tillsammans med min partner.
-                </Text>
-              </View>
-              <View style={styles.listItem}>
-                <Text style={styles.bullet}>•</Text>
-                <Text style={styles.itemContent}>
-                  Integration i Sverige: folkbokföring avklarad, kontakt med myndigheter och banker, slutfört alla steg
-                  i SFI och lärt mig om arbetsmarknad/företagskultur i mitt nya hemland.
-                </Text>
-              </View>
-              <View style={styles.listItem}>
-                <Text style={styles.bullet}>•</Text>
-                <Text style={styles.itemContent}>
-                  Byggt ett antal projekt med olika AI-verktyg: Lovable.dev- appar, egna CustomGPTs i ChatGPT och OpenAI
+                  Byggde flera kundprojekt med AI-verktyg: Lovable.dev- appar, egna CustomGPTs i ChatGPT och OpenAI
                   Assistants.
+                </Text>
+              </View>
+              <View style={styles.listItem}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.itemContent}>
+                  Ledde community-engagement och utveckling av open source-projektet OwnTube.tv. Koordinerade krav med
+                  leverantörer och utvecklade mjukvarukomponenter till ekosystemet omkring videoplattformen.
                 </Text>
               </View>
             </View>

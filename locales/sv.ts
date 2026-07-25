@@ -102,16 +102,18 @@ const sv = {
     title: "Erfarenhet",
     experiences: [
       {
-        jobTitle: "Medgrundare & IT-konsult",
+        jobTitle: "Grundare & Fullstackutvecklare",
         companyTitle: "OwnTube Nordic AB – Stockholm, Sverige",
         date: "2024-10–pågående",
         highlights:
-          "- Medgrundade konsultbolaget OwnTube Nordic AB tillsammans med min partner.\n" +
-          "- Integration i Sverige: folkbokföring avklarad, kontakt med myndigheter och banker, slutfört alla steg i " +
-          "SFI och lärt mig om arbetsmarknad/företagskultur i mitt nya hemland.\n" +
-          "- Byggt ett antal projekt med olika AI-verktyg: Lovable.dev-appar, egna CustomGPTs i ChatGPT och OpenAI " +
+          "- Grundade OwnTube Nordic AB, ett IT-konsultbolag med fokus på modern mjukvara och AI-teknologi.\n" +
+          "- Integration i Sverige: lärde mig om arbetsmarknad/företagskultur i mitt nya hemland, lärde mig språket, " +
+          "och etablerade ett professionellt nätverk i Stockholm.\n" +
+          "- Byggde flera kundprojekt med AI-verktyg: Lovable.dev-appar, egna CustomGPTs i ChatGPT och OpenAI " +
           "Assistants.\n" +
-          "- Etablerat professionellt nätverk i Stockholm, träffat kunder och påbörjat yrkesmässiga samarbeten.\n",
+          "- Ledde community-engagement och utveckling av open source-projektet OwnTube.tv (en PeerTube-klient " +
+          "baserad på React Native). Koordinerade kravställning med leverantörer och utvecklade mjukvarukomponenter " +
+          "till ekosystemet kring videoplattformen.\n",
         description: null,
         assignmentsText: null,
         internalProjectNotes: null,
