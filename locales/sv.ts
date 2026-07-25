@@ -102,16 +102,18 @@ const sv = {
     title: "Erfarenhet",
     experiences: [
       {
-        jobTitle: "Medgrundare & IT-konsult",
+        jobTitle: "Grundare & Fullstackutvecklare",
         companyTitle: "OwnTube Nordic AB – Stockholm, Sverige",
         date: "2024-10–pågående",
         highlights:
-          "- Medgrundade konsultbolaget OwnTube Nordic AB tillsammans med min partner.\n" +
-          "- Integration i Sverige: folkbokföring avklarad, kontakt med myndigheter och banker, slutfört alla steg i " +
-          "SFI och lärt mig om arbetsmarknad/företagskultur i mitt nya hemland.\n" +
-          "- Byggt ett antal projekt med olika AI-verktyg: Lovable.dev-appar, egna CustomGPTs i ChatGPT och OpenAI " +
+          "- Grundade OwnTube Nordic AB, ett IT-konsultbolag med fokus på modern mjukvara och AI-teknologi.\n" +
+          "- Integration i Sverige: lärde mig om arbetsmarknad/företagskultur i mitt nya hemland, lärde mig språket, " +
+          "och etablerade ett professionellt nätverk i Stockholm.\n" +
+          "- Byggde flera kundprojekt med AI-verktyg: Lovable.dev-appar, egna CustomGPTs i ChatGPT och OpenAI " +
           "Assistants.\n" +
-          "- Etablerat professionellt nätverk i Stockholm, träffat kunder och påbörjat yrkesmässiga samarbeten.\n",
+          "- Ledde community-engagement och utveckling av open source-projektet OwnTube.tv (en PeerTube-klient " +
+          "baserad på React Native). Koordinerade kravställning med leverantörer och utvecklade mjukvarukomponenter " +
+          "till ekosystemet kring videoplattformen.\n",
         description: null,
         assignmentsText: null,
         internalProjectNotes: null,
@@ -327,6 +329,17 @@ const sv = {
   education: {
     title: "Utbildning",
     degrees: [
+      {
+        jobTitle: "Svenska som andraspråk 1, 2 och 3",
+        companyTitle: "Komvux – Stockholm, Sverige",
+        date: "2025–2026",
+        highlights:
+          "- Slutförde gymnasiekurserna Svenska som andraspråk 1, 2 och 3.\n" +
+          "- Uppnådde avancerad nivå i svenska (CEFR C1) och behörighet till högskola/universitet i Sverige.\n",
+        description: null,
+        assignmentsText: null,
+        internalProjectNotes: null,
+      },
       // {
       //   jobTitle: "Svenska för programmerare",
       //   companyTitle: "SFX-IT – Tyresö, Sverige",
@@ -337,15 +350,15 @@ const sv = {
       //   assignmentsText: null,
       //   internalProjectNotes: null,
       // },
-      {
-        jobTitle: "Svenska A1 till B2",
-        companyTitle: "Folkuniversitetet – Stockholm, Sverige",
-        date: "2024–2025",
-        highlights: "- Slutförde första 5 svenska-kurserna (6 månader av klassrumsstudier på halvfart).\n",
-        description: null,
-        assignmentsText: null,
-        internalProjectNotes: null,
-      },
+      // {
+      //   jobTitle: "Svenska A1 till B2",
+      //   companyTitle: "Folkuniversitetet – Stockholm, Sverige",
+      //   date: "2024–2025",
+      //   highlights: "- Slutförde första 5 svenska-kurserna (6 månader av klassrumsstudier på halvfart).\n",
+      //   description: null,
+      //   assignmentsText: null,
+      //   internalProjectNotes: null,
+      // },
       {
         jobTitle: "BSc in Software Development",
         companyTitle: "Unicorn University – Prag, Tjeckien",
@@ -420,7 +433,7 @@ const sv = {
     languages: [
       {
         name: "Svenska",
-        level: "Övre medelnivå (B2)",
+        level: "Avancerad (C1)",
       },
       {
         name: "Engelska",

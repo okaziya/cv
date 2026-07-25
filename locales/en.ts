@@ -102,17 +102,17 @@ const en = {
     title: "Experience",
     experiences: [
       {
-        jobTitle: "Co-Founder & Consultant",
+        jobTitle: "Founder & Full Stack Developer",
         companyTitle: "OwnTube Nordic AB – Stockholm, Sweden",
         date: "2024-10–Present",
         highlights:
-          "- Co-founded own IT consulting company OwnTube Nordic AB with my partner.\n" +
-          "- Familiarized myself with business context and culture in Sweden, gained proficiency in dealing with " +
-          "Swedish authorities and banks. Learnt Swedish up to intermediate proficiency level and completed Swedish " +
-          "For Immigrants (SFI).\n" +
-          "- Built a number of projects using different AI tools; Lovable.dev apps, CustomGPTs in ChatGPT, OpenAI " +
-          "Assistants. Established professional network in Stockholm; meeting with customers and building " +
-          "partnerships.\n",
+          "- Founded OwnTube Nordic AB, an IT consulting company focused on modern software and AI technology.\n" +
+          "- Gained familiarity with culture, society and business context in Sweden. Learnt Swedish and established " +
+          "professional network in Stockholm.\n" +
+          "- Built multiple customer projects using AI tools; Lovable.dev apps, CustomGPTs in ChatGPT, OpenAI " +
+          "Assistants.\n" +
+          "- Led community engagement and development for the OwnTube.tv open-source project (a PeerTube client " +
+          "based on React Native). Coordinated requirements with vendors and developed supporting components.\n",
         description: null,
         assignmentsText: null,
         internalProjectNotes: {
@@ -139,6 +139,13 @@ const en = {
             "Learning Swedish IT vocabulary\n" +
             "Professional skills in Swedish\n" +
             "Getting all documents in place, translated Czech grades and more\n" +
+            "...\n",
+          // 2025-09 to 2026-06
+          Komvux:
+            "Svenska som andraspråk 1, 2, and 3\n" +
+            "Företagsekonomi 1\n" +
+            "Driver's license\n" +
+            "Engelska 1 and 2\n" +
             "...\n",
         },
       },
@@ -284,6 +291,17 @@ const en = {
   education: {
     title: "Education",
     degrees: [
+      {
+        jobTitle: "Swedish as a Second Language 1, 2 & 3",
+        companyTitle: "Komvux – Stockholm, Sweden",
+        date: "2025–2026",
+        highlights:
+          "- Completed the upper-secondary courses Swedish as a Second Language 1, 2 and 3.\n" +
+          "- Reached advanced proficiency in Swedish (CEFR C1) and eligibility for university/higher education in Sweden.\n",
+        description: null,
+        assignmentsText: null,
+        internalProjectNotes: null,
+      },
       // {
       //   jobTitle: "Swedish for programmers",
       //   companyTitle: "SFX-IT – Tyresö, Sweden",
@@ -294,17 +312,15 @@ const en = {
       //   assignmentsText: null,
       //   internalProjectNotes: null,
       // },
-      {
-        jobTitle: "Swedish courses A1 to B2",
-        companyTitle: "Folkuniversitetet – Stockholm, Sweden",
-        date: "2024–2025",
-        highlights:
-          "- Completed first 5 Swedish courses in 6 months of half-time classroom studies.\n" +
-          "- Reached intermediate proficiency in Swedish, CEFR level B1.\n",
-        description: null,
-        assignmentsText: null,
-        internalProjectNotes: null,
-      },
+      // {
+      //   jobTitle: "Swedish courses A1 to B2",
+      //   companyTitle: "Folkuniversitetet – Stockholm, Sweden",
+      //   date: "2024–2025",
+      //   highlights: "- Completed first 5 Swedish courses in 6 months of half-time classroom studies.\n",
+      //   description: null,
+      //   assignmentsText: null,
+      //   internalProjectNotes: null,
+      // },
       {
         jobTitle: "BSc in Software Development",
         companyTitle: "Unicorn University – Prague, Czech Republic",
@@ -366,7 +382,7 @@ const en = {
     languages: [
       {
         name: "Swedish",
-        level: "Upper-Intermediate (B2)",
+        level: "Advanced (C1)",
       },
       {
         name: "English",
