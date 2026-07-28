@@ -85,6 +85,7 @@ const en = {
           "Amazon S3",
           "Jekyll",
           "Next.js",
+          "Vercel",
           "Storybook",
           "Tailwind CSS",
           "Git & GitHub",
