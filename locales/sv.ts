@@ -85,6 +85,7 @@ const sv = {
           "Amazon S3",
           "Jekyll",
           "Next.js",
+          "Vercel",
           "Storybook",
           "Tailwind CSS",
           "Git & GitHub",
@@ -173,8 +174,8 @@ const sv = {
           "slutet av uppdraget utvecklade hon även ett internt verktyg för att ställa databasfrågor kring " +
           "kundbeteenden och compliance.\n" +
           "\n" +
-          "**TEKNOLOGIER:** React, TypeScript, Styled Components, Apollo GraphQL, tRPC, Postico, MongoDB, AWS " +
-          "Lambda, AWS AppConfig, Git Monorepo, Figma, Linear, GitHub, Slack, VS Code, GitHub Actions\n" +
+          "**TEKNOLOGIER:** React, TypeScript, Zod, Yup, Styled Components, Apollo GraphQL, tRPC, Postico, MongoDB, " +
+          "AWS Lambda, AWS AppConfig, Git Monorepo, Figma, Linear, GitHub, Slack, VS Code, GitHub Actions\n" +
           "\n" +
           "**NYCKELORD:** FinTech, forex/FX, trading-plattform, användarhantering, UX, compliance, bank och finans, " +
           "autentisering & auktorisation, Reusable Components, AWS, CI/CD, Serverless, Agile, " +
@@ -193,9 +194,9 @@ const sv = {
           "prestanda och arbeta med datakvalitet. Ett av Lizas varmaste minnen från den här tiden är ett initiativ " +
           "för att tillhandahålla compliance-teamet med ett rapporteringsverktyg för beslutsstöd kring insättningar." +
           "\n\n" +
-          "**TEKNOLOGIER:** React, TypeScript, Next.js, AWS S3, AWS Cognito, AWS Lambda, MongoDB Atlas, Postgres, " +
-          "SQL, Apollo GraphQL, tRPC, AtlasSearch, Jest, Git Monorepo, Figma, Jira, Linear, GitHub, Slack, VS Code, " +
-          "CircleCI\n" +
+          "**TEKNOLOGIER:** React, TypeScript, Zod, Next.js, AWS S3, AWS Cognito, AWS Lambda, MongoDB Atlas, " +
+          "Postgres, SQL, Apollo GraphQL, tRPC, AtlasSearch, Jest, Git Monorepo, Figma, Jira, Linear, GitHub, Slack, " +
+          "VS Code, CircleCI\n" +
           "\n" +
           "**NYCKELORD:** CRM, FinTech, query-optimering, UX, compliance, prestandatestning, lösningsarkitektur, " +
           "datamodellering, datakvalitet, databas-design, CI/CD, Serverless, Agile\n" +
@@ -250,8 +251,8 @@ const sv = {
           "frontend, backend och autentiseringslösning. React/Bootstrap för frontend, Firebase för backend, " +
           "Firestore/Realtime Database för datapersistens, och Google SSO för autentisering.\n" +
           "\n" +
-          "**TEKNOLOGIER:** React, Bootstrap, SASS, Firebase Realtime Database, Firebase Firestore, Google Single " +
-          "Sign-On, GitHub, WebStorm, Slack\n" +
+          "**TEKNOLOGIER:** React, Bootstrap, SASS, Firebase Realtime Database, Vercel, Firebase Firestore, " +
+          "Google Single Sign-On, GitHub, WebStorm, Slack\n" +
           "\n" +
           "**NYCKELORD:** Admin-panel, Firebase, administrationsverktyg\n" +
           "\n" +
