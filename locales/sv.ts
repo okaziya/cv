@@ -45,6 +45,7 @@ const sv = {
         key: "skills",
         title: "Allmänna kunskaper",
         items: [
+          "Systemutveckling",
           "Responsiv webbdesign",
           "Molnbaserade lösningar (Cloud Computing)",
           "API-design (RESTful APIs)",
@@ -115,7 +116,31 @@ const sv = {
           "baserad på React Native). Koordinerade kravställning med leverantörer och utvecklade mjukvarukomponenter " +
           "till ekosystemet kring videoplattformen.\n",
         description: null,
-        assignmentsText: null,
+        assignmentsText:
+          "----\n" +
+          "\n" +
+          "**UPPDRAGSGIVARE:** Midsommarkransen DevOps AB\n" +
+          "\n" +
+          "**UPPDRAG (PERIOD):** Systemutvecklare och Open Source-ambassadör (2025-01–2026-06)\n" +
+          "\n" +
+          "**BESKRIVNING:**\n" +
+          "Liza kom in som systemutvecklare och community-ambassadör till open source-projektet " +
+          "[OwnTube.tv](https://www.owntube.tv), en satsning för att produktifiera PeerTube för kommersiellt bruk " +
+          "med hjälp av en kundanpassningsbar PeerTube-klient byggd i React Native. Appen utvecklades för webb, " +
+          "mobil och Android/Apple TV; för distribution användes appbutikerna från Google/Apple. Lizas roll i " +
+          "projektet inkluderade kravställning, utveckling av stödkomponenter kring PeerTube, agera kontaktperson " +
+          "gentemot communityt, kanalisera projektets behov till leverantörer inom ekosystemet, samt att agera " +
+          "som biträdande projektledare gentemot en React Native-specialist på distans.\n" +
+          "\n" +
+          "**TEKNOLOGIER:** React Native, TypeScript, REST API, Node.js, Express, Mocha, Terraform, Ansible, " +
+          "MicroK8s, Docker, Python, PeerTube Runners, PeerTube Plugins, Google Play Console, App Store Connect, " +
+          "Git & GitHub, GitHub Actions, Figma, IntelliJ, PyCharm\n" +
+          "\n" +
+          "**NYCKELORD:** Open source, digital suveränitet, self-hosting, PeerTube, video on demand (VOD), " +
+          "cross-platform (webb, mobil, tv), app-distribution, produktifiering av open source, kravställning, " +
+          "community-samordning, developer advocacy, projektledning, systemutveckling, videotranskodning, " +
+          "transkribering, containerisering\n" +
+          "\n",
         internalProjectNotes: null,
       },
       {
@@ -247,7 +272,7 @@ const sv = {
           "Bootstrap, WebStorm, Slack\n" +
           "\n" +
           "**NYCKELORD:** Accessibility, prestandaförbättring, SEO, CSS-animeringar, responsiv design, Reusable " +
-          "Components, Maintainability, refaktorering, företagswebbsida\n" +
+          "Components, Maintainability, refaktorisering, företagswebbsida\n" +
           "\n" +
           "----\n" +
           "\n" +
@@ -364,7 +389,7 @@ const sv = {
         companyTitle: "Unicorn University – Prag, Tjeckien",
         date: "2020–2024",
         highlights:
-          "- Slutförde kandidatexamen i mjukvaruutveckling.\n" +
+          "- Slutförde kandidatexamen i systemutveckling.\n" +
           "- Lärde mig molnteknologier och moderna programmeringsspråk/-ramverk, inklusive JavaScript, Python, React " +
           "och NodeJS.\n" +
           "- Fick praktisk erfarenhet genom hackathons och praktik inom IT-branschen.\n" +

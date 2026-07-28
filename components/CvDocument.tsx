@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
   },
 
   separator: {
-    marginVertical: 4,
+    marginVertical: 16,
     borderBottomWidth: 1,
     borderBottomColor: "#d7d7ff",
   },
@@ -301,7 +301,7 @@ const CvDocument = () => (
               <View style={styles.listItem}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.itemContent}>
-                  Slutförde kandidatexamen i mjukvaruutveckling, i form av kombinerade distansstudier tillsammans med
+                  Slutförde kandidatexamen i systemutveckling, i form av kombinerade distansstudier tillsammans med
                   helglektioner.
                 </Text>
               </View>
@@ -460,6 +460,39 @@ const CvDocument = () => (
         <Text style={styles.projectTitle}>Uppdragshistorik</Text>
         <View style={styles.assignment}>
           <Text style={styles.label}>
+            UPPDRAGSGIVARE: <Text style={styles.text}>Midsommarkransen DevOps AB</Text>
+          </Text>
+          <Text style={styles.label}>
+            UPPDRAG (PERIOD):{" "}
+            <Text style={styles.text}>Systemutvecklare och Open Source-ambassadör (2025-01–2026-06)</Text>
+          </Text>
+          <Text style={styles.assignmentDescription}>
+            Liza kom in som systemutvecklare och community-ambassadör till open source-projektet OwnTube.tv, en satsning
+            för att produktifiera PeerTube för kommersiellt bruk med hjälp av en kundanpassningsbar PeerTube-klient
+            byggd i React Native. Appen utvecklades för webb, mobil och Android/Apple TV; för distribution användes
+            appbutikerna från Google/Apple. Lizas roll i projektet inkluderade kravställning, utveckling av
+            stödkomponenter kring PeerTube, agera kontaktperson gentemot communityt, kanalisera projektets behov till
+            leverantörer inom ekosystemet, samt att agera som biträdande projektledare gentemot en React
+            Native-specialist på distans.
+          </Text>
+          <Text style={styles.label}>TEKNOLOGIER:</Text>
+          <Text style={styles.technologies}>
+            React Native, TypeScript, REST API, Node.js, Express, Mocha, Terraform, Ansible, MicroK8s, Docker, Python,
+            PeerTube Runners, PeerTube Plugins, Google Play Console, App Store Connect, Git & GitHub, GitHub Actions,
+            Figma, IntelliJ, PyCharm
+          </Text>
+          <Text style={styles.label}>NYCKELORD:</Text>
+          <Text style={styles.text}>
+            Open source, digital suveränitet, self-hosting, PeerTube, video on demand (VOD), cross-platform (webb,
+            mobil, tv), app-distribution, produktifiering av open source, kravställning, community-samordning, developer
+            advocacy, projektledning, systemutveckling, videotranskodning, transkribering, containerisering
+          </Text>
+        </View>
+
+        <View style={styles.separator} />
+
+        <View style={styles.assignment}>
+          <Text style={styles.label}>
             UPPDRAGSGIVARE: <Text style={styles.text}>Purple Technology</Text>
           </Text>
           <Text style={styles.label}>
@@ -484,9 +517,11 @@ const CvDocument = () => (
             auktorisation, Reusable Components, AWS, CI/CD, Serverless, Agile, marknadsföringskampanjer
           </Text>
         </View>
-
-        <View style={styles.separator} />
-
+      </View>
+      <Text style={styles.pageNumber} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} fixed />
+    </Page>
+    <Page size="A4" style={styles.page}>
+      <View style={styles.projectPage}>
         <View style={styles.assignment}>
           <Text style={styles.label}>
             UPPDRAGSGIVARE: <Text style={styles.text}>Purple Technology</Text>
@@ -512,6 +547,7 @@ const CvDocument = () => (
             datakvalitet, databas-design, CI/CD, Serverless, Agile
           </Text>
         </View>
+
         <View style={styles.separator} />
 
         <View style={styles.assignment}>
@@ -535,11 +571,9 @@ const CvDocument = () => (
             Systemdesign, systemdokumentation, systemimplementation, studentprojekt, elevportal
           </Text>
         </View>
-      </View>
-      <Text style={styles.pageNumber} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} fixed />
-    </Page>
-    <Page size="A4" style={styles.page}>
-      <View style={styles.projectPage}>
+
+        <View style={styles.separator} />
+
         <View style={styles.assignment}>
           <Text style={styles.label}>
             UPPDRAGSGIVARE: <Text style={styles.text}>Accenture</Text>
@@ -563,9 +597,11 @@ const CvDocument = () => (
             Återanvändbara UI-komponenter, responsiv design, skalbarhet, designsystem, accessibility
           </Text>
         </View>
-
-        <View style={styles.separator} />
-
+      </View>
+      <Text style={styles.pageNumber} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} fixed />
+    </Page>
+    <Page size="A4" style={styles.page}>
+      <View style={styles.projectPage}>
         <View style={styles.assignment}>
           <Text style={styles.label}>
             UPPDRAGSGIVARE: <Text style={styles.text}>iQuest s.r.o.</Text>
@@ -587,6 +623,7 @@ const CvDocument = () => (
           <Text style={styles.label}>NYCKELORD:</Text>
           <Text style={styles.text}>Admin-panel, Firebase, administrationsverktyg</Text>
         </View>
+
         <View style={styles.separator} />
 
         <View style={styles.assignment}>
@@ -633,14 +670,17 @@ const CvDocument = () => (
           <Text style={styles.technologies}>
             Lighthouse, PageSpeed Insights, CSS3, SCSS, Git, Ruby, HTML5, JavaScript, jQuery, Bootstrap, WebStorm, Slack
           </Text>
-          <Text style={[styles.label, styles.paddingTop]}>NYCKELORD:</Text>
+          <Text style={styles.label}>NYCKELORD:</Text>
           <Text style={styles.text}>
             Accessibility, prestandaförbättring, SEO, CSS-animeringar, responsiv design, Reusable Components,
-            Maintainability, refaktorering, företagswebbsida
+            Maintainability, refaktorisering, företagswebbsida
           </Text>
         </View>
-        <View style={styles.separator} />
-
+      </View>
+      <Text style={styles.pageNumber} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} fixed />
+    </Page>
+    <Page size="A4" style={styles.page}>
+      <View style={styles.projectPage}>
         <View style={styles.assignment}>
           <Text style={styles.label}>
             UPPDRAGSGIVARE: <Text style={styles.text}>iQuest s.r.o.</Text>
@@ -678,6 +718,7 @@ const CvDocument = () => (
           <Text style={styles.label}>NYCKELORD:</Text>
           <Text style={styles.text}>B2C, SEO, responsiv design, marknadsföring, produktpresentationer</Text>
         </View>
+
         <View style={styles.separator} />
 
         <View style={styles.assignment}>
@@ -746,7 +787,18 @@ const CvDocument = () => (
           <Text style={styles.technologies}>CSS3, HTML5, Ruby on Rails, Slack, VS Code</Text>
           <Text style={styles.label}>NYCKELORD:</Text>
           <Text style={styles.text}>
-            Desktop-applikation, offline-app, katalogtjänst, dokumentregister, tillverkningsindustria
+            Desktop-applikation, offline-app, katalogtjänst, dokumentregister, tillverkningsindustri
+          </Text>
+        </View>
+        <View style={styles.additionalExperience}>
+          <Text style={styles.projectTitle}>Allmänna kunskaper</Text>
+          <Text style={styles.skills}>
+            Systemutveckling, Responsiv webbdesign, Molnbaserade lösningar (Cloud Computing), API-design (RESTful APIs),
+            Autentisering och auktorisation (OAuth, JWT, Google Sign-In), Agil metodik (Scrum), Enhets- och
+            integrationstester (Jest), CI/CD (GitHub Actions, CircleCI), Versionshantering (Git), Feature flag-hantering
+            (AWS AppConfig), Kodgranskning och refaktorisering, Datavisualisering, Webbtillgänglighet (WCAG),
+            SEO-optimering, Tvärfunktionellt samarbete, UX/UI-bästa praxis, Grundläggande projektledning, Teknisk
+            dokumentation
           </Text>
         </View>
         <View style={styles.additionalExperience}>
