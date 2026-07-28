@@ -45,6 +45,7 @@ const en = {
         key: "skills",
         title: "Skills",
         items: [
+          "Systems Development",
           "Responsive Web Design",
           "Cloud Computing",
           "API Design (RESTful APIs)",
