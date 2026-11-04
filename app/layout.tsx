@@ -7,7 +7,6 @@ import { ReactNode } from "react";
 import StyledComponentsRegistry from "../lib/registry";
 import ThemeWrapper from "../components/ThemeWrapper";
 import { nunitoSans } from "../styles/fonts";
-import { Locale } from "../types";
 
 export const metadata = {
   title: SITE_INFO.title,
@@ -23,9 +22,9 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children, params }: { children: ReactNode; params?: { locale: Locale } }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang={params?.locale ?? "sv"}>
+    <html lang="sv">
       <body className={nunitoSans.className}>
         <Script defer src="https://cloud.umami.is/script.js" data-website-id="24a69cac-c400-483f-a3d1-be3527ddc341" />
         <StyledComponentsRegistry>

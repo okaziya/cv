@@ -4,18 +4,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal CV website for Liza Blomdahl, deployed as a static site to GitHub Pages at https://okaziya.github.io/cv/. Built with Next.js 14 (static export), styled-components, and Bootstrap. Supports two locales (English and Swedish) with a PDF export feature using @react-pdf/renderer.
+Personal CV website for Liza Blomdahl, deployed as a static site to GitHub Pages at https://okaziya.github.io/cv/. Built with Next.js 15 and React 19 (static export), styled-components, and Bootstrap. Supports two locales (English and Swedish) with a PDF export feature using @react-pdf/renderer.
 
 ## Commands
 
 - `npm run dev` — Start dev server (sets `NEXT_PUBLIC_SITE_URL=http://localhost:3000/cv`)
 - `npm run build` — Static export build (outputs to `out/`)
 - `npm run start` — Serve the built site locally via `serve` (requires `mkdir -p dist && ln -sf ../out dist/cv` for correct basePath)
-- `npm run lint` — Lint with ESLint (`next lint`, extends `next/core-web-vitals`)
+- `npm run lint` — Lint with ESLint (`next lint`, extends `next/core-web-vitals`). `next lint` is deprecated in Next.js 15.5 and removed in 16, so moving to Next.js 16 means migrating to the ESLint CLI first.
 - `npm run format` — Format all files with Prettier
 - `npm run format:check` — Check formatting without writing (used in CI)
 
-No test scripts are configured. `package.json` pins `engines.node` to `>=22`.
+No test scripts are configured. `package.json` pins `engines.node` to `>=22`. Its `overrides.postcss` forces a patched PostCSS because `next` pins `postcss@8.4.31`; drop the override once `next` depends on a patched version.
 
 ## Architecture
 
@@ -27,7 +27,7 @@ No test scripts are configured. `package.json` pins `engines.node` to `>=22`.
 
 **PDF export:** `components/CvDocument.tsx` is a standalone @react-pdf/renderer `<Document>` with hardcoded Swedish content for the downloadable CV PDF. It is loaded via dynamic import with `ssr: false` in `Header.tsx` to avoid breaking static export. The `PDFViewer` in `app/[locale]/page.tsx` can be uncommented for live preview during development. Note: CvDocument content is manually maintained and may drift from the locale files.
 
-**Static export config:** `next.config.js` sets `output: "export"`, `basePath: "/cv"`, and `images: { unoptimized: true }`. Image paths must go through `utils/imagePath.ts` to respect the base path. The `/cv` base path exists because the site deploys to the `/cv/` subpath of the root Pages repo [`okaziya/okaziya.github.io`](https://github.com/okaziya/okaziya.github.io), which redirects the apex `okaziya.github.io/` here.
+**Static export config:** `next.config.js` sets `output: "export"`, `basePath: "/cv"`, and `images: { unoptimized: true }`, plus `outputFileTracingRoot: __dirname` so a `package-lock.json` in a parent directory is not mistaken for the project root. Route `params` are a `Promise` (Next.js 15) and must be awaited. Image paths must go through `utils/imagePath.ts` to respect the base path. The `/cv` base path exists because the site deploys to the `/cv/` subpath of the root Pages repo [`okaziya/okaziya.github.io`](https://github.com/okaziya/okaziya.github.io), which redirects the apex `okaziya.github.io/` here.
 
 **CI/CD:** Two GitHub Actions workflows, both on Node 24. `.github/workflows/nextjs.yml` builds and deploys to GitHub Pages on push to `main`. `.github/workflows/lint.yml` ("Run Lint on PR") runs ESLint and the Prettier format check on every pull request.
 
