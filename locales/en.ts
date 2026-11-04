@@ -6,7 +6,7 @@ const en = {
   heroSection: {
     title: "Full Stack Developer",
     description:
-      "A dedicated Full Stack Developer with a frontend focus and 5+ years of experience, proficient in JavaScript, " +
+      "A dedicated Full Stack Developer with a frontend focus and 7+ years of experience, proficient in JavaScript, " +
       "React, TypeScript, and MongoDB. I have contributed to more than 30 projects, including those in the fintech " +
       "sector.",
     photoAlt: "Photo of Liza Blomdahl, a Full Stack Developer",
