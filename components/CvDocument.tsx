@@ -226,8 +226,8 @@ const CvDocument = () => (
         <View style={styles.titleColumn}>
           <Text style={styles.workingTitle}>Frontendutvecklare och Fullstack</Text>
           <Text style={styles.summary}>
-            Engagerad fullstackutvecklare med +5 års erfarenhet och fokus på React/frontend. En lagspelare som tycker om
-            att bygga bra produkter och tjänster tillsammans med andra, och har hittills bidragit i fler än 30
+            Engagerad fullstackutvecklare med över sju års erfarenhet och fokus på React/frontend. En lagspelare som
+            tycker om att bygga bra produkter och tjänster tillsammans med andra, och har hittills bidragit i fler än 30
             utvecklingsprojekt.
           </Text>
         </View>

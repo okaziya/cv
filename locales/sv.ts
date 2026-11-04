@@ -7,7 +7,7 @@ const sv = {
   heroSection: {
     title: "Fullstack\u00ADutvecklare",
     description:
-      "En engagerad Fullstack-utvecklare med fokus på frontend och över fem års erfarenhet. Skicklig i JavaScript, " +
+      "En engagerad Fullstack-utvecklare med fokus på frontend och över sju års erfarenhet. Skicklig i JavaScript, " +
       "React, TypeScript och MongoDB. Jag har bidragit till fler än 30 projekt, inklusive inom fintech.",
     photoAlt: "Foto av Liza Blomdahl, en fullstackutvecklare",
   },
