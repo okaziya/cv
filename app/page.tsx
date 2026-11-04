@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import React from "react";
 
 export default function Home() {
@@ -18,10 +19,10 @@ export default function Home() {
       <nav>
         <ul className="list-unstyled d-flex gap-3">
           <li>
-            <a href="/cv/en">English</a>
+            <Link href="/en">English</Link>
           </li>
           <li>
-            <a href="/cv/sv">Svenska</a>
+            <Link href="/sv">Svenska</Link>
           </li>
         </ul>
       </nav>
