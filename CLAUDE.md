@@ -15,7 +15,7 @@ Personal CV website for Liza Blomdahl, deployed as a static site to GitHub Pages
 - `npm run format` — Format all files with Prettier
 - `npm run format:check` — Check formatting without writing (used in CI)
 
-No test scripts are configured. `package.json` pins `engines.node` to `>=22`. Its `overrides.postcss` forces a patched PostCSS because `next` pins `postcss@8.4.31`; drop the override once `next` depends on a patched version.
+No test scripts are configured. `package.json` pins `engines.node` to `>=22`. Its `overrides` force patched versions of two transitive dependencies: `postcss`, because `next` pins `postcss@8.4.31`, and `compression`, because `serve` pins `compression@1.8.1`. Drop each override once the package that pins it depends on a patched version.
 
 ## Architecture
 
